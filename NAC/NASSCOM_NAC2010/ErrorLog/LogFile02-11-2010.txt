@@ -1,0 +1,223 @@
+Source		: System.Web
+Method		: VerifyRenderingInServerForm
+Date		: 10:43:14 AM
+Time		: 11/2/2010
+Computer	: item-47827
+Error		: Control 'btnSaveTop' of type 'Button' must be placed inside a form tag with runat=server.
+Stack Trace	: at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.Button.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.TestScorePercentageV2_aspx.__Render__control5(HtmlTextWriter __output, Control parameterContainer) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\TestScorePercentageV2.aspx:line 43
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTableRow.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTable.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.btnSaveTop_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 365
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: VerifyRenderingInServerForm
+Date		: 10:45:08 AM
+Time		: 11/2/2010
+Computer	: item-47827
+Error		: Control 'btnSaveTop' of type 'Button' must be placed inside a form tag with runat=server.
+Stack Trace	: at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.Button.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.TestScorePercentageV2_aspx.__Render__control5(HtmlTextWriter __output, Control parameterContainer) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\TestScorePercentageV2.aspx:line 43
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTableRow.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTable.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.btnSaveTop_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 366
+   at NASSCOM_NAC.Web.TestScorePercentageV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 144
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: AppendLiteralString
+Date		: 10:47:07 AM
+Time		: 11/2/2010
+Computer	: item-47827
+Error		: Literal content ('-->') is not allowed within a 'System.Web.UI.WebControls.Button'.
+Stack Trace	: at System.Web.UI.ControlBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+   at System.Web.UI.TemplateParser.MaybeTerminateControl(String tagName, Int32 textPos)
+   at System.Web.UI.TemplateParser.ProcessEndTag(Match match)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: InitializeComponent
+Date		: 10:47:18 AM
+Time		: 11/2/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.InitializeComponent() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 164
+   at NASSCOM_NAC.Web.TestScorePercentageV2.OnInit(EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 154
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: VerifyRenderingInServerForm
+Date		: 10:47:48 AM
+Time		: 11/2/2010
+Computer	: item-47827
+Error		: Control 'btnSaveTop' of type 'Button' must be placed inside a form tag with runat=server.
+Stack Trace	: at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.Button.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.TestScorePercentageV2_aspx.__Render__control5(HtmlTextWriter __output, Control parameterContainer) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\TestScorePercentageV2.aspx:line 43
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTableRow.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTable.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.btnSaveTop_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 366
+   at NASSCOM_NAC.Web.TestScorePercentageV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 144
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: VerifyRenderingInServerForm
+Date		: 10:48:34 AM
+Time		: 11/2/2010
+Computer	: item-47827
+Error		: Control 'btnBackTop' of type 'Button' must be placed inside a form tag with runat=server.
+Stack Trace	: at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.Button.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.TestScorePercentageV2_aspx.__Render__control5(HtmlTextWriter __output, Control parameterContainer) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\TestScorePercentageV2.aspx:line 67
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTableRow.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTable.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.btnSaveTop_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 364
+   at NASSCOM_NAC.Web.TestScorePercentageV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 143
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: VerifyRenderingInServerForm
+Date		: 10:48:51 AM
+Time		: 11/2/2010
+Computer	: item-47827
+Error		: Control 'btnSaveBottom' of type 'Button' must be placed inside a form tag with runat=server.
+Stack Trace	: at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.Button.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTableRow.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTable.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.btnSaveTop_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 363
+   at NASSCOM_NAC.Web.TestScorePercentageV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 142
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 10:49:23 AM
+Time		: 11/2/2010
+Computer	: item-47827
+Error		: Could not find a part of the path "C:\WINDOWS\system32\Images\NAC_Stamp_bg.gif".
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(Uri uri, FileAccess access, Boolean asyncHint)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: VerifyRenderingInServerForm
+Date		: 10:50:18 AM
+Time		: 11/2/2010
+Computer	: item-47827
+Error		: Control 'btnSaveTop' of type 'Button' must be placed inside a form tag with runat=server.
+Stack Trace	: at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.Button.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.TestScorePercentageV2_aspx.__Render__control5(HtmlTextWriter __output, Control parameterContainer) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\TestScorePercentageV2.aspx:line 67
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTableRow.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlTable.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.btnSaveTop_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 365
+   at NASSCOM_NAC.Web.TestScorePercentageV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 144
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:15:35 PM
+Time		: 11/2/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^

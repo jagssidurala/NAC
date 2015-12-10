@@ -1,0 +1,114 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 1:32:15 PM
+Time		: 5/10/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 1:53:07 PM
+Time		: 5/10/2011
+Computer	: item-47827
+Error		: Procedure or function 'GetTestRegistrationStatus' expects parameter '@TestName', which was not supplied.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillFromCommand(Object data, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DataAccessLayer.DBManager.ExecuteDataSet(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 320
+   at BusinessLayer.BLRegistration.GetTestRegistrationStatus(String testName) in d:\nasscom\nac\businesslayer\blregistration.cs:line 1834
+   at NASSCOM_NAC.Web.TestRegistrationStatus.ddlTestNames_SelectedIndexChanged(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testregistrationstatus.aspx.cs:line 82
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 2:42:13 PM
+Time		: 5/10/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.GetActiveTests() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1811
+   at NASSCOM_NAC.Web.TestRegistrationStatus.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testregistrationstatus.aspx.cs:line 37
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 2:42:21 PM
+Time		: 5/10/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.GetActiveTests() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1811
+   at NASSCOM_NAC.Web.TestRegistrationStatus.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testregistrationstatus.aspx.cs:line 37
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: ddlTestNames_SelectedIndexChanged
+Date		: 2:42:51 PM
+Time		: 5/10/2011
+Computer	: item-47827
+Error		: Method not found: System.Data.DataTable BusinessLayer.BLRegistration.GetTestRegistrationStatus(System.String).
+Stack Trace	: at NASSCOM_NAC.Web.TestRegistrationStatus.ddlTestNames_SelectedIndexChanged(Object sender, EventArgs e)
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: InitializeComponent
+Date		: 4:30:28 PM
+Time		: 5/10/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestRegistrationStatus.InitializeComponent() in d:\nasscom\nac\nasscom_nac\web\testregistrationstatus.aspx.cs:line 72
+   at NASSCOM_NAC.Web.TestRegistrationStatus.OnInit(EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testregistrationstatus.aspx.cs:line 62
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: InitializeComponent
+Date		: 4:31:04 PM
+Time		: 5/10/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestRegistrationStatus.InitializeComponent() in d:\nasscom\nac\nasscom_nac\web\testregistrationstatus.aspx.cs:line 72
+   at NASSCOM_NAC.Web.TestRegistrationStatus.OnInit(EventArgs e) in d:\nasscom\nac\nasscom_nac\web\testregistrationstatus.aspx.cs:line 62
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 5:37:17 PM
+Time		: 5/10/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^

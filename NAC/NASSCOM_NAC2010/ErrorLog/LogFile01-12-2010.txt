@@ -1,0 +1,276 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:05:19 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 9:18:24 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in D:\NASSCOM\NAC\NASSCOM_NAC\Web\TestScorePercentageV2.aspx.cs:line 228
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 9:22:16 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 9:24:59 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 9:58:05 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 9:58:48 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 10:00:01 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 10:08:41 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 10:08:59 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 10:11:02 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 10:11:08 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 10:13:00 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdana.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 10:16:41 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 10:22:58 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 11:03:55 AM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 12:02:30 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: DetectSpecialServerTagError
+Date		: 12:06:19 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: The server tag is not well formed.
+Stack Trace	: at System.Web.UI.TemplateParser.DetectSpecialServerTagError(String text, Int32 textPos)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: DetectSpecialServerTagError
+Date		: 12:23:05 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: The server tag is not well formed.
+Stack Trace	: at System.Web.UI.TemplateParser.DetectSpecialServerTagError(String text, Int32 textPos)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 12:23:54 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: StringToInt
+Date		: 12:25:30 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Additional unparsable characters are at the end of the string.
+Stack Trace	: at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32[] currPos)
+   at System.Convert.ToInt32(String value, Int32 fromBase)
+   at System.ComponentModel.Int32Converter.FromString(String value, Int32 radix)
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 12:29:07 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 12:29:33 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 12:29:36 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 84
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 12:55:54 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentage.GetTestScore() in D:\NASSCOM\NAC\NASSCOM_NAC\Web\TestScorePercentage.aspx.cs:line 147
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:03:46 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 85
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:07:16 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 85
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:07:18 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 85
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetType
+Date		: 1:07:29 PM
+Time		: 12/1/2010
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.Web.ForgotPassword'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^

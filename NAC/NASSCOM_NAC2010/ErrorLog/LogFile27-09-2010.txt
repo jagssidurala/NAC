@@ -1,0 +1,26 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 2:20:47 PM
+Time		: 9/27/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:53:36 PM
+Time		: 9/27/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^

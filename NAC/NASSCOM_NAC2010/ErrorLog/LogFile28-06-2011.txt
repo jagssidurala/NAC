@@ -1,0 +1,40 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:51:08 AM
+Time		: 6/28/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:34:13 AM
+Time		: 6/28/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: get_Item
+Date		: 11:40:36 AM
+Time		: 6/28/2011
+Computer	: item-47827
+Error		: Column 'TestId' does not belong to table Table.
+Stack Trace	: at System.Data.DataRow.get_Item(String columnName)
+   at NASSCOM_NAC.landingPage.btnGo_Click(Object sender, ImageClickEventArgs e) in d:\nasscom\nac\nasscom_nac\landingpage.aspx.cs:line 177
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

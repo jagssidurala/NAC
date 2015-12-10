@@ -1,0 +1,2443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{371224D0-07A8-45A5-91FC-7B2BD686604F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>NASSCOM_NAC</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NASSCOM_NAC</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <ProjectReference Include="..\BUSINESSLAYER\BusinessLayer.csproj">
+      <Name>BusinessLayer</Name>
+      <Project>{2D4E7BAD-A386-4179-9E72-2F29275E00C1}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\COMMON\Common.csproj">
+      <Name>Common</Name>
+      <Project>{9863B7FA-B048-4D74-803E-ED16236A5B46}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\DATABASEACCESSLAYER\DataBaseAccessLayer.csproj">
+      <Name>DataBaseAccessLayer</Name>
+      <Project>{7C2F8173-D144-4DBD-83F3-1C71E98D8562}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\EXCEPTIONHANDLING\ExceptionHandling.csproj">
+      <Name>ExceptionHandling</Name>
+      <Project>{D1EE3E34-247F-45D7-AC3B-0CEE336122A7}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <Reference Include="Interop.Microsoft.Office.Core">
+      <Name>Interop.Microsoft.Office.Core</Name>
+      <HintPath>bin\Interop.Microsoft.Office.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MagicAjax">
+      <Name>MagicAjax</Name>
+      <HintPath>bin\MagicAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="sharpPDF">
+      <Name>sharpPDF</Name>
+      <HintPath>bin\sharpPDF.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services">
+      <Name>system.web.services</Name>
+      <HintPath>c:\windows\assembly\gac\system.web.services\1.0.5000.0__b03f5f7f11d50a3a\system.web.services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="landingPage.aspx.cs">
+      <DependentUpon>landingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="landingPage.aspx.designer.cs">
+      <DependentUpon>landingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\AdminEditCompanyDetail.aspx.cs">
+      <DependentUpon>AdminEditCompanyDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\AdminEditCompanyDetail.aspx.designer.cs">
+      <DependentUpon>AdminEditCompanyDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\Approve.aspx.cs">
+      <DependentUpon>Approve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\Approve.aspx.designer.cs">
+      <DependentUpon>Approve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\ApproveDenyRequest.aspx.cs">
+      <DependentUpon>ApproveDenyRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\ApproveDenyRequest.aspx.designer.cs">
+      <DependentUpon>ApproveDenyRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\CandidateSearchPage.aspx.cs">
+      <DependentUpon>CandidateSearchPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\CandidateSearchPage.aspx.designer.cs">
+      <DependentUpon>CandidateSearchPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\CandidatesExportToExcelByCompany.aspx.cs">
+      <DependentUpon>CandidatesExportToExcelByCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\CandidatesExportToExcelByCompany.aspx.designer.cs">
+      <DependentUpon>CandidatesExportToExcelByCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\CompanyHire.aspx.cs">
+      <DependentUpon>CompanyHire.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\CompanyHire.aspx.designer.cs">
+      <DependentUpon>CompanyHire.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\CompanyHomePage.aspx.cs">
+      <DependentUpon>CompanyHomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\CompanyHomePage.aspx.designer.cs">
+      <DependentUpon>CompanyHomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\CompanyProfile.aspx.cs">
+      <DependentUpon>CompanyProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\CompanyProfile.aspx.designer.cs">
+      <DependentUpon>CompanyProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\EncryptDecrypt.aspx.cs">
+      <DependentUpon>EncryptDecrypt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\EncryptDecrypt.aspx.designer.cs">
+      <DependentUpon>EncryptDecrypt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\HiredCandidates.aspx.cs">
+      <DependentUpon>HiredCandidates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\HiredCandidates.aspx.designer.cs">
+      <DependentUpon>HiredCandidates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\RejectReason.aspx.cs">
+      <DependentUpon>RejectReason.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\RejectReason.aspx.designer.cs">
+      <DependentUpon>RejectReason.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\SendEmail.aspx.cs">
+      <DependentUpon>SendEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\SendEmail.aspx.designer.cs">
+      <DependentUpon>SendEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\ThankYouPage.aspx.cs">
+      <DependentUpon>ThankYouPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\ThankYouPage.aspx.designer.cs">
+      <DependentUpon>ThankYouPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NACdb\ViewAllMembers.aspx.cs">
+      <DependentUpon>ViewAllMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NACdb\ViewAllMembers.aspx.designer.cs">
+      <DependentUpon>ViewAllMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ScoreOverwrite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebService\AttendanceWebService.asmx.cs">
+      <DependentUpon>AttendanceWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebService\AuthenticationWebService.asmx.cs">
+      <DependentUpon>AuthenticationWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebService\NACCandidateDetails.asmx.cs">
+      <DependentUpon>NACCandidateDetails.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebService\ScoreUploadV2.asmx.cs">
+      <DependentUpon>ScoreUploadV2.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Web\AboutNAC.aspx.cs">
+      <DependentUpon>AboutNAC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\AboutNAC.aspx.designer.cs">
+      <DependentUpon>AboutNAC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\AdminCandidateSearch.aspx.cs">
+      <DependentUpon>AdminCandidateSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\AdminCandidateSearch.aspx.designer.cs">
+      <DependentUpon>AdminCandidateSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\AdminCandidatesExportToExcel.aspx.cs">
+      <DependentUpon>AdminCandidatesExportToExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\AdminCandidatesExportToExcel.aspx.designer.cs">
+      <DependentUpon>AdminCandidatesExportToExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admitcard.aspx.cs">
+      <DependentUpon>Admitcard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admitcard.aspx.designer.cs">
+      <DependentUpon>Admitcard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\AlreadyRegistered.aspx.cs">
+      <DependentUpon>AlreadyRegistered.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\AlreadyRegistered.aspx.designer.cs">
+      <DependentUpon>AlreadyRegistered.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Andhra_Pradesh.aspx.cs">
+      <DependentUpon>Andhra_Pradesh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Andhra_Pradesh.aspx.designer.cs">
+      <DependentUpon>Andhra_Pradesh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\APInstruction.aspx.cs">
+      <DependentUpon>APInstruction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\APInstruction.aspx.designer.cs">
+      <DependentUpon>APInstruction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Arunachal_Pradesh.aspx.cs">
+      <DependentUpon>Arunachal_Pradesh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Arunachal_Pradesh.aspx.designer.cs">
+      <DependentUpon>Arunachal_Pradesh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Assam.aspx.cs">
+      <DependentUpon>Assam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Assam.aspx.designer.cs">
+      <DependentUpon>Assam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\AutomateRegistered_Count.aspx.cs">
+      <DependentUpon>AutomateRegistered_Count.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\AutomateRegistered_Count.aspx.designer.cs">
+      <DependentUpon>AutomateRegistered_Count.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Benefits.aspx.cs">
+      <DependentUpon>Benefits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Benefits.aspx.designer.cs">
+      <DependentUpon>Benefits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Bihar.aspx.cs">
+      <DependentUpon>Bihar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Bihar.aspx.designer.cs">
+      <DependentUpon>Bihar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CandidateInterfaceInfo.aspx.cs">
+      <DependentUpon>CandidateInterfaceInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CandidateInterfaceInfo.aspx.designer.cs">
+      <DependentUpon>CandidateInterfaceInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CandidateList.aspx.cs">
+      <DependentUpon>CandidateList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CandidateList.aspx.designer.cs">
+      <DependentUpon>CandidateList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CandidateListSearch.aspx.cs">
+      <DependentUpon>CandidateListSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CandidateListSearch.aspx.designer.cs">
+      <DependentUpon>CandidateListSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CandidateListToExcel.aspx.cs">
+      <DependentUpon>CandidateListToExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CandidateListToExcel.aspx.designer.cs">
+      <DependentUpon>CandidateListToExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CandidateProfile.aspx.cs">
+      <DependentUpon>CandidateProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CandidateProfile.aspx.designer.cs">
+      <DependentUpon>CandidateProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CenterDetailsTemp.aspx.cs">
+      <DependentUpon>CenterDetailsTemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Certificate.aspx.cs">
+      <DependentUpon>Certificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Certificate.aspx.designer.cs">
+      <DependentUpon>Certificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ChandigarhDefault.aspx.cs">
+      <DependentUpon>ChandigarhDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ChandigarhDefault.aspx.designer.cs">
+      <DependentUpon>ChandigarhDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Controls\nacyearlyfooter.ascx.cs">
+      <DependentUpon>nacyearlyfooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\nacyearlyfooter.ascx.designer.cs">
+      <DependentUpon>nacyearlyfooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Controls\nacyearlyfooterdb.ascx.cs">
+      <DependentUpon>nacyearlyfooterdb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\nacyearlyfooterdb.ascx.designer.cs">
+      <DependentUpon>nacyearlyfooterdb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Controls\nac_footer.ascx.cs">
+      <DependentUpon>nac_footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\nac_footer.ascx.designer.cs">
+      <DependentUpon>nac_footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Controls\nac_header.ascx.cs">
+      <DependentUpon>nac_header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\nac_header.ascx.designer.cs">
+      <DependentUpon>nac_header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Controls\nac_headerlogo.ascx.cs">
+      <DependentUpon>nac_headerlogo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\nac_headerlogo.ascx.designer.cs">
+      <DependentUpon>nac_headerlogo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Controls\nac_headermenu.ascx.cs">
+      <DependentUpon>nac_headermenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\nac_headermenu.ascx.designer.cs">
+      <DependentUpon>nac_headermenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Controls\nac_JobFairCard.ascx.cs">
+      <DependentUpon>nac_JobFairCard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\nac_JobFairCard.ascx.designer.cs">
+      <DependentUpon>nac_JobFairCard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Controls\nac_JobfairCardDateDetails.ascx.cs">
+      <DependentUpon>nac_JobfairCardDateDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\nac_JobfairCardDateDetails.ascx.designer.cs">
+      <DependentUpon>nac_JobfairCardDateDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CreateTest.aspx.cs">
+      <DependentUpon>CreateTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CreateTest.aspx.designer.cs">
+      <DependentUpon>CreateTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\DeactivateCentre.aspx.cs">
+      <DependentUpon>DeactivateCentre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\DeactivateCentre.aspx.designer.cs">
+      <DependentUpon>DeactivateCentre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Delhi.aspx.cs">
+      <DependentUpon>Delhi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Delhi.aspx.designer.cs">
+      <DependentUpon>Delhi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Download.aspx.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\EditRegistration.aspx.cs">
+      <DependentUpon>EditRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\EditRegistration.aspx.designer.cs">
+      <DependentUpon>EditRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Edit_Registration.aspx.cs">
+      <DependentUpon>Edit_Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Edit_Registration.aspx.designer.cs">
+      <DependentUpon>Edit_Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ExportCLToExcelByETS.aspx.cs">
+      <DependentUpon>ExportCLToExcelByETS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ExportCLToExcelByETS.aspx.designer.cs">
+      <DependentUpon>ExportCLToExcelByETS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Faq.aspx.cs">
+      <DependentUpon>Faq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Faq.aspx.designer.cs">
+      <DependentUpon>Faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\GenerateAdmitCard.aspx.cs">
+      <DependentUpon>GenerateAdmitCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\GenerateAdmitCard.aspx.designer.cs">
+      <DependentUpon>GenerateAdmitCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\GenerateID.aspx.cs">
+      <DependentUpon>GenerateID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\GenerateID.aspx.designer.cs">
+      <DependentUpon>GenerateID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\GenerateJobAdmitCard.aspx.cs">
+      <DependentUpon>GenerateJobAdmitCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\GenerateJobAdmitCard.aspx.designer.cs">
+      <DependentUpon>GenerateJobAdmitCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\GeneratePinNo.aspx.cs">
+      <DependentUpon>GeneratePinNo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\GeneratePinNo.aspx.designer.cs">
+      <DependentUpon>GeneratePinNo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\GetStateWiseDetailsReport.aspx.cs">
+      <DependentUpon>GetStateWiseDetailsReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\GetStateWiseDetailsReport.aspx.designer.cs">
+      <DependentUpon>GetStateWiseDetailsReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\GetStateWiseDetailsReportToExcel.aspx.cs">
+      <DependentUpon>GetStateWiseDetailsReportToExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\GetStateWiseDetailsReportToExcel.aspx.designer.cs">
+      <DependentUpon>GetStateWiseDetailsReportToExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\GrantPermission.aspx.cs">
+      <DependentUpon>GrantPermission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\GrantPermission.aspx.designer.cs">
+      <DependentUpon>GrantPermission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\GujratDefault.aspx.cs">
+      <DependentUpon>GujratDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\GujratDefault.aspx.designer.cs">
+      <DependentUpon>GujratDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Haryana.aspx.cs">
+      <DependentUpon>Haryana.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Haryana.aspx.designer.cs">
+      <DependentUpon>Haryana.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Hero_Mindmine.aspx.cs">
+      <DependentUpon>Hero_Mindmine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Hero_Mindmine.aspx.designer.cs">
+      <DependentUpon>Hero_Mindmine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\IndiaMap.aspx.cs">
+      <DependentUpon>IndiaMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\IndiaMap.aspx.designer.cs">
+      <DependentUpon>IndiaMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\JobFairCard.aspx.cs">
+      <DependentUpon>JobFairCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\JobFairCard.aspx.designer.cs">
+      <DependentUpon>JobFairCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\JobFairCard_MT.aspx.cs">
+      <DependentUpon>JobFairCard_MT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\JobFairCard_MT.aspx.designer.cs">
+      <DependentUpon>JobFairCard_MT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\JobFairMessage.aspx.cs">
+      <DependentUpon>JobFairMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\JobFairMessage.aspx.designer.cs">
+      <DependentUpon>JobFairMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Karnataka.aspx.cs">
+      <DependentUpon>Karnataka.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Karnataka.aspx.designer.cs">
+      <DependentUpon>Karnataka.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Kerala.aspx.cs">
+      <DependentUpon>Kerala.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Kerala.aspx.designer.cs">
+      <DependentUpon>Kerala.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Logger\ErrorLogger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Madhya_Pradesh.aspx.cs">
+      <DependentUpon>Madhya_Pradesh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Maharashtra.aspx.cs">
+      <DependentUpon>Maharashtra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Maharashtra.aspx.designer.cs">
+      <DependentUpon>Maharashtra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ManageTestCentre.aspx.cs">
+      <DependentUpon>ManageTestCentre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ManageTestCentre.aspx.designer.cs">
+      <DependentUpon>ManageTestCentre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ManageTestCity.aspx.cs">
+      <DependentUpon>ManageTestCity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ManageTestCity.aspx.designer.cs">
+      <DependentUpon>ManageTestCity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Manipur.aspx.cs">
+      <DependentUpon>Manipur.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Manipur.aspx.designer.cs">
+      <DependentUpon>Manipur.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Meghalaya.aspx.cs">
+      <DependentUpon>Meghalaya.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Meghalaya.aspx.designer.cs">
+      <DependentUpon>Meghalaya.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Message.aspx.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Message.aspx.designer.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MessageRajasthan.aspx.cs">
+      <DependentUpon>MessageRajasthan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MessageRajasthan.aspx.designer.cs">
+      <DependentUpon>MessageRajasthan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MessageState.aspx.cs">
+      <DependentUpon>MessageState.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MessageState.aspx.designer.cs">
+      <DependentUpon>MessageState.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Mizoram.aspx.cs">
+      <DependentUpon>Mizoram.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Mizoram.aspx.designer.cs">
+      <DependentUpon>Mizoram.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MultipleAdmitCard.aspx.cs">
+      <DependentUpon>MultipleAdmitCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MultipleAdmitCard.aspx.designer.cs">
+      <DependentUpon>MultipleAdmitCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MultipleCertificate.aspx.cs">
+      <DependentUpon>MultipleCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MultipleCertificate.aspx.designer.cs">
+      <DependentUpon>MultipleCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MultipleJobFairCard_MT.aspx.cs">
+      <DependentUpon>MultipleJobFairCard_MT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MultipleJobFairCard_MT.aspx.designer.cs">
+      <DependentUpon>MultipleJobFairCard_MT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MultipleRegistration.aspx.cs">
+      <DependentUpon>MultipleRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MultipleRegistration.aspx.designer.cs">
+      <DependentUpon>MultipleRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MultipleScoreCardV2.aspx.cs">
+      <DependentUpon>MultipleScoreCardV2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MultipleScoreCardV2.aspx.designer.cs">
+      <DependentUpon>MultipleScoreCardV2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MultipleTestScore.aspx.cs">
+      <DependentUpon>MultipleTestScore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MultipleTestScore.aspx.designer.cs">
+      <DependentUpon>MultipleTestScore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MultipleTestScorePercentage.aspx.cs">
+      <DependentUpon>MultipleTestScorePercentage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MultipleTestScorePercentage.aspx.designer.cs">
+      <DependentUpon>MultipleTestScorePercentage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MultipuleJobFairCard.aspx.cs">
+      <DependentUpon>MultipuleJobFairCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MultipuleJobFairCard.aspx.designer.cs">
+      <DependentUpon>MultipuleJobFairCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MySQLPOC.aspx.cs">
+      <DependentUpon>MySQLPOC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MySQLPOC.aspx.designer.cs">
+      <DependentUpon>MySQLPOC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\NAC Application Form.aspx.cs">
+      <DependentUpon>NAC Application Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\NAC Application Form.aspx.designer.cs">
+      <DependentUpon>NAC Application Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\NACBenefits.aspx.cs">
+      <DependentUpon>NACBenefits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\NACBenefits.aspx.designer.cs">
+      <DependentUpon>NACBenefits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\NACOverview.aspx.cs">
+      <DependentUpon>NACOverview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\NACOverview.aspx.designer.cs">
+      <DependentUpon>NACOverview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\NACRollout.aspx.cs">
+      <DependentUpon>NACRollout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\NACRollout.aspx.designer.cs">
+      <DependentUpon>NACRollout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Nagaland.aspx.cs">
+      <DependentUpon>Nagaland.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Nagaland.aspx.designer.cs">
+      <DependentUpon>Nagaland.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\NagalandMessage.aspx.cs">
+      <DependentUpon>NagalandMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\NagalandMessage.aspx.designer.cs">
+      <DependentUpon>NagalandMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Orissa.aspx.cs">
+      <DependentUpon>Orissa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Orissa.aspx.designer.cs">
+      <DependentUpon>Orissa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\PinLogin.aspx.cs">
+      <DependentUpon>PinLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\PinLogin.aspx.designer.cs">
+      <DependentUpon>PinLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Punjab.aspx.cs">
+      <DependentUpon>Punjab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Punjab.aspx.designer.cs">
+      <DependentUpon>Punjab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Rajasthan.aspx.cs">
+      <DependentUpon>Rajasthan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Rajasthan.aspx.designer.cs">
+      <DependentUpon>Rajasthan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\RajasthanMessage.aspx.cs">
+      <DependentUpon>RajasthanMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\RajasthanMessage.aspx.designer.cs">
+      <DependentUpon>RajasthanMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\RegisteredLogin.aspx.cs">
+      <DependentUpon>RegisteredLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\RegisteredLogin.aspx.designer.cs">
+      <DependentUpon>RegisteredLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\RegistrationPinListToExcel.aspx.cs">
+      <DependentUpon>RegistrationPinListToExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\RegistrationPinListToExcel.aspx.designer.cs">
+      <DependentUpon>RegistrationPinListToExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\RegistrationPreview.aspx.cs">
+      <DependentUpon>RegistrationPreview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\RegistrationPreview.aspx.designer.cs">
+      <DependentUpon>RegistrationPreview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\RegistrationSuccess.aspx.cs">
+      <DependentUpon>RegistrationSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\RegistrationSuccess.aspx.designer.cs">
+      <DependentUpon>RegistrationSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Registrationtest.aspx.cs">
+      <DependentUpon>Registrationtest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\RegistrationWindow.aspx.cs">
+      <DependentUpon>RegistrationWindow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\RegistrationWindow.aspx.designer.cs">
+      <DependentUpon>RegistrationWindow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\RequestForNAC.aspx.cs">
+      <DependentUpon>RequestForNAC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\RequestForNAC.aspx.designer.cs">
+      <DependentUpon>RequestForNAC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\RequestForScoreUpload.aspx.cs">
+      <DependentUpon>RequestForScoreUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\RequestForScoreUpload.aspx.designer.cs">
+      <DependentUpon>RequestForScoreUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\RetailEvent.aspx.cs">
+      <DependentUpon>RetailEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SampleRegistration.aspx.cs">
+      <DependentUpon>SampleRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SampleRegistration.aspx.designer.cs">
+      <DependentUpon>SampleRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\SaveAdmitCard.aspx.cs">
+      <DependentUpon>SaveAdmitCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SaveAdmitCard.aspx.designer.cs">
+      <DependentUpon>SaveAdmitCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ScoreCardPDFV2.aspx.cs">
+      <DependentUpon>ScoreCardPDFV2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ScoreCardPDFV2.aspx.designer.cs">
+      <DependentUpon>ScoreCardPDFV2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ScoreCardRequest.aspx.cs">
+      <DependentUpon>ScoreCardRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ScoreCardRequest.aspx.designer.cs">
+      <DependentUpon>ScoreCardRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ScoreUploadRequest.aspx.cs">
+      <DependentUpon>ScoreUploadRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ScoreUploadRequest.aspx.designer.cs">
+      <DependentUpon>ScoreUploadRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Score_Upload_Request.aspx.cs">
+      <DependentUpon>Score_Upload_Request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Score_Upload_Request.aspx.designer.cs">
+      <DependentUpon>Score_Upload_Request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\SearchCandidateByETS.aspx.cs">
+      <DependentUpon>SearchCandidateByETS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SearchCandidateByETS.aspx.designer.cs">
+      <DependentUpon>SearchCandidateByETS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\SendFeedbackMail.aspx.cs">
+      <DependentUpon>SendFeedbackMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SendFeedbackMail.aspx.designer.cs">
+      <DependentUpon>SendFeedbackMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Sikkim.aspx.cs">
+      <DependentUpon>Sikkim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Sikkim.aspx.designer.cs">
+      <DependentUpon>Sikkim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\SkillCompetency.aspx.cs">
+      <DependentUpon>SkillCompetency.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SkillCompetency.aspx.designer.cs">
+      <DependentUpon>SkillCompetency.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Sona.aspx.cs">
+      <DependentUpon>Sona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Sona.aspx.designer.cs">
+      <DependentUpon>Sona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TamilNadu.aspx.cs">
+      <DependentUpon>TamilNadu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TamilNadu.aspx.designer.cs">
+      <DependentUpon>TamilNadu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TestMessage.aspx.cs">
+      <DependentUpon>TestMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TestMessage.aspx.designer.cs">
+      <DependentUpon>TestMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\testNew.aspx.cs">
+      <DependentUpon>testNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\testNew.aspx.designer.cs">
+      <DependentUpon>testNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TestPage.aspx.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TestPage.aspx.designer.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TestRegistrationStatus.aspx.cs">
+      <DependentUpon>TestRegistrationStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TestRegistrationStatus.aspx.designer.cs">
+      <DependentUpon>TestRegistrationStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TestScore.aspx.cs">
+      <DependentUpon>TestScore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TestScore.aspx.designer.cs">
+      <DependentUpon>TestScore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TestScoreCardV2.aspx.cs">
+      <DependentUpon>TestScoreCardV2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TestScoreCardV2.aspx.designer.cs">
+      <DependentUpon>TestScoreCardV2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TestScoreMessage.aspx.cs">
+      <DependentUpon>TestScoreMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TestScoreMessage.aspx.designer.cs">
+      <DependentUpon>TestScoreMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TestScorePercentage.aspx.cs">
+      <DependentUpon>TestScorePercentage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TestScorePercentage.aspx.designer.cs">
+      <DependentUpon>TestScorePercentage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TestScorePercentageV2.aspx.cs">
+      <DependentUpon>TestScorePercentageV2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TestScorePercentageV2.aspx.designer.cs">
+      <DependentUpon>TestScorePercentageV2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TheApproach.aspx.cs">
+      <DependentUpon>TheApproach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TheApproach.aspx.designer.cs">
+      <DependentUpon>TheApproach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TJListToexcel.aspx.cs">
+      <DependentUpon>TJListToexcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TJListToexcel.aspx.designer.cs">
+      <DependentUpon>TJListToexcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\TJVisitCount.aspx.cs">
+      <DependentUpon>TJVisitCount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\TJVisitCount.aspx.designer.cs">
+      <DependentUpon>TJVisitCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Training.aspx.cs">
+      <DependentUpon>Training.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Training.aspx.designer.cs">
+      <DependentUpon>Training.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Tripura.aspx.cs">
+      <DependentUpon>Tripura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Tripura.aspx.designer.cs">
+      <DependentUpon>Tripura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\UpdateTestCapacityandShiftCapcity.aspx.cs">
+      <DependentUpon>UpdateTestCapacityandShiftCapcity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\UpdateTestCapacityandShiftCapcity.aspx.designer.cs">
+      <DependentUpon>UpdateTestCapacityandShiftCapcity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\UpdateTestDate.aspx.cs">
+      <DependentUpon>UpdateTestDate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\UpdateTestDate.aspx.designer.cs">
+      <DependentUpon>UpdateTestDate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\UploadScore.aspx.cs">
+      <DependentUpon>UploadScore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\UploadScore.aspx.designer.cs">
+      <DependentUpon>UploadScore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\UploadScoreCard.aspx.cs">
+      <DependentUpon>UploadScoreCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\UploadScoreCard.aspx.designer.cs">
+      <DependentUpon>UploadScoreCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Uttar_Pradesh.aspx.cs">
+      <DependentUpon>Uttar_Pradesh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Uttar_Pradesh.aspx.designer.cs">
+      <DependentUpon>Uttar_Pradesh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Validate.aspx.cs">
+      <DependentUpon>Validate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Validate.aspx.designer.cs">
+      <DependentUpon>Validate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\VelTech.aspx.cs">
+      <DependentUpon>VelTech.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\VelTech.aspx.designer.cs">
+      <DependentUpon>VelTech.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\VisitorCount.aspx.cs">
+      <DependentUpon>VisitorCount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\VisitorCount.aspx.designer.cs">
+      <DependentUpon>VisitorCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\West_Bangal.aspx.cs">
+      <DependentUpon>West_Bangal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\West_Bangal.aspx.designer.cs">
+      <DependentUpon>West_Bangal.aspx</DependentUpon>
+    </Compile>
+    <Content Include="default.aspx" />
+    <Content Include="Global.asax">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="HomePage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="landingPage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\AdminEditCompanyDetail.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\AdminHome.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\Approve.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\ApproveDenyRequest.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\CandidateSearchPage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\CandidatesExportToExcelByCompany.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\ChangePassword.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\CompanyHire.aspx" />
+    <Content Include="NACdb\CompanyHomePage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\CompanyProfile.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\EncryptDecrypt.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\ForgotPassword.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\HiredCandidates.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\Home.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\LoginPage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\Registration.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\RejectReason.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\SendEmail.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\ThankYouPage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACdb\ViewAllMembers.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NACHome.htm" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebService\AttendanceWebService.asmx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="WebService\AuthenticationWebService.asmx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="WebService\ErrorMessage.xml" />
+    <Content Include="WebService\NACCandidateDetails.asmx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="WebService\NAC_Scores_New.xml" />
+    <Content Include="WebService\NAC_Scores_Old.xml" />
+    <Content Include="WebService\Scores.xml" />
+    <Content Include="WebService\Scores_Ver2.xml" />
+    <Content Include="WebService\ScoreUploadV2.asmx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\AboutNAC.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\AdminCandidateSearch.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\AdminCandidatesExportToExcel.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Admitcard.aspx" />
+    <Content Include="Web\AlreadyRegistered.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Andhra_Pradesh.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\APInstruction.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Arunachal_Pradesh.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Assam.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\AutomateRegistered_Count.aspx" />
+    <Content Include="Web\Benefits.aspx" />
+    <Content Include="Web\Bihar.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\CandidateField.xml" />
+    <Content Include="Web\CandidateInterfaceInfo.aspx" />
+    <Content Include="Web\CandidateList.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\CandidateListSearch.aspx" />
+    <Content Include="Web\CandidateListToExcel.aspx" />
+    <Content Include="Web\CandidateProfile.aspx" />
+    <Content Include="Web\CenterDetailsTemp.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Certificate.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\ChandigarhDefault.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Contact.htm" />
+    <Content Include="Web\ContactUs.aspx" />
+    <Content Include="Web\Controls\nacyearlyfooter.ascx" />
+    <Content Include="Web\Controls\nacyearlyfooterdb.ascx" />
+    <Content Include="Web\Controls\nac_footer.ascx" />
+    <Content Include="Web\Controls\nac_header.ascx" />
+    <Content Include="Web\Controls\nac_headerlogo.ascx" />
+    <Content Include="Web\Controls\nac_headermenu.ascx" />
+    <Content Include="Web\Controls\nac_JobFairCard.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="Web\Controls\nac_JobfairCardDateDetails.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="Web\CreateTest.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\DeactivateCentre.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Delhi.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Download.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\EditRegistration.aspx" />
+    <Content Include="Web\Edit_Registration.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\ErrorPage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Events.aspx" />
+    <Content Include="Web\ExportCLToExcelByETS.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Faq.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\ForgotPassword.aspx" />
+    <Content Include="Web\GenerateAdmitCard.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\GenerateID.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\GenerateJobAdmitCard.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\GeneratePinNo.aspx" />
+    <Content Include="Web\GetStateWiseDetailsReport.aspx" />
+    <Content Include="Web\GetStateWiseDetailsReportToExcel.aspx" />
+    <Content Include="Web\GrantPermission.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\GujratDefault.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Haryana.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Hero_Mindmine.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Images\1-banner.jpg" />
+    <Content Include="Web\Images\2-banner.jpg" />
+    <Content Include="Web\Images\3-banner.jpg" />
+    <Content Include="Web\Images\4-banner.jpg" />
+    <Content Include="Web\Images\ag_logo.gif" />
+    <Content Include="Web\Images\alreadyRegistered.jpg" />
+    <Content Include="Web\Images\arr_back.gif" />
+    <Content Include="Web\Images\arr_top.gif" />
+    <Content Include="Web\Images\back.jpg" />
+    <Content Include="Web\Images\back11.png" />
+    <Content Include="Web\Images\back12.jpg" />
+    <Content Include="Web\Images\backnew.jpg" />
+    <Content Include="Web\Images\banner-hurry.swf" />
+    <Content Include="Web\Images\banner.gif" />
+    <Content Include="Web\Images\BANNER.jpg" />
+    <Content Include="Web\Images\bannerLine.jpg" />
+    <Content Include="Web\Images\Bar.GIF" />
+    <Content Include="Web\Images\Bar.JPG" />
+    <Content Include="Web\Images\Bar_ScoreCard.JPG" />
+    <Content Include="Web\Images\bg.gif" />
+    <Content Include="Web\Images\Big_Arrow.GIF" />
+    <Content Include="Web\Images\blackbar_login.gif" />
+    <Content Include="Web\Images\btn-1.gif" />
+    <Content Include="Web\Images\btn-1new.gif" />
+    <Content Include="Web\Images\btn-1new2.gif" />
+    <Content Include="Web\Images\btn-2new.gif" />
+    <Content Include="Web\Images\btn-nac-home.gif" />
+    <Content Include="Web\Images\btn-nac-home.swf" />
+    <Content Include="Web\Images\btn_login.gif" />
+    <Content Include="Web\Images\bull1.gif" />
+    <Content Include="Web\Images\bull2.gif" />
+    <Content Include="Web\Images\bull3.gif" />
+    <Content Include="Web\Images\buttonClick.jpg" />
+    <Content Include="Web\Images\cal.gif" />
+    <Content Include="Web\Images\cal_close.gif" />
+    <Content Include="Web\Images\cal_fastforward.gif" />
+    <Content Include="Web\Images\cal_fastreverse.gif" />
+    <Content Include="Web\Images\cal_forward.gif" />
+    <Content Include="Web\Images\cal_minus.gif" />
+    <Content Include="Web\Images\cal_plus.gif" />
+    <Content Include="Web\Images\cal_reverse.gif" />
+    <Content Include="Web\Images\click-btn-2.gif" />
+    <Content Include="Web\Images\click-btn.gif" />
+    <Content Include="Web\Images\click-btn1.gif" />
+    <Content Include="Web\Images\current-events.gif" />
+    <Content Include="Web\Images\Curve_Left.gif" />
+    <Content Include="Web\Images\Curve_Right.gif" />
+    <Content Include="Web\Images\default2Back.jpg" />
+    <Content Include="Web\Images\default2_01.jpg" />
+    <Content Include="Web\Images\default2_02.jpg" />
+    <Content Include="Web\Images\default2_03.jpg" />
+    <Content Include="Web\Images\default2_04.jpg" />
+    <Content Include="Web\Images\default2_05.jpg" />
+    <Content Include="Web\Images\default2_06.jpg" />
+    <Content Include="Web\Images\default2_07.jpg" />
+    <Content Include="Web\Images\default2_08.jpg" />
+    <Content Include="Web\Images\default2_09.jpg" />
+    <Content Include="Web\Images\default2_10.jpg" />
+    <Content Include="Web\Images\default2_11.jpg" />
+    <Content Include="Web\Images\defaultphoto.jpg" />
+    <Content Include="Web\Images\default_01.jpg" />
+    <Content Include="Web\Images\default_02.jpg" />
+    <Content Include="Web\Images\default_03.jpg" />
+    <Content Include="Web\Images\default_04.jpg" />
+    <Content Include="Web\Images\default_05.jpg" />
+    <Content Include="Web\Images\default_06.jpg" />
+    <Content Include="Web\Images\default_07.jpg" />
+    <Content Include="Web\Images\default_08.jpg" />
+    <Content Include="Web\Images\default_09.jpg" />
+    <Content Include="Web\Images\default_10.jpg" />
+    <Content Include="Web\Images\default_11.jpg" />
+    <Content Include="Web\Images\default_12.jpg" />
+    <Content Include="Web\Images\default_13.jpg" />
+    <Content Include="Web\Images\default_14.jpg" />
+    <Content Include="Web\Images\default_15.jpg" />
+    <Content Include="Web\Images\default_16.jpg" />
+    <Content Include="Web\Images\default_17.jpg" />
+    <Content Include="Web\Images\dit_logo-trans-big.gif" />
+    <Content Include="Web\Images\download-icon.jpg" />
+    <Content Include="Web\Images\Event_Background.gif" />
+    <Content Include="Web\Images\even_bg.jpg" />
+    <Content Include="Web\Images\excel.bmp" />
+    <Content Include="Web\Images\footer.gif" />
+    <Content Include="Web\Images\Footer.jpg" />
+    <Content Include="Web\Images\Footer1s.jpg" />
+    <Content Include="Web\Images\footer2014.gif" />
+    <Content Include="Web\Images\footerDB.jpg" />
+    <Content Include="Web\Images\FooterHome.jpg" />
+    <Content Include="Web\Images\FooterLanding.jpg" />
+    <Content Include="Web\Images\footer_bg.gif" />
+    <Content Include="Web\Images\footer_bg_DB.gif" />
+    <Content Include="Web\Images\forgetPassword.JPG" />
+    <Content Include="Web\Images\Form-Img.gif" />
+    <Content Include="Web\Images\form.gif" />
+    <Content Include="Web\Images\formcontentbg.jpg" />
+    <Content Include="Web\Images\form_btn.jpg" />
+    <Content Include="Web\Images\getNAC ScoreCard.jpg" />
+    <Content Include="Web\Images\getNACScoreCard.jpg" />
+    <Content Include="Web\Images\getNACScoreCard1.jpg" />
+    <Content Include="Web\Images\getNACScoreCard_Updated.jpg" />
+    <Content Include="Web\Images\GIL.gif" />
+    <Content Include="Web\Images\GIL_logo.gif" />
+    <Content Include="Web\Images\GIL_logo1.gif" />
+    <Content Include="Web\Images\GIL_updated.gif" />
+    <Content Include="Web\Images\gobtn.gif" />
+    <Content Include="Web\Images\graph1.gif" />
+    <Content Include="Web\Images\grey_bg.jpg" />
+    <Content Include="Web\Images\HeaderHome.jpg" />
+    <Content Include="Web\Images\HeaderLanding.jpg" />
+    <Content Include="Web\Images\header_bg.gif" />
+    <Content Include="Web\Images\header_right.gif" />
+    <Content Include="Web\Images\HMM.gif" />
+    <Content Include="Web\Images\homeimg1.jpg" />
+    <Content Include="Web\Images\HomeLink.swf" />
+    <Content Include="Web\Images\icon_err.gif" />
+    <Content Include="Web\Images\ILLL_DU.JPG" />
+    <Content Include="Web\Images\ILLL_DU_Old.JPG" />
+    <Content Include="Web\Images\image.jpg" />
+    <Content Include="Web\Images\india-map.jpg" />
+    <Content Include="Web\Images\india-map1.jpg" />
+    <Content Include="Web\Images\india-mapnew.jpg" />
+    <Content Include="Web\Images\india-mapnew1.jpg" />
+    <Content Include="Web\Images\india-map_2.jpg" />
+    <Content Include="Web\Images\india-map_blank.jpg" />
+    <Content Include="Web\Images\india-map_Old.jpg" />
+    <Content Include="Web\Images\innerbx_bg.jpg" />
+    <Content Include="Web\Images\Kerala.gif" />
+    <Content Include="Web\Images\lock.gif" />
+    <Content Include="Web\Images\login_07.jpg" />
+    <Content Include="Web\Images\Logo - DoHE.GIF" />
+    <Content Include="Web\Images\Logo - Punjab Infotech.JPG" />
+    <Content Include="Web\Images\logo.gif" />
+    <Content Include="Web\Images\logo.jpg" />
+    <Content Include="Web\Images\logo.png" />
+    <Content Include="Web\Images\logo1.gif" />
+    <Content Include="Web\Images\logo2.gif" />
+    <Content Include="Web\Images\logonascom.jpg" />
+    <Content Include="Web\Images\logoTemp.gif" />
+    <Content Include="Web\Images\logoTemp1.gif" />
+    <Content Include="Web\Images\logo_election.gif" />
+    <Content Include="Web\Images\logo_nac.gif" />
+    <Content Include="Web\Images\logo_new.gif" />
+    <Content Include="Web\Images\mailus.jpg" />
+    <Content Include="Web\Images\Movie1.swf" />
+    <Content Include="Web\Images\Movie2.swf" />
+    <Content Include="Web\Images\Movie3.swf" />
+    <Content Include="Web\Images\Movie4.swf" />
+    <Content Include="Web\Images\mt_bg.gif" />
+    <Content Include="Web\Images\mt_botbg.gif" />
+    <Content Include="Web\Images\mt_leftbg.gif" />
+    <Content Include="Web\Images\mt_leftbottom.gif" />
+    <Content Include="Web\Images\mt_lt.gif" />
+    <Content Include="Web\Images\mt_rightbg.gif" />
+    <Content Include="Web\Images\mt_rightbottom.gif" />
+    <Content Include="Web\Images\mt_rightop.gif" />
+    <Content Include="Web\Images\mt_topbg.gif" />
+    <Content Include="Web\Images\myComputer.jpg" />
+    <Content Include="Web\Images\NAC Stamp.jpg" />
+    <Content Include="Web\Images\nac-D.JPG" />
+    <Content Include="Web\Images\NAC-D_Logo.png" />
+    <Content Include="Web\Images\NAC-D_Logo_PDF.png" />
+    <Content Include="Web\Images\NAC-Launched.gif" />
+    <Content Include="Web\Images\Nac-logo1.gif" />
+    <Content Include="Web\Images\Nac-logo5.gif" />
+    <Content Include="Web\Images\Nac-logo6.gif" />
+    <Content Include="Web\Images\nac-other-event.gif" />
+    <Content Include="Web\Images\NAC-Stamp.jpg" />
+    <Content Include="Web\Images\NAC-Tech-program.GIF" />
+    <Content Include="Web\Images\nac.gif" />
+    <Content Include="Web\Images\nac.JPG" />
+    <Content Include="Web\Images\nac.png" />
+    <Content Include="Web\Images\NAC.swf" />
+    <Content Include="Web\Images\nacbpobig.jpg" />
+    <Content Include="Web\Images\nacbpobutton.jpg" />
+    <Content Include="Web\Images\naclone.jpg" />
+    <Content Include="Web\Images\NACRetail.gif" />
+    <Content Include="Web\Images\nacScoreAdmit.jpg" />
+    <Content Include="Web\Images\nactech.jpg" />
+    <Content Include="Web\Images\nactech1.jpg" />
+    <Content Include="Web\Images\nactechnew.jpg" />
+    <Content Include="Web\Images\nac_01.jpg" />
+    <Content Include="Web\Images\nac_03.gif" />
+    <Content Include="Web\Images\nac_05.gif" />
+    <Content Include="Web\Images\nac_07.gif" />
+    <Content Include="Web\Images\NAC_1.swf" />
+    <Content Include="Web\Images\NAC_1_29082007.swf" />
+    <Content Include="Web\Images\NAC_2.swf" />
+    <Content Include="Web\Images\NAC_3.swf" />
+    <Content Include="Web\Images\NAC_4.swf" />
+    <Content Include="Web\Images\NAC_Hignlights.jpg" />
+    <Content Include="Web\Images\NAC_Hignlights1.jpg" />
+    <Content Include="Web\Images\nac_Initiative.JPG" />
+    <Content Include="Web\Images\NAC_Logo.png" />
+    <Content Include="Web\Images\nac_logov.gif" />
+    <Content Include="Web\Images\NAC_Logo_PDF.png" />
+    <Content Include="Web\Images\NAC_Stamp_bg.gif" />
+    <Content Include="Web\Images\NAC_Stamp_bg6.gif" />
+    <Content Include="Web\Images\NAC_Stamp_bg_05_05092007.gif" />
+    <Content Include="Web\Images\NAC_Stamp_test.jpg" />
+    <Content Include="Web\Images\NAC_water1.jpg" />
+    <Content Include="Web\Images\NASSCOM Logo.jpg" />
+    <Content Include="Web\Images\nasscomFlashBanner.swf" />
+    <Content Include="Web\Images\nasscom_in.gif" />
+    <Content Include="Web\Images\nass_logo.gif" />
+    <Content Include="Web\Images\nass_logo_trans.gif" />
+    <Content Include="Web\Images\nav_bg.jpg" />
+    <Content Include="Web\Images\nav_hover.jpg" />
+    <Content Include="Web\Images\newBanner.jpg" />
+    <Content Include="Web\Images\newUser.jpg" />
+    <Content Include="Web\Images\new_blue_sm_rt.gif" />
+    <Content Include="Web\Images\odd_bg.jpg" />
+    <Content Include="Web\Images\Orissa.png" />
+    <Content Include="Web\Images\pbg.gif" />
+    <Content Include="Web\Images\Rajasthan.swf" />
+    <Content Include="Web\Images\RedRuler.JPG" />
+    <Content Include="Web\Images\reg.png" />
+    <Content Include="Web\Images\register.gif" />
+    <Content Include="Web\Images\RegisterForNAC.jpg" />
+    <Content Include="Web\Images\register_btn.gif" />
+    <Content Include="Web\Images\register_btn1.gif" />
+    <Content Include="Web\Images\requestNAC.gif" />
+    <Content Include="Web\Images\samplePapers.jpg" />
+    <Content Include="Web\Images\seperator.jpg" />
+    <Content Include="Web\Images\sikkim.jpg" />
+    <Content Include="Web\Images\skilltesting.jpg" />
+    <Content Include="Web\Images\spacer.gif" />
+    <Content Include="Web\Images\spacer1.gif" />
+    <Content Include="Web\Images\stripe.JPG" />
+    <Content Include="Web\Images\sub_bg.jpg" />
+    <Content Include="Web\Images\tabarrowdown.jpg" />
+    <Content Include="Web\Images\tabarrowdup.jpg" />
+    <Content Include="Web\Images\tabbg.jpg" />
+    <Content Include="Web\Images\tab_ballot.gif" />
+    <Content Include="Web\Images\tab_ballot_h.gif" />
+    <Content Include="Web\Images\tab_home.gif" />
+    <Content Include="Web\Images\tab_home_h.gif" />
+    <Content Include="Web\Images\tab_inst.gif" />
+    <Content Include="Web\Images\tab_inst_h.gif" />
+    <Content Include="Web\Images\tab_signout.gif" />
+    <Content Include="Web\Images\tab_signout_h.gif" />
+    <Content Include="Web\Images\tbg_left.gif" />
+    <Content Include="Web\Images\tbg_right.gif" />
+    <Content Include="Web\Images\test_details.jpg" />
+    <Content Include="Web\Images\TJ_HomeLink.swf" />
+    <Content Include="Web\Images\TJ_WelcomeLink.swf" />
+    <Content Include="Web\Images\top.gif" />
+    <Content Include="Web\Images\top_btn.gif" />
+    <Content Include="Web\Images\traing-dev.gif" />
+    <Content Include="Web\Images\transparent.png" />
+    <Content Include="Web\Images\WriteToUs.jpg" />
+    <Content Include="Web\Images\WriteToUsHome.jpg" />
+    <Content Include="Web\Images\WriteToUslanding.jpg" />
+    <Content Include="Web\Images\WriteToUs_Old.jpg" />
+    <Content Include="Web\IndiaMap.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\JobFairCard.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\JobFairCard_MT.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\JobFairMessage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\JS\Common.js" />
+    <Content Include="Web\JS\CommonFunction.js" />
+    <Content Include="Web\JS\datetimepicker_css.js" />
+    <Content Include="Web\JS\datetimepicker_new_css.js" />
+    <Content Include="Web\JS\javascript_fun.js" />
+    <Content Include="Web\JS\jquery-1.js" />
+    <Content Include="Web\JS\jquery_003.js" />
+    <Content Include="Web\Karnataka.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Kerala.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Login.aspx" />
+    <Content Include="Web\Logout.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Madhya_Pradesh.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Maharashtra.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\ManageTestCentre.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\ManageTestCity.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Manipur.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Meghalaya.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Message.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\MessageRajasthan.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\MessageState.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Mizoram.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\MultipleAdmitCard.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\MultipleCertificate.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\MultipleJobFairCard_MT.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\MultipleRegistration.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\MultipleScoreCardV2.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\MultipleTestScore.aspx" />
+    <Content Include="Web\MultipleTestScorePercentage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\MultipuleJobFairCard.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\MySQLPOC.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\NAC Application Form.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\NACBenefits.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\NACOverview.aspx" />
+    <Content Include="Web\NACRollout.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Nagaland.aspx" />
+    <Content Include="Web\NagalandMessage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Orissa.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\PinLogin.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Punjab.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Rajasthan.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\RajasthanMessage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\RegisteredLogin.aspx" />
+    <Content Include="Web\Registration.aspx" />
+    <Content Include="Web\RegistrationPinListToExcel.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\RegistrationPreview.aspx" />
+    <Content Include="Web\RegistrationSuccess.aspx" />
+    <Content Include="Web\Registrationtest.aspx" />
+    <Content Include="Web\RegistrationWindow.aspx" />
+    <Content Include="Web\RequestForNAC.aspx" />
+    <Content Include="Web\RequestForScoreUpload.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\RetailEvent.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\SampleRegistration.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\SaveAdmitCard.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\ScoreCardPDFV2.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\ScoreCardRequest.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\ScoreUploadRequest.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Score_Upload_Request.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\SearchCandidateByETS.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\SendFeedbackMail.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Sikkim.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\SkillCompetency.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Sona.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Stylesheet\cssfile.css" />
+    <Content Include="Web\Stylesheet\nasscom.css" />
+    <Content Include="Web\Stylesheet\nasscomNew.css" />
+    <Content Include="Web\Stylesheet\nasscomNew1.css" />
+    <Content Include="Web\Stylesheet\nasscomNew2.css" />
+    <Content Include="Web\Stylesheet\nasscom_form.css" />
+    <Content Include="Web\Stylesheet\style.css" />
+    <Content Include="Web\Stylesheet\styleV2.css" />
+    <Content Include="Web\TamilNadu.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\TestMessage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\testNew.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\TestPage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\TestRegistrationStatus.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\TestScore.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\TestScoreCardV2.aspx" />
+    <Content Include="Web\TestScoreMessage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\TestScorePercentage.aspx" />
+    <Content Include="Web\TestScorePercentageV2.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\TheApproach.aspx" />
+    <Content Include="Web\TJListToexcel.aspx" />
+    <Content Include="Web\TJVisitCount.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Training.aspx" />
+    <Content Include="Web\Tripura.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\UpdateTestCapacityandShiftCapcity.aspx" />
+    <Content Include="Web\UpdateTestDate.aspx" />
+    <Content Include="Web\UploadScore.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\UploadScoreCard.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Uttar_Pradesh.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\Validate.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\VelTech.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\VisitorCount.aspx" />
+    <Content Include="Web\WebForm1.aspx" />
+    <Content Include="Web\Welcome.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web\West_Bangal.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <EmbeddedResource Include="default.aspx.resx">
+      <DependentUpon>default.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.aspx.resx">
+      <DependentUpon>HomePage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="landingPage.aspx.resx">
+      <DependentUpon>landingPage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\AdminEditCompanyDetail.aspx.resx">
+      <DependentUpon>AdminEditCompanyDetail.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\AdminHome.aspx.resx">
+      <DependentUpon>AdminHome.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\Approve.aspx.resx">
+      <DependentUpon>Approve.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\ApproveDenyRequest.aspx.resx">
+      <DependentUpon>ApproveDenyRequest.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\CandidateSearchPage.aspx.resx">
+      <DependentUpon>CandidateSearchPage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\CandidatesExportToExcelByCompany.aspx.resx">
+      <DependentUpon>CandidatesExportToExcelByCompany.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\ChangePassword.aspx.resx">
+      <DependentUpon>ChangePassword.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\CompanyHire.aspx.resx">
+      <DependentUpon>CompanyHire.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\CompanyHomePage.aspx.resx">
+      <DependentUpon>CompanyHomePage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\CompanyProfile.aspx.resx">
+      <DependentUpon>CompanyProfile.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\EncryptDecrypt.aspx.resx">
+      <DependentUpon>EncryptDecrypt.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\ForgotPassword.aspx.resx">
+      <DependentUpon>ForgotPassword.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\HiredCandidates.aspx.resx">
+      <DependentUpon>HiredCandidates.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\Home.aspx.resx">
+      <DependentUpon>Home.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\LoginPage.aspx.resx">
+      <DependentUpon>LoginPage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\Registration.aspx.resx">
+      <DependentUpon>Registration.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\RejectReason.aspx.resx">
+      <DependentUpon>RejectReason.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\SendEmail.aspx.resx">
+      <DependentUpon>SendEmail.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\ThankYouPage.aspx.resx">
+      <DependentUpon>ThankYouPage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NACdb\ViewAllMembers.aspx.resx">
+      <DependentUpon>ViewAllMembers.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebService\AttendanceWebService.asmx.resx">
+      <DependentUpon>AttendanceWebService.asmx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebService\AuthenticationWebService.asmx.resx">
+      <DependentUpon>AuthenticationWebService.asmx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebService\NACCandidateDetails.asmx.resx">
+      <DependentUpon>NACCandidateDetails.asmx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebService\ScoreUploadV2.asmx.resx">
+      <DependentUpon>ScoreUploadV2.asmx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\AboutNAC.aspx.resx">
+      <DependentUpon>AboutNAC.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\AdminCandidateSearch.aspx.resx">
+      <DependentUpon>AdminCandidateSearch.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\AdminCandidatesExportToExcel.aspx.resx">
+      <DependentUpon>AdminCandidatesExportToExcel.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Admitcard.aspx.resx">
+      <DependentUpon>Admitcard.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\AlreadyRegistered.aspx.resx">
+      <DependentUpon>AlreadyRegistered.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Andhra_Pradesh.aspx.resx">
+      <DependentUpon>Andhra_Pradesh.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\APInstruction.aspx.resx">
+      <DependentUpon>APInstruction.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Arunachal_Pradesh.aspx.resx">
+      <DependentUpon>Arunachal_Pradesh.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Assam.aspx.resx">
+      <DependentUpon>Assam.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Bihar.aspx.resx">
+      <DependentUpon>Bihar.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\CandidateInterfaceInfo.aspx.resx">
+      <DependentUpon>CandidateInterfaceInfo.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\CandidateList.aspx.resx">
+      <DependentUpon>CandidateList.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\CandidateListSearch.aspx.resx">
+      <DependentUpon>CandidateListSearch.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\CandidateListToExcel.aspx.resx">
+      <DependentUpon>CandidateListToExcel.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\CandidateProfile.aspx.resx">
+      <DependentUpon>CandidateProfile.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\CenterDetailsTemp.aspx.resx">
+      <DependentUpon>CenterDetailsTemp.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Certificate.aspx.resx">
+      <DependentUpon>Certificate.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\ChandigarhDefault.aspx.resx">
+      <DependentUpon>ChandigarhDefault.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Controls\nac_footer.ascx.resx">
+      <DependentUpon>nac_footer.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Controls\nac_header.ascx.resx">
+      <DependentUpon>nac_header.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Controls\nac_JobFairCard.ascx.resx">
+      <DependentUpon>nac_JobFairCard.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Controls\nac_JobfairCardDateDetails.ascx.resx">
+      <DependentUpon>nac_JobfairCardDateDetails.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\CreateTest.aspx.resx">
+      <DependentUpon>CreateTest.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\DeactivateCentre.aspx.resx">
+      <DependentUpon>DeactivateCentre.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Delhi.aspx.resx">
+      <DependentUpon>Delhi.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Download.aspx.resx">
+      <DependentUpon>Download.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\EditRegistration.aspx.resx">
+      <DependentUpon>EditRegistration.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Edit_Registration.aspx.resx">
+      <DependentUpon>Edit_Registration.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\ErrorPage.aspx.resx">
+      <DependentUpon>ErrorPage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\ExportCLToExcelByETS.aspx.resx">
+      <DependentUpon>ExportCLToExcelByETS.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Faq.aspx.resx">
+      <DependentUpon>Faq.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\ForgotPassword.aspx.resx">
+      <DependentUpon>ForgotPassword.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\GenerateAdmitCard.aspx.resx">
+      <DependentUpon>GenerateAdmitCard.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\GenerateID.aspx.resx">
+      <DependentUpon>GenerateID.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\GenerateJobAdmitCard.aspx.resx">
+      <DependentUpon>GenerateJobAdmitCard.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\GeneratePinNo.aspx.resx">
+      <DependentUpon>GeneratePinNo.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\GrantPermission.aspx.resx">
+      <DependentUpon>GrantPermission.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\GujratDefault.aspx.resx">
+      <DependentUpon>GujratDefault.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Haryana.aspx.resx">
+      <DependentUpon>Haryana.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Hero_Mindmine.aspx.resx">
+      <DependentUpon>Hero_Mindmine.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\IndiaMap.aspx.resx">
+      <DependentUpon>IndiaMap.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\JobFairCard.aspx.resx">
+      <DependentUpon>JobFairCard.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\JobFairCard_MT.aspx.resx">
+      <DependentUpon>JobFairCard_MT.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\JobFairMessage.aspx.resx">
+      <DependentUpon>JobFairMessage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Karnataka.aspx.resx">
+      <DependentUpon>Karnataka.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Kerala.aspx.resx">
+      <DependentUpon>Kerala.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Login.aspx.resx">
+      <DependentUpon>Login.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Logout.aspx.resx">
+      <DependentUpon>Logout.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Madhya_Pradesh.aspx.resx">
+      <DependentUpon>Madhya_Pradesh.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Maharashtra.aspx.resx">
+      <DependentUpon>Maharashtra.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\ManageTestCentre.aspx.resx">
+      <DependentUpon>ManageTestCentre.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\ManageTestCity.aspx.resx">
+      <DependentUpon>ManageTestCity.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Manipur.aspx.resx">
+      <DependentUpon>Manipur.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Meghalaya.aspx.resx">
+      <DependentUpon>Meghalaya.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Message.aspx.resx">
+      <DependentUpon>Message.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MessageRajasthan.aspx.resx">
+      <DependentUpon>MessageRajasthan.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MessageState.aspx.resx">
+      <DependentUpon>MessageState.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Mizoram.aspx.resx">
+      <DependentUpon>Mizoram.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MultipleAdmitCard.aspx.resx">
+      <DependentUpon>MultipleAdmitCard.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MultipleCertificate.aspx.resx">
+      <DependentUpon>MultipleCertificate.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MultipleJobFairCard_MT.aspx.resx">
+      <DependentUpon>MultipleJobFairCard_MT.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MultipleRegistration.aspx.resx">
+      <DependentUpon>MultipleRegistration.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MultipleScoreCardV2.aspx.resx">
+      <DependentUpon>MultipleScoreCardV2.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MultipleTestScore.aspx.resx">
+      <DependentUpon>MultipleTestScore.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MultipleTestScorePercentage.aspx.resx">
+      <DependentUpon>MultipleTestScorePercentage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MultipuleJobFairCard.aspx.resx">
+      <DependentUpon>MultipuleJobFairCard.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\MySQLPOC.aspx.resx">
+      <DependentUpon>MySQLPOC.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\NAC Application Form.aspx.resx">
+      <DependentUpon>NAC Application Form.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\NACBenefits.aspx.resx">
+      <DependentUpon>NACBenefits.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\NACRollout.aspx.resx">
+      <DependentUpon>NACRollout.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Nagaland.aspx.resx">
+      <DependentUpon>Nagaland.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\NagalandMessage.aspx.resx">
+      <DependentUpon>NagalandMessage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Orissa.aspx.resx">
+      <DependentUpon>Orissa.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\PinLogin.aspx.resx">
+      <DependentUpon>PinLogin.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Punjab.aspx.resx">
+      <DependentUpon>Punjab.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Rajasthan.aspx.resx">
+      <DependentUpon>Rajasthan.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\RajasthanMessage.aspx.resx">
+      <DependentUpon>RajasthanMessage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Registration.aspx.resx">
+      <DependentUpon>Registration.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\RegistrationPinListToExcel.aspx.resx">
+      <DependentUpon>RegistrationPinListToExcel.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\RegistrationPreview.aspx.resx">
+      <DependentUpon>RegistrationPreview.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\RegistrationSuccess.aspx.resx">
+      <DependentUpon>RegistrationSuccess.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Registrationtest.aspx.resx">
+      <DependentUpon>Registrationtest.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\RequestForScoreUpload.aspx.resx">
+      <DependentUpon>RequestForScoreUpload.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\RetailEvent.aspx.resx">
+      <DependentUpon>RetailEvent.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\SampleRegistration.aspx.resx">
+      <DependentUpon>SampleRegistration.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\SaveAdmitCard.aspx.resx">
+      <DependentUpon>SaveAdmitCard.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\ScoreCardPDFV2.aspx.resx">
+      <DependentUpon>ScoreCardPDFV2.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\ScoreCardRequest.aspx.resx">
+      <DependentUpon>ScoreCardRequest.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\ScoreUploadRequest.aspx.resx">
+      <DependentUpon>ScoreUploadRequest.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Score_Upload_Request.aspx.resx">
+      <DependentUpon>Score_Upload_Request.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\SearchCandidateByETS.aspx.resx">
+      <DependentUpon>SearchCandidateByETS.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\SendFeedbackMail.aspx.resx">
+      <DependentUpon>SendFeedbackMail.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Sikkim.aspx.resx">
+      <DependentUpon>Sikkim.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\SkillCompetency.aspx.resx">
+      <DependentUpon>SkillCompetency.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Sona.aspx.resx">
+      <DependentUpon>Sona.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TamilNadu.aspx.resx">
+      <DependentUpon>TamilNadu.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TestMessage.aspx.resx">
+      <DependentUpon>TestMessage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\testNew.aspx.resx">
+      <DependentUpon>testNew.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TestPage.aspx.resx">
+      <DependentUpon>TestPage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TestRegistrationStatus.aspx.resx">
+      <DependentUpon>TestRegistrationStatus.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TestScore.aspx.resx">
+      <DependentUpon>TestScore.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TestScoreMessage.aspx.resx">
+      <DependentUpon>TestScoreMessage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TestScorePercentage.aspx.resx">
+      <DependentUpon>TestScorePercentage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TestScorePercentageV2.aspx.resx">
+      <DependentUpon>TestScorePercentageV2.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TheApproach.aspx.resx">
+      <DependentUpon>TheApproach.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TJListToexcel.aspx.resx">
+      <DependentUpon>TJListToexcel.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\TJVisitCount.aspx.resx">
+      <DependentUpon>TJVisitCount.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Tripura.aspx.resx">
+      <DependentUpon>Tripura.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\UploadScore.aspx.resx">
+      <DependentUpon>UploadScore.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\UploadScoreCard.aspx.resx">
+      <DependentUpon>UploadScoreCard.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Uttar_Pradesh.aspx.resx">
+      <DependentUpon>Uttar_Pradesh.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Validate.aspx.resx">
+      <DependentUpon>Validate.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\VelTech.aspx.resx">
+      <DependentUpon>VelTech.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\VisitorCount.aspx.resx">
+      <DependentUpon>VisitorCount.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Welcome.aspx.resx">
+      <DependentUpon>Welcome.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\West_Bangal.aspx.resx">
+      <DependentUpon>West_Bangal.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="NAC_Tech.csproj.webinfo" />
+    <Content Include="Web\Controls\Thumbnail.ashx" />
+    <None Include="Web\Images\banner.psd" />
+    <None Include="Web\Images\Thumbs.db" />
+    <None Include="Web\PDF\GBFS - OBF - Published V1.pdf" />
+    <None Include="Web\PDF\NAC Infrastructure Requirements - Consolidated.pdf" />
+    <None Include="Web\PDF\NAC Sample Paper1.0.pdf" />
+    <None Include="Web\PDF\NAC test centers %2805-Nov%29.doc" />
+    <None Include="Web\PDF\NAC test centers %2805-Nov%29_old.doc" />
+    <None Include="Web\PDF\NASSCOM%27s BPO Career Guide.pdf" />
+    <None Include="Web\PDF\Process Flow.ppt" />
+    <None Include="Web\Stylesheet\ANTQUAB.TTF" />
+    <None Include="Web\Stylesheet\ANTQUABI.TTF" />
+    <None Include="Web\Stylesheet\ANTQUAI.TTF" />
+    <None Include="Web\Stylesheet\BKANT.TTF" />
+    <None Include="Web\Stylesheet\verdana.ttf" />
+    <None Include="Web\Stylesheet\verdanab.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="ErrorLog\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Web\PPT\" />
+    <Folder Include="Web\TempWorkAreaPdf\" />
+    <Folder Include="Web\UploadedPhotograph\" />
+    <Folder Include="Web\UploadFiles\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>11913</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

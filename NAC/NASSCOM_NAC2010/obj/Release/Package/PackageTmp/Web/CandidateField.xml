@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+		<column>
+		<Name>RegistrationId</Name>
+		<DisplayName>Registration ID</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>FName</Name>
+		<DisplayName>First Name</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>MName</Name>
+		<DisplayName>Middle Name</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>LName</Name>
+		<DisplayName>Last Name</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>DOB</Name>
+		<DisplayName>DOB</DisplayName>
+		<DataType>Date</DataType>
+	</column>
+	<column>
+		<Name>Gender</Name>
+		<DisplayName>Gender</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>City</Name>
+		<DisplayName>City</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>Pincode</Name>
+		<DisplayName>Pin Code</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>STDCode</Name>
+		<DisplayName>STD Code</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>LandlinePhoneNo</Name>
+		<DisplayName>Landline</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>MobilePhone</Name>
+		<DisplayName>Mobile</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>EmailId</Name>
+		<DisplayName>Email Id</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>MotherName</Name>
+		<DisplayName>Mother Name</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>FatherName</Name>
+		<DisplayName>Father Name</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>IncomeRange</Name>
+		<DisplayName>Income Range</DisplayName>
+		<DataType>int</DataType>
+	</column>
+	<column>
+		<Name>QualificationType</Name>
+		<DisplayName>Qualification Type</DisplayName>
+		<DataType>int</DataType>
+	</column>
+	<column>
+		<Name>Qualification</Name>
+		<DisplayName>Qualification</DisplayName>
+		<DataType>int</DataType>
+	</column>
+	<column>
+		<Name>MarksObtained</Name>
+		<DisplayName>Marks Obtained</DisplayName>
+		<DataType>int</DataType>
+	</column>
+	<column>
+		<Name>University</Name>
+		<DisplayName>University</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>EducationCity</Name>
+		<DisplayName>Education City</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>EmploymentStatus</Name>
+		<DisplayName>Employment Status</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>OutsideHome</Name>
+		<DisplayName>Outside Home</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>PhotoId</Name>
+		<DisplayName>Photo Id</DisplayName>
+		<DataType>int</DataType>
+	</column>
+	<column>
+		<Name>PhotoIdNo</Name>
+		<DisplayName>Photo Id Document No</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>MediumSchool</Name>
+		<DisplayName>Medium in 10</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>Medium12th</Name>
+		<DisplayName>Medium in 12</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>BelongTo</Name>
+		<DisplayName>Belong To</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+	<column>
+		<Name>CollegeAddress</Name>
+		<DisplayName>College Address</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>OtherQualification</Name>
+		<DisplayName>Other Qualification</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>ResidentialAddress</Name>
+		<DisplayName>Residential Address</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>HomeCity</Name>
+		<DisplayName>City</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>TestCity</Name>
+		<DisplayName>Test City</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>TestCentre</Name>
+		<DisplayName>Test Centre</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>TestState</Name>
+		<DisplayName>Test State</DisplayName>
+		<DataType>Varchar</DataType>
+	</column>
+	<column>
+		<Name>SerialNo</Name>
+		<DisplayName>User Id</DisplayName>
+		<DataType>int</DataType>
+	</column>
+	<column>
+		<Name>PinNo</Name>
+		<DisplayName>Password</DisplayName>
+		<DataType>Char</DataType>
+	</column>
+</Columns>

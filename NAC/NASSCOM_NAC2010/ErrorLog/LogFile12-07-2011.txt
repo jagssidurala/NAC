@@ -1,0 +1,84 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 1:15:03 PM
+Time		: 7/12/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:28:00 PM
+Time		: 7/12/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.DownloadFile.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\downloadfile.aspx.cs:line 23
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:28:18 PM
+Time		: 7/12/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.DownloadFile.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\downloadfile.aspx.cs:line 23
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:32:19 PM
+Time		: 7/12/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.DownloadFile.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\downloadfile.aspx.cs:line 23
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: bu1isahr
+Method		: __Render__control1
+Date		: 1:35:00 PM
+Time		: 7/12/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at ASP.Download_aspx.__Render__control1(HtmlTextWriter __output, Control parameterContainer) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Download.aspx:line 12
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:56:46 PM
+Time		: 7/12/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 5:43:16 PM
+Time		: 7/12/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^

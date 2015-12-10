@@ -1,0 +1,3 @@
+D:\VSS\CODES\NAC Admin Code\COMMON\bin\Release\Common.dll
+D:\VSS\CODES\NAC Admin Code\COMMON\obj\Release\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC Admin Code\COMMON\obj\Release\Common.dll

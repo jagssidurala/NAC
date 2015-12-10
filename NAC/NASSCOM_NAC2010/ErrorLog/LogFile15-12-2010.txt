@@ -1,0 +1,136 @@
+Source		: System.Web
+Method		: GetType
+Date		: 12:34:49 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.Web.ForgotPassword'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:23:42 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 85
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: SendMailWithPDF_Diagnostic
+Date		: 3:23:17 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Could not access 'CDO.Message' object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.SendMailWithPDF_Diagnostic(String strFileName, String strEmailId, String strCandidateName, String strPhotoIDDocument, String strPhotoIDDocumentNumber, String strPassword) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 376
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 112
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: SendMailWithPDF_Diagnostic
+Date		: 3:29:48 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Could not access 'CDO.Message' object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.SendMailWithPDF_Diagnostic(String strFileName, String strEmailId, String strCandidateName, String strPhotoIDDocument, String strPhotoIDDocumentNumber, String strPassword) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 376
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 112
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 3:56:35 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 436
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 3:56:40 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 436
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 3:57:05 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 436
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 3:57:27 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 436
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:03:57 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\web\nacdb\loginpage.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:04:01 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\web\nacdb\login.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 4:06:11 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 436
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 4:10:57 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 436
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: SendMailWithPDF
+Date		: 5:17:37 PM
+Time		: 12/15/2010
+Computer	: item-47827
+Error		: Could not access 'CDO.Message' object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.SendMailWithPDF(String strFileName, String strEmailId, String strCandidateName, String strPhotoIDDocument, String strPhotoIDDocumentNumber, String strPassword) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 268
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 105
+^^-------------------------------------------------------------------^^

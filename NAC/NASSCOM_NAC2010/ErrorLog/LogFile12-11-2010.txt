@@ -1,0 +1,105 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:30:21 AM
+Time		: 11/12/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetScoreRemarks
+Date		: 11:48:52 AM
+Time		: 11/12/2010
+Computer	: item-47827
+Error		: Index was outside the bounds of the array.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetScoreRemarks(DataTable RangeTable, Int32 ExamId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\TestScorePercentageV2.aspx.cs:line 341
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in D:\NASSCOM\NAC\NASSCOM_NAC\Web\TestScorePercentageV2.aspx.cs:line 237
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 2:57:50 PM
+Time		: 11/12/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 170
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 2:58:05 PM
+Time		: 11/12/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\web\Default.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 3:50:07 PM
+Time		: 11/12/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 170
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:53:48 PM
+Time		: 11/12/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CompanyProfile.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:54:24 PM
+Time		: 11/12/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidateSearchPage.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:54:26 PM
+Time		: 11/12/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CompanyProfile.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetType
+Date		: 4:59:18 PM
+Time		: 11/12/2010
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.NACdb.CompanyProfile'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,692 @@
+Source		: System.Web
+Method		: HandlePostParse
+Date		: 9:28:35 AM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Unexpected end of file looking for </ajax:ajaxpanel> tag.
+Stack Trace	: at System.Web.UI.TemplateParser.HandlePostParse()
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+   at System.Web.UI.TemplateParser.GetParserCacheItemInternal(Boolean fCreateIfNotFound)
+   at System.Web.UI.TemplateParser.GetParserCacheItemWithNewConfigPath()
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.MapHandlerExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:40:51 AM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 9:58:15 AM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Procedure or function 'SearchCandidateByCompany' expects parameter '@SortBy', which was not supplied.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1509
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1062
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 932
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 492
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 9:58:40 AM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Procedure or function 'SearchCandidateByCompany' expects parameter '@SortBy', which was not supplied.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1510
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1063
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 933
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 492
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 9:59:53 AM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value '  
+
+SELECT                           
+   RegistrationId,                           
+   [Name],                  Qualification,                           
+   City,                           
+   Email                          
+ FROM                           
+   #TempCandidateList                          
+ WHERE                           
+   RowNumber > ' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1510
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1063
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 933
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 492
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 10:01:13 AM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value '  
+
+SELECT                           
+   RegistrationId,                           
+   [Name],                  Qualification,                           
+   City,                           
+   Email                          
+ FROM                           
+   #TempCandidateList                          
+ WHERE                           
+   RowNumber > ' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1510
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1063
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 933
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 492
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 10:16:21 AM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Must declare the scalar variable "@CandidateList".
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1510
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1063
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 933
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 492
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 11:44:21 AM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 11:54:06 AM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 11:54:15 AM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:18:31 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\Login.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:18:44 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\Login.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:18:51 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\Login.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:19:02 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\Login.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:19:03 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\Login.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:20:48 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\Login.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:20:48 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 1:13:56 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 1:15:16 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 1:15:19 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 1:22:12 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:50:16 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:50:23 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:50:26 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:50:46 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:51:04 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:57:57 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 2:15:45 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 2:15:53 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 2:15:58 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 2:16:02 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 2:16:05 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 2:20:32 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 2:22:10 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 2:23:18 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 3:13:01 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 7:28:22 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 7:51:49 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 8:11:09 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Cannot find column Name.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 8:22:22 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 8:22:54 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 8:33:19 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 8:44:19 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 8:46:30 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesexporttoexcelbycompany.aspx.cs:line 32
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 8:48:32 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 8:48:41 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 8:48:43 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 8:48:50 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesexporttoexcelbycompany.aspx.cs:line 32
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 8:49:01 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 8:52:18 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 8:53:47 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 8:54:50 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 8:55:07 PM
+Time		: 1/17/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

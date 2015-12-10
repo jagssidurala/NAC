@@ -1,0 +1,125 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:26:22 AM
+Time		: 10/1/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 10:06:43 AM
+Time		: 10/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 11:45:53 AM
+Time		: 10/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 12:30:56 PM
+Time		: 10/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 12:33:20 PM
+Time		: 10/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 12:35:12 PM
+Time		: 10/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 12:36:32 PM
+Time		: 10/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 12:37:34 PM
+Time		: 10/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 12:41:30 PM
+Time		: 10/1/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^

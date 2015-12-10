@@ -1,0 +1,42 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:29:57 AM
+Time		: 1/28/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GenerateScoreCard
+Date		: 1:28:55 PM
+Time		: 1/28/2011
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NCRJJA091100008     ' to data type int.
+Stack Trace	: at BusinessLayer.BLScoreCard.GenerateScoreCard(String RegId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLScoreCard.cs:line 359
+   at NASSCOM_NAC.Web.Certificate.GetScoreCardData() in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Certificate.aspx.cs:line 111
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GenerateScoreCard
+Date		: 1:29:00 PM
+Time		: 1/28/2011
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NCRJJA091100008     ' to data type int.
+Stack Trace	: at BusinessLayer.BLScoreCard.GenerateScoreCard(String RegId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLScoreCard.cs:line 359
+   at NASSCOM_NAC.Web.Certificate.GetScoreCardData() in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Certificate.aspx.cs:line 111
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 4:11:22 PM
+Time		: 1/28/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Welcome.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\welcome.aspx.cs:line 134
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

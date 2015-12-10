@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NACScores>
+  <ScoresRequest>
+    <RegistrationId></RegistrationId>
+    <FirstName></FirstName>
+    <LastName></LastName>
+    <DOB>dd/mm/yyyy</DOB>
+  </ScoresRequest>
+  <ErrorMessage>
+    <ErrorId></ErrorId>
+    <ErrorMessage></ErrorMessage>    
+  </ErrorMessage>
+</NACScores>

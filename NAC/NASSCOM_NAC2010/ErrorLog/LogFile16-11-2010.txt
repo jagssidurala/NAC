@@ -1,0 +1,223 @@
+Source		: System.Web
+Method		: GetType
+Date		: 9:58:18 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.Web.MultipleScoreCardV2'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 10:49:01 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 10:50:02 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 10:51:24 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 10:51:28 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 11:35:25 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: Procedure or function SearchCandidateByCompany has too many arguments specified.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1386
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 899
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 785
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 410
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:38:15 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\web\Default.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 11:38:49 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\PinLogin.aspx.cs:line 436
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 11:42:20 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: Procedure or function 'SearchCandidateByCompany' expects parameter '@QuantitaiveMin', which was not supplied.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1382
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 899
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 785
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 410
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 11:45:15 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: Procedure or function 'SearchCandidateByCompany' expects parameter '@EWVocabuaryMin', which was not supplied.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1382
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 899
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 785
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 410
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 11:46:08 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: Invalid object name 'ScoreCardPercentageV2'.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1382
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 899
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 785
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 410
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 11:46:35 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: Invalid object name 'NACScoreCardPercentageV2'.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1382
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 899
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 785
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 410
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:50:48 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\Web\MultiplePercentCertificate.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:50:51 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidatesExportToExcelByCompany.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:54:20 AM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\Web\MultiplePercentCertificate.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:04:13 PM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: DataTable must be set prior to using DataView.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: Page_Load
+Date		: 3:34:26 PM
+Time		: 11/16/2010
+Computer	: item-47827
+Error		: Could not find stored procedure 'GetAllScoreCardForCompany'.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

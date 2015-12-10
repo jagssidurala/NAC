@@ -1,0 +1,132 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:30:55 AM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 11:51:16 AM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 436
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 11:59:23 AM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 436
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 12:09:36 PM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 5:45:29 PM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 5:46:56 PM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 5:47:13 PM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 5:47:16 PM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 5:59:38 PM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\Web\Default.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 5:59:53 PM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 436
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 6:01:23 PM
+Time		: 11/30/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 154
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 93
+^^-------------------------------------------------------------------^^

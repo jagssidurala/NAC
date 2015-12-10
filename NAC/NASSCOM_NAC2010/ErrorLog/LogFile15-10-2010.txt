@@ -1,0 +1,221 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:44:17 AM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 11:03:39 AM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 2:19:37 PM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 2:32:27 PM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 83
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: CanonicalizePath
+Date		: 2:34:02 PM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: The given path's format is not supported.
+Stack Trace	: at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.AddExpressions(String[] str, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at BusinessLayer.ImageCompress.save(String path, Int32 quality) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 173
+   at BusinessLayer.ImageCompress.Save(String fileName, String path) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 88
+   at NASSCOM_NAC.Web.Registration.UploadPhotograph(String strRegistrationId) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 920
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 788
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: CanonicalizePath
+Date		: 2:34:47 PM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: The given path's format is not supported.
+Stack Trace	: at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.AddExpressions(String[] str, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at BusinessLayer.ImageCompress.save(String path, Int32 quality) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 173
+   at BusinessLayer.ImageCompress.Save(String fileName, String path) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 88
+   at NASSCOM_NAC.Web.Registration.UploadPhotograph(String strRegistrationId) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 920
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 788
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: CanonicalizePath
+Date		: 2:36:02 PM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: The given path's format is not supported.
+Stack Trace	: at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.AddExpressions(String[] str, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at BusinessLayer.ImageCompress.save(String path, Int32 quality) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 173
+   at BusinessLayer.ImageCompress.Save(String fileName, String path) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 88
+   at NASSCOM_NAC.Web.Registration.UploadPhotograph(String strRegistrationId) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 920
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 788
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: CanonicalizePath
+Date		: 2:37:01 PM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: The given path's format is not supported.
+Stack Trace	: at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.AddExpressions(String[] str, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at BusinessLayer.ImageCompress.save(String path, Int32 quality) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 173
+   at BusinessLayer.ImageCompress.Save(String fileName, String path) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 88
+   at NASSCOM_NAC.Web.Registration.UploadPhotograph(String strRegistrationId) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 920
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 788
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 2:37:25 PM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.RegistrationPreview.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registrationpreview.aspx.cs:line 124
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: CanonicalizePath
+Date		: 2:39:46 PM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: The given path's format is not supported.
+Stack Trace	: at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.AddExpressions(String[] str, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at BusinessLayer.ImageCompress.save(String path, Int32 quality) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 173
+   at BusinessLayer.ImageCompress.Save(String fileName, String path) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 88
+   at NASSCOM_NAC.Web.Registration.UploadPhotograph(String strRegistrationId) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 920
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 788
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: CanonicalizePath
+Date		: 2:56:29 PM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: The given path's format is not supported.
+Stack Trace	: at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.AddExpressions(String[] str, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at BusinessLayer.ImageCompress.save(String path, Int32 quality) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 173
+   at BusinessLayer.ImageCompress.Save(String fileName, String path) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 88
+   at NASSCOM_NAC.Web.Registration.UploadPhotograph(String strRegistrationId) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 920
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 788
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: CanonicalizePath
+Date		: 3:00:09 PM
+Time		: 10/15/2010
+Computer	: item-47827
+Error		: The given path's format is not supported.
+Stack Trace	: at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.AddExpressions(String[] str, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at BusinessLayer.ImageCompress.save(String path, Int32 quality) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 173
+   at BusinessLayer.ImageCompress.Save(String fileName, String path) in d:\nasscom\nac\businesslayer\blimagecompress.cs:line 88
+   at NASSCOM_NAC.Web.Registration.UploadPhotograph(String strRegistrationId) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 920
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 788
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

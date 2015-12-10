@@ -1,0 +1,31 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:24:59 AM
+Time		: 1/20/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: SendMailWithPDF
+Date		: 5:29:46 PM
+Time		: 1/20/2011
+Computer	: item-47827
+Error		: Could not access 'CDO.Message' object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.SendMailWithPDF(String strFileName, String strEmailId, String strCandidateName, String strPhotoIDDocument, String strPhotoIDDocumentNumber, String strPassword) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 274
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 111
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: SendMailWithPDF
+Date		: 5:43:10 PM
+Time		: 1/20/2011
+Computer	: item-47827
+Error		: Could not access 'CDO.Message' object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.SendMailWithPDF(String strFileName, String strEmailId, String strCandidateName, String strPhotoIDDocument, String strPhotoIDDocumentNumber, String strPassword) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 274
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 111
+^^-------------------------------------------------------------------^^

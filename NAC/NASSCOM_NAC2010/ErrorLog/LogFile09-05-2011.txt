@@ -1,0 +1,189 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:43:21 AM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 10:57:58 AM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 10:58:32 AM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:54:07 AM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\Web\CompanyHomePage.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 12:08:11 PM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: Specified cast is not valid.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleRegistration.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multipleregistration.aspx.cs:line 112
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 12:10:00 PM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ProcessBeginTag
+Date		: 12:11:10 PM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: The tag contains duplicate 'CssClass' attributes.
+Stack Trace	: at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 12:14:08 PM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: Specified cast is not valid.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleRegistration.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multipleregistration.aspx.cs:line 111
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:23:23 PM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 2:15:48 PM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\Web\CompanyHomePage.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 2:46:40 PM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 4:03:45 PM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 4:04:42 PM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: Incorrect syntax near the keyword 'SELECT'.
+Incorrect syntax near the keyword 'SELECT'.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByAdmin.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbyadmin.cs:line 1517
+   at NASSCOM_NAC.Web.AdminCandidateSearch.GetCandidateList(BLCandidateSearchByAdmin objBLCandidateSearchByAdmin) in d:\nasscom\nac\nasscom_nac\web\admincandidatesearch.aspx.cs:line 1113
+   at NASSCOM_NAC.Web.AdminCandidateSearch.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\web\admincandidatesearch.aspx.cs:line 969
+   at NASSCOM_NAC.Web.AdminCandidateSearch.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admincandidatesearch.aspx.cs:line 528
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:35:58 PM
+Time		: 5/9/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,373 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:39:27 AM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:44:20 AM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\Web\ManageTestCentre.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 11:02:10 AM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 1222
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 170
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ProcessBeginTag
+Date		: 1:15:58 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Unknown server tag 'ajax:ajaxpanel'.
+Stack Trace	: at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 1:19:38 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: OnError
+Date		: 3:05:04 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: General network error.  Check your network documentation.
+Stack Trace	: at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, TdsParserState state)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, TdsParserState state)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.FlushBuffer(Byte status)
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout)
+   at System.Data.SqlClient.SqlInternalConnection.ExecuteTransaction(String sqlBatch, String method)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction()
+   at System.Data.SqlClient.SqlConnection.System.Data.IDbConnection.BeginTransaction()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 113
+   at BusinessLayer.BLRegistration.FillTestCity(Int32 intStateId) in d:\nasscom\nac\businesslayer\blregistration.cs:line 1348
+   at NASSCOM_NAC.Web.CreateTest.ddlTestState_SelectedIndexChanged(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 375
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:06:24 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestCity(Int32 intStateId) in d:\nasscom\nac\businesslayer\blregistration.cs:line 1348
+   at NASSCOM_NAC.Web.CreateTest.ddlTestState_SelectedIndexChanged(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 375
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:13 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:15 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:16 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:16 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:16 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:17 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:17 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:17 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:17 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:18 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:21 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:21 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:22 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:22 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 3:07:22 PM
+Time		: 5/11/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLRegistration.FillTestState() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1572
+   at NASSCOM_NAC.Web.CreateTest.FillTestState() in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 248
+   at NASSCOM_NAC.Web.CreateTest.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 165
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,154 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:07:59 AM
+Time		: 5/18/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:29:40 AM
+Time		: 5/18/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 12:25:06 PM
+Time		: 5/18/2011
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 0
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetStateCityCentreDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1021
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 525
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 12:27:27 PM
+Time		: 5/18/2011
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 0
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetStateCityCentreDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1021
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 525
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 12:27:43 PM
+Time		: 5/18/2011
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 0
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetStateCityCentreDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1021
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 525
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 12:27:59 PM
+Time		: 5/18/2011
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 597
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 527
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 12:28:12 PM
+Time		: 5/18/2011
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 0
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetStateCityCentreDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1021
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 525
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 12:28:22 PM
+Time		: 5/18/2011
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 0
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetStateCityCentreDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1021
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 525
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 12:28:43 PM
+Time		: 5/18/2011
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 0
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetStateCityCentreDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1021
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 525
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 12:31:09 PM
+Time		: 5/18/2011
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 0
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetStateCityCentreDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 1021
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 525
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

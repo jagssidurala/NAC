@@ -1,0 +1,252 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:10:02 AM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:48:35 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\LoginPage.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:48:46 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\LoginPage.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:48:48 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\Registration.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:49:01 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\Registration.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetType
+Date		: 12:49:57 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.NACdb.Registration'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 1:29:34 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\ThankYouPage.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 2:36:16 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\we\login.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetType
+Date		: 2:36:47 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.Web.UploadJobfaircard'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 2:47:00 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\AdminHome.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 3:50:20 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\Approve.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GenerateLoginDetail
+Date		: 4:01:35 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: Cannot find either column "dbo" or the user-defined function or aggregate "dbo.Isalpha", or the name is ambiguous.
+Stack Trace	: at BusinessLayer.BLCompanyLogin.GenerateLoginDetail() in d:\nasscom\nac\businesslayer\blcompanylogin.cs:line 349
+   at NASSCOM_NAC.NACdb.Approve.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\approve.aspx.cs:line 126
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:05:39 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\Web\LoginPage.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: get_Item
+Date		: 4:06:00 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: Column 'IsUpdated' does not belong to table Table.
+Stack Trace	: at System.Data.DataRow.get_Item(String columnName)
+   at NASSCOM_NAC.NACdb.LoginPage.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\loginpage.aspx.cs:line 75
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 7:19:38 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: Procedure 'ValidateUser' expects parameter '@RegId', which was not supplied.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillFromCommand(Object data, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DataAccessLayer.DBManager.ExecuteDataSet(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 310
+   at BusinessLayer.BLLogin.ValidateUserCredential(String strPhotoId, String strDocumentNo, String strPassword) in d:\nasscom\nac\businesslayer\bllogin.cs:line 40
+   at NASSCOM_NAC.Web.PinLogin.btnLogin_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 493
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 7:26:15 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: Procedure 'ValidateUser' expects parameter '@RegId', which was not supplied.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillFromCommand(Object data, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DataAccessLayer.DBManager.ExecuteDataSet(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 310
+   at BusinessLayer.BLLogin.ValidateUserCredential(String strPhotoId, String strDocumentNo, String strPassword) in d:\nasscom\nac\businesslayer\bllogin.cs:line 40
+   at NASSCOM_NAC.Web.PinLogin.btnLogin_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 493
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 7:26:28 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: Procedure 'ValidateUser' expects parameter '@RegId', which was not supplied.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillFromCommand(Object data, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DataAccessLayer.DBManager.ExecuteDataSet(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 310
+   at BusinessLayer.BLLogin.ValidateUserCredential(String strPhotoId, String strDocumentNo, String strPassword) in d:\nasscom\nac\businesslayer\bllogin.cs:line 40
+   at NASSCOM_NAC.Web.PinLogin.btnLogin_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 493
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 7:27:53 PM
+Time		: 11/11/2010
+Computer	: item-47827
+Error		: Procedure 'ValidateUser' expects parameter '@RegId', which was not supplied.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillFromCommand(Object data, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DataAccessLayer.DBManager.ExecuteDataSet(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 310
+   at BusinessLayer.BLLogin.ValidateUserCredential(String strPhotoId, String strDocumentNo, String strPassword) in d:\nasscom\nac\businesslayer\bllogin.cs:line 40
+   at NASSCOM_NAC.Web.PinLogin.btnLogin_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\pinlogin.aspx.cs:line 493
+^^-------------------------------------------------------------------^^

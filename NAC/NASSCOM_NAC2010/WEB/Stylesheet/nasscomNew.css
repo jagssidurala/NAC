@@ -1,0 +1,166 @@
+/*body{ background-image: url(../images/back.jpg); background-repeat: repeat-x;}*/
+.container{ margin:0 auto; width:944px; padding:0;}
+
+h1{  color:#232323; font-family:Myriad Pro; font-size:17px; padding:0; margin:0;  font-weight: normal;}
+h2{  color:#232323; font-family:Myriad Pro; font-size:16px; padding:0; margin:0;  font-weight: normal;}
+
+.textNormal{font-family:Arial, ; font-size:11px; color:#505050;  text-align:justify;}
+
+.textBold{font-family:Arial, ; font-size:11px; color:#505050;  text-align:left; font-weight:bold;}
+.textBold td{ vertical-align:top;}
+
+
+.tdtextMargin{ padding-left:5px; padding-right:10px; text-align: justify;}
+
+/*  Login  Box */
+  .loginBoxDiv{ margin-left:83px; margin-top:62px;}
+ .loginBoxDivHome{ margin-left:20px; float:left; margin-top:60px;}
+.logintextBox{  width:96px; height:19px;  font-size: 11px; font-family:Arial, ; color:#466270; }
+.divtopMargin {margin-top:3px;}
+.loginBoxBack{  background-image: url(../images/reg.png); width:237px; height:135px;  background-repeat:no-repeat; }
+.nacEvents{ background-image: url(../images/nac.gif); width:237px; height:185px; background-repeat:no-repeat; }
+
+
+/*  Login  Box */
+
+
+/*  Message Box */
+.boxDiv{margin-top:62px; margin-left:19px; margin-right:15px; height:100px; margin-bottom: 20px;}
+.boxDivLanding{margin-top:62px; margin-left:19px; margin-right:15px;  height:125px;}
+/*  Message Box */
+
+
+/* Three column Box */
+.boxDiv2{margin-top:0px; margin-left:10px; margin-right:10px; margin-bottom:5px;}
+.line{ margin-top:3px; background-image:url(../images/naclone.jpg); width:100%; background-repeat:repeat-x; height:2px;}
+.fontNormal{font-family:Arial, ; width:100%; font-size:11px; color:#505050; text-align:left;}
+.fontBold{font-family:Arial, ; width:100%; font-size:11px; color:#505050;  text-align:left; font-weight:bold;}
+/* Three column Box */
+
+
+/* Search Textbox */
+
+.searchDiv{ margin-top:39px; margin-left:6px;}
+.searchtextBox{ width:210px; float:left;  background-color: transparent; border:0; line-height:17px;  width:196px; height:20px;  font-size: 11px; font-family:Arial, ; color:#466270; }
+.divSearchbtn{  margin-left:8px; height: 26px; margin-bottom: 2px;
+  float:left;
+}
+
+
+
+/* Search Textbox */
+.small_maroon
+{
+	font-size: 11px;
+	color: #a11d21;
+	font-family: Verdana;
+	text-decoration: none;
+}
+
+.contenttd{
+  padding-left:20px; padding-right:10px;
+}
+
+
+/* New User Div */
+
+.newUser{ background-repeat: no-repeat;  color: #4f4f4f;    width:345px; margin-left: 10px; height:172px; background-image: url(../images/newUser.jpg);}
+.newUser label{width:150px;  font-size: 12px; font-family:Arial, ;  font-weight: bold; }
+.forgetPassword{background-repeat: no-repeat; margin-left:50px; font-size: 12px; font-family:Arial, ; background-image: url(../images/forgetPassword.JPG); font-weight: bold;  color: #4f4f4f;  width:407px; height:270px; float: left;}
+.newUserContent{ margin-left:24px; margin-top:45px;}
+.newUserContent div{   margin-top:10px;}
+.Submitbutton  { margin-top:10px; text-align: right; margin-right:36px;}
+.alignCenter	{ text-align:center!important;}
+.Submitbutton input {background-color:Gray; color:White; border:none; padding:0pt 2px;}
+.button {background-color:Gray; color:White; border:none;}
+.newUserTextbox{ width:150px; height:19px; border: 1px solid #cccccc;  font-size: 11px; font-family:Arial, ; color:#466270;padding-left:4px; }
+.newUser label {width:80px;}
+.forgetPassword label {width:120px;}
+
+/* New User Div */
+
+
+ /* Already Registered Div */
+.alreadyRegistered{ background-repeat: no-repeat;  background-image: url(../images/alreadyRegistered.jpg);  color: #4f4f4f;    width:345px; margin-left: 10px; height:172px; float:left;}
+.alreadyRegisteredContent{ margin-left:24px; margin-top:45px;}
+.loginButton  {font-size:10px; font-family:Arial, ; text-align: right; margin-right:23px;  margin-top:-8px; }
+.alreadyRegisteredTextbox{  width:150px; height:19px; border: 1px solid #cccccc;  font-size: 11px; font-family:Arial, ; color:#466270; }
+.alreadyRegistered label{width:150px;  font-size: 12px; font-family:Arial, ;  font-weight: bold; }
+.span{font-size:10px; font-family:Arial, ; margin-top:-2px; margin-bottom:5px; }
+ /* Already Registered Div */
+ 
+ 
+ /* Already Registered Single Div */
+.alreadyRegisteredsingle{ background-repeat: no-repeat;  background-image: url(../images/alreadyRegistered.jpg);  color: #4f4f4f;    width:345px; margin-left: 10px; height:172px;}
+.alreadyRegisteredsingle label{width:150px;  font-size: 12px; font-family:Arial, ;  font-weight: bold; }
+
+  /* Already Registered Div */
+
+ 
+.pageHeader{  color:#232323; font-family: Arial; font-weight:bold; font-size:17px; padding:0; margin:0;	}
+
+ 
+.link a{font-family:arial; width:100%; font-size:12px; color:#000000;  text-align:left; font-weight:bold;}
+.link a:hover{font-family:Arial, ; width:100%; font-size:12px; color:#505050;  text-align:left; font-weight:bold;}
+.link a:visited{font-family:Arial, ; width:100%; font-size:12px; color:#505050;  text-align:left; font-weight:bold;}
+
+.link {font-family:Arial, ; width:100%; font-size:12px; color:#000000;  text-align:left; font-weight:bold;}
+.link:hover{font-family:Arial, ; width:100%; font-size:12px; color:#505050;  text-align:left; font-weight:bold;}
+.link:visited{font-family:Arial, ; width:100%; font-size:12px; color:#505050;  text-align:left; font-weight:bold;}
+
+.radio{font-family:Arial, ; width:100%; font-size:11px; color:#505050; text-align:left;}
+ 
+ 
+.linkTable td a{font-family:Arial, ; width:100%; font-size:12px; color:#000000;  text-align:left; font-weight:bold;}
+.linkTable td a:hover{font-family:Arial, ; width:100%; font-size:12px; color:#505050;  text-align:left; font-weight:bold;}
+
+
+.table_font {font-family:Arial, ; font-size:10px; color:#505050;  text-align:justify;}
+
+.main_black 
+{
+	FONT-SIZE: 12px; COLOR: #505050; FONT-FAMILY:  Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+
+.main_black_small
+{
+	FONT-SIZE: 11px; COLOR: #505050; FONT-FAMILY:  Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+
+.main_black_small_bold
+{
+	FONT-SIZE: 11px; font-weight: bold; COLOR: #505050; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+
+.label_black_bold
+{
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none; font-weight:bold;
+}
+
+.label_black
+{
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none;
+}
+
+.smallTextBox
+{
+	Width: 50px;
+}
+
+.errormsg{ Color:Red; Font-Size:12px; Font-weight:bold; font-family:arial; margin-top:10px; margin-left:3px;}
+ 
+.singleEvent{ background-repeat: no-repeat; background-image: url(../images/test_details.jpg);  color: #4f4f4f;  margin-left:300px;}
+.singleEvent label{font-size: 12px; font-family:Arial, ;  font-weight: bold; }
+.singleEventContent{ margin-left:24px; margin-top:45px;}
+.singleEventHeader{ height:50px; color:#232323; font-family: Century Gothic; font-weight:bold; font-size:17px; padding-top:9px;}
+
+
+.divEvent{margin-top:10px; font-size:14px; font-family:Arial; font-weight:bold;  color:#a11d21;  background-image: url(../images/Event_Background.gif);  padding-top:35px; text-align:left; padding-left:20px;  height:107px; width:493px;}
+.divEvent a{margin-top:10px; font-size:14px; font-family:Arial; font-weight:bold;  color:#3992c6; }
+.divEvent a:hover{margin-top:10px; font-size:14px; font-family:Arial; font-weight:bold;  color:#000000; }
+
+.divEvent .left{float:left;} 
+.divEvent .right{float:right; margin-right:20px; margin-top:-10px;} 
+.divEvent .right .register {height:57px; width:100px;  text-align:center; padding-top:13px; background-image:url(../images/buttonClick.jpg); }
+.divEvent .right .register a{margin-top:10px; font-size:11px; text-align:center; font-family:Verdana; font-weight:bold;  color:#000000; }
+.divEvent .right .register a:hover{color:#3992c6; }

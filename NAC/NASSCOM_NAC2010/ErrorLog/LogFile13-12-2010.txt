@@ -1,0 +1,24 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 8:43:01 AM
+Time		: 12/13/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: Page_Load
+Date		: 10:20:51 AM
+Time		: 12/13/2010
+Computer	: item-47827
+Error		: Procedure or function 'GetAllScoreCardForCompanyV2' expects parameter '@QualificationDetails', which was not supplied.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

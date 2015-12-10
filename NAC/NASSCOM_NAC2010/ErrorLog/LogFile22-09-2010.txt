@@ -1,0 +1,157 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:28:17 AM
+Time		: 9/22/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: get_Item
+Date		: 12:26:27 PM
+Time		: 9/22/2010
+Computer	: item-47827
+Error		: Column 'TestId' does not belong to table Table.
+Stack Trace	: at System.Data.DataRow.get_Item(String columnName)
+   at NASSCOM_NAC.NAC.btnGo_Click(Object sender, ImageClickEventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\NAC.aspx.cs:line 177
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 3:21:14 PM
+Time		: 9/22/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: Read
+Date		: 3:32:07 PM
+Time		: 9/22/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'A23BC58GD9' to data type int.
+Stack Trace	: at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DbDataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DbDataAdapter.FillFromReader(Object data, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillFromCommand(Object data, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DataAccessLayer.DBManager.ExecuteDataSet(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 310
+   at BusinessLayer.BLLogin.ValidatePin(String strSerialNo, String PinNo) in D:\NASSCOM\NAC\BUSINESSLAYER\BLLogin.cs:line 70
+   at NASSCOM_NAC.Web.PinLogin.btnSubmit_Click(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\PinLogin.aspx.cs:line 396
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 3:35:44 PM
+Time		: 9/22/2010
+Computer	: item-47827
+Error		: Cannot insert the value NULL into column 'RegistrationId', table 'NAC.dbo.Candidate'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'CandidateId', table 'NAC.dbo.User'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccessLayer.DBManager.ExecuteScalar(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 294
+   at BusinessLayer.BLRegistration.SetCandidateDetail() in D:\NASSCOM\NAC\BUSINESSLAYER\BLRegistration.cs:line 1048
+   at NASSCOM_NAC.RegistrationPreview.btnSubmit_Click(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\RegistrationPreview.aspx.cs:line 210
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:42:58 PM
+Time		: 9/22/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 5:37:53 PM
+Time		: 9/22/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 5:47:50 PM
+Time		: 9/22/2010
+Computer	: item-47827
+Error		: Cannot insert the value NULL into column 'RegistrationId', table 'NAC.dbo.Candidate'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'CandidateId', table 'NAC.dbo.User'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccessLayer.DBManager.ExecuteScalar(CommandType commandType, String commandText) in d:\nasscom\nac\databaseaccesslayer\dbmanager.cs:line 294
+   at BusinessLayer.BLRegistration.SetCandidateDetail() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1048
+   at NASSCOM_NAC.RegistrationPreview.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registrationpreview.aspx.cs:line 210
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 6:26:50 PM
+Time		: 9/22/2010
+Computer	: item-47827
+Error		: Cannot insert the value NULL into column 'RegistrationId', table 'NAC.dbo.Candidate'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'CandidateId', table 'NAC.dbo.User'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccessLayer.DBManager.ExecuteScalar(CommandType commandType, String commandText) in d:\nasscom\nac\databaseaccesslayer\dbmanager.cs:line 294
+   at BusinessLayer.BLRegistration.SetCandidateDetail() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1048
+   at NASSCOM_NAC.RegistrationPreview.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registrationpreview.aspx.cs:line 210
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 6:30:02 PM
+Time		: 9/22/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^

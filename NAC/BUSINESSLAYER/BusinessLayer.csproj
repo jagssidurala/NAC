@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D4E7BAD-A386-4179-9E72-2F29275E00C1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>BusinessLayer</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BusinessLayer</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\COMMON\Common.csproj">
+      <Name>Common</Name>
+      <Project>{9863B7FA-B048-4D74-803E-ED16236A5B46}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\DATABASEACCESSLAYER\DataBaseAccessLayer.csproj">
+      <Name>DataBaseAccessLayer</Name>
+      <Project>{7C2F8173-D144-4DBD-83F3-1C71E98D8562}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\EXCEPTIONHANDLING\ExceptionHandling.csproj">
+      <Name>ExceptionHandling</Name>
+      <Project>{D1EE3E34-247F-45D7-AC3B-0CEE336122A7}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <Reference Include="sharpPDF">
+      <Name>sharpPDF</Name>
+      <HintPath>..\NASSCOM_NAC\bin\sharpPDF.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLAdmitCard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLAutomateRegistered_Count.cs" />
+    <Compile Include="BLCandidateSearchByAdmin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLCandidateSearchByCompany.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLCentreDetails.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLCompanyLogin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLContactUs.cs" />
+    <Compile Include="BLDeactiveCandidate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLGenerateJobFairCardPDF.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLGenerateMultipleTestScore.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLGenerateMultScoreCardPDF.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLGeneratePDF.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLGenerateScoreCardPDF.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLGenerateTestScore.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLGenerateTestScoreV2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLGetStateWiseDetails.cs" />
+    <Compile Include="BLHireExitCandidate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLHtmlToPDF.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLImageCompress.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLImportExportXLS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLJobAdmitCard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLJobFairCard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLLogin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLNACScoreCard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLNACScoreCardV2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLRegistration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLRegistrationPermissions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLRegistrationWindow.cs" />
+    <Compile Include="BLScoreCard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLSearch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLSendAMail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLTestDetails.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLUpdationOfTestCapcityAndShiftCapacity.cs" />
+    <Compile Include="BLWSCandidateAttendance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLWSCandidateAuthentication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLWSCandidateDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLWSScoreUpload.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FieldPermission.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NACVisitCount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

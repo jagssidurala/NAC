@@ -1,0 +1,6 @@
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\bin\Release\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\bin\Release\Common.dll
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\bin\Release\ExceptionHandling.dll
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\bin\Release\ExceptionHandling.pdb
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\obj\Release\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\obj\Release\DataBaseAccessLayer.dll

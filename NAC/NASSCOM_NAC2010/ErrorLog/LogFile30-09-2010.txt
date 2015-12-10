@@ -1,0 +1,156 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:23:36 AM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:29:21 AM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:29:58 AM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ValidateString
+Date		: 1:03:17 PM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: A potentially dangerous Request.Form value was detected from the client (__AjaxPanel$RBS_Store="HTML:<span id="AjaxPanel"...").
+Stack Trace	: at System.Web.HttpRequest.ValidateString(String s, String valueName, String collectionName)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, String collectionName)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod()
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain()
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.CallHandlerExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 2:46:27 PM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: Procedure or function 'GetTestCityRegistration' expects parameter '@SerialNo', which was not supplied.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillFromCommand(Object data, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DataAccessLayer.DBManager.ExecuteDataSet(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 310
+   at BusinessLayer.BLRegistration.FillTestCitySecond(String SerialNo, String PinNo) in d:\nasscom\nac\businesslayer\blregistration.cs:line 1271
+   at NASSCOM_NAC.Web.Registration.FillTestCity(String SerialNo, String PinNo) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 353
+   at NASSCOM_NAC.Web.Registration.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 225
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 2:50:03 PM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: Procedure or function 'GetTestCityRegistration' expects parameter '@SerialNo', which was not supplied.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillFromCommand(Object data, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at DataAccessLayer.DBManager.ExecuteDataSet(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 310
+   at BusinessLayer.BLRegistration.FillTestCitySecond(String SerialNo, String PinNo) in d:\nasscom\nac\businesslayer\blregistration.cs:line 1271
+   at NASSCOM_NAC.Web.Registration.FillTestCity(String SerialNo, String PinNo) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 353
+   at NASSCOM_NAC.Web.Registration.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 225
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetImageFileExtension
+Date		: 3:20:41 PM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Registration.GetImageFileExtension() in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 940
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 609
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 3:23:51 PM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: btnSave_Click
+Date		: 4:06:51 PM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.EditRegistration.btnSave_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\editregistration.aspx.cs:line 1211
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: btnSave_Click
+Date		: 4:17:48 PM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.EditRegistration.btnSave_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\editregistration.aspx.cs:line 1211
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: btnSave_Click
+Date		: 4:20:19 PM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.EditRegistration.btnSave_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\editregistration.aspx.cs:line 1321
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: btnSave_Click
+Date		: 4:23:41 PM
+Time		: 9/30/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.EditRegistration.btnSave_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\editregistration.aspx.cs:line 1321
+^^-------------------------------------------------------------------^^

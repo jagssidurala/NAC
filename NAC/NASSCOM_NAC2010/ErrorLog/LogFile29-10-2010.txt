@@ -1,0 +1,54 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:46:07 AM
+Time		: 10/29/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 3:02:34 PM
+Time		: 10/29/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: BuildFieldDeclaration
+Date		: 3:28:21 PM
+Time		: 10/29/2010
+Computer	: item-47827
+Error		: The base class includes the field 'lblPg2SLPronunciationRemarks', but its type (System.Web.UI.HtmlControls.HtmlGenericControl) is not compatible with the type of control (System.Web.UI.WebControls.Label).
+Stack Trace	: at System.Web.Compilation.TemplateControlCompiler.BuildFieldDeclaration(ControlBuilder builder, Boolean fGeneratedID)
+   at System.Web.Compilation.TemplateControlCompiler.BuildSourceDataTreeFromBuilder(ControlBuilder builder, Boolean fInTemplate, PropertySetterEntry pse)
+   at System.Web.Compilation.TemplateControlCompiler.BuildSourceDataTreeFromBuilder(ControlBuilder builder, Boolean fInTemplate, PropertySetterEntry pse)
+   at System.Web.Compilation.TemplateControlCompiler.BuildSourceDataTreeFromBuilder(ControlBuilder builder, Boolean fInTemplate, PropertySetterEntry pse)
+   at System.Web.Compilation.TemplateControlCompiler.BuildMiscClassMembers()
+   at System.Web.Compilation.PageCompiler.BuildMiscClassMembers()
+   at System.Web.Compilation.BaseCompiler.BuildSourceDataTree()
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.Compilation.PageCompiler.CompilePageType(PageParser pageParser)
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: ParseInt32
+Date		: 3:45:40 PM
+Time		: 10/29/2010
+Computer	: item-47827
+Error		: Input string was not in a correct format.
+Stack Trace	: at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 198
+^^-------------------------------------------------------------------^^

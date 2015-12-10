@@ -1,0 +1,115 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:37:06 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 10:06:58 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 170
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:07:08 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\Web\Default.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ValidateString
+Date		: 10:07:29 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: A potentially dangerous Request.Form value was detected from the client (txtSerialNo="<TD style=").
+Stack Trace	: at System.Web.HttpRequest.ValidateString(String s, String valueName, String collectionName)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, String collectionName)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod()
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain()
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.CallHandlerExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 10:28:37 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 10:33:00 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at sharpPDF.Fonts.TTF.IO.AdvancedFileStream..ctor(String fileName, FileMode fileMode)
+   at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 10:49:38 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 170
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 10:49:41 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 170
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 10:54:44 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 170
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 11:02:04 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 170
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 11:02:06 AM
+Time		: 11/9/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 170
+^^-------------------------------------------------------------------^^

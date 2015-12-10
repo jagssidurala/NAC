@@ -1,0 +1,99 @@
+D:\NASSCOM\NAC_2010\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\NASSCOM\NAC_2010\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\NASSCOM\NAC_2010\DATABASEACCESSLAYER\bin\Debug\Common.dll
+D:\NASSCOM\NAC_2010\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\NASSCOM\NAC_2010\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+D:\NASSCOM\NAC_2010\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\NASSCOM\NAC_2010\DATABASEACCESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\NASSCOM\NAC_2010\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+D:\NASSCOM\NAC_2010\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb
+D:\dev\NAC2010\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\dev\NAC2010\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\dev\NAC2010\DATABASEACCESSLAYER\bin\Debug\Common.dll
+D:\dev\NAC2010\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\dev\NAC2010\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+D:\dev\NAC2010\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\dev\NAC2010\DATABASEACCESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\NAC2010\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+D:\dev\NAC2010\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb
+D:\NASSCOM\NAC2010\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\NASSCOM\NAC2010\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\NASSCOM\NAC2010\DATABASEACCESSLAYER\bin\Debug\Common.dll
+D:\NASSCOM\NAC2010\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\NASSCOM\NAC2010\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+D:\NASSCOM\NAC2010\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\NASSCOM\NAC2010\DATABASEACCESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\NASSCOM\NAC2010\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+D:\NASSCOM\NAC2010\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb
+D:\Devendra\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\Devendra\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\Devendra\DATABASEACCESSLAYER\bin\Debug\Common.dll
+D:\Devendra\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\Devendra\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+D:\Devendra\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\Devendra\DATABASEACCESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\Devendra\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+D:\Devendra\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\DATABASEACCESSLAYER\bin\Debug\Common.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\DATABASEACCESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC ADMIN\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC ADMIN\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC ADMIN\DATABASEACCESSLAYER\bin\Debug\Common.dll
+D:\VSS\CODES\NAC ADMIN\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\VSS\CODES\NAC ADMIN\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+D:\VSS\CODES\NAC ADMIN\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\VSS\CODES\NAC ADMIN\DATABASEACCESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC ADMIN\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC ADMIN\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\bin\Debug\Common.dll
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC Admin Code\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\SVN NASSCOM\NAC- 31 Aug\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\DATABASEACCESSLAYER\bin\Debug\Common.dll
+D:\SVN NASSCOM\NAC- 31 Aug\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\SVN NASSCOM\NAC- 31 Aug\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\DATABASEACCESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN NASSCOM\NAC- 31 Aug\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+D:\SVN NASSCOM\NAC- 31 Aug\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb
+C:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+C:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+C:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\Common.dll
+C:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+C:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+C:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+C:\Nasscom\NAC\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.csprojResolveAssemblyReference.cache
+C:\Nasscom\NAC\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+C:\Nasscom\NAC\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb
+F:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+F:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+F:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\Common.dll
+F:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+F:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+F:\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+F:\Nasscom\NAC\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.csprojResolveAssemblyReference.cache
+F:\Nasscom\NAC\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+F:\Nasscom\NAC\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb
+D:\Live\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\Live\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\Live\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\Common.dll
+D:\Live\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\Live\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\Common.pdb
+D:\Live\Nasscom\NAC\DATABASEACCESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\Live\Nasscom\NAC\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.csprojResolveAssemblyReference.cache
+D:\Live\Nasscom\NAC\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.dll
+D:\Live\Nasscom\NAC\DATABASEACCESSLAYER\obj\Debug\DataBaseAccessLayer.pdb

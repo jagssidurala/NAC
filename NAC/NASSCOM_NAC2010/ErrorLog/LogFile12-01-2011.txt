@@ -1,0 +1,28 @@
+Source		: System.Web
+Method		: ValidateString
+Date		: 7:17:14 PM
+Time		: 1/12/2011
+Computer	: item-47827
+Error		: A potentially dangerous Request.Form value was detected from the client (txtareaEmailBody="<script language=jav...").
+Stack Trace	: at System.Web.HttpRequest.ValidateString(String s, String valueName, String collectionName)
+   at System.Web.HttpRequest.ValidateNameValueCollection(NameValueCollection nvc, String collectionName)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod()
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain()
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.CallHandlerExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 7:17:32 PM
+Time		: 1/12/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Welcome.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\welcome.aspx.cs:line 132
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

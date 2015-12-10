@@ -1,0 +1,202 @@
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 1:24:36 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: Error converting data type nvarchar to int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1490
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 938
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 824
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 411
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 1:26:28 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: Error converting data type nvarchar to int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1490
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 938
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 824
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 411
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 1:28:02 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: Error converting data type nvarchar to int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1490
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 938
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 824
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 411
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 1:31:42 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: Error converting data type nvarchar to int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1490
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 938
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 824
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 411
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 2:39:04 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 4:45:28 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 1
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetQualificationStreamDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 966
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 475
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetPropertyValue
+Date		: 6:00:48 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: DataBinder.Eval: 'System.Data.DataRowView' does not contain a property with the name QualificationType.
+Stack Trace	: at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind()
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.BindDropDown(DropDownList& ddlDropDownList, DataTable dtDataTable, String strTextField, String strValueField) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 464
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.FillGraduationStream(Int32 intQualificationId) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 369
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetQualificationStreamDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 972
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 482
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 6:02:51 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 1
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetQualificationStreamDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 973
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 482
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 6:04:05 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 1
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetQualificationStreamDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 973
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 482
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 6:06:15 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 1
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetQualificationStreamDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 973
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 482
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: set_SelectedValue
+Date		: 6:09:54 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: Specified argument was out of the range of valid values.
+Parameter name: 1
+Stack Trace	: at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetQualificationStreamDropDown() in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 973
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 482
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 7:14:37 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\web\ScoreCardV2PDF.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 7:15:04 PM
+Time		: 12/8/2010
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.Compilation.PageCompiler.CompilePageType(PageParser pageParser)
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^

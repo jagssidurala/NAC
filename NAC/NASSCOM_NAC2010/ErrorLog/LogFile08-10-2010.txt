@@ -1,0 +1,93 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:38:13 AM
+Time		: 10/8/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:57:15 AM
+Time		: 10/8/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\web\Default.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 11:49:25 AM
+Time		: 10/8/2010
+Computer	: item-47827
+Error		: Cannot insert the value NULL into column 'ShiftID', table 'NAC.dbo.Candidate'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'CandidateId', table 'NAC.dbo.User'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccessLayer.DBManager.ExecuteScalar(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 294
+   at BusinessLayer.BLRegistration.SetCandidateDetail() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1048
+   at NASSCOM_NAC.RegistrationPreview.btnSubmit_Click(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\RegistrationPreview.aspx.cs:line 210
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 12:48:26 PM
+Time		: 10/8/2010
+Computer	: item-47827
+Error		: Cannot insert the value NULL into column 'ShiftID', table 'NAC.dbo.Candidate'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'CandidateId', table 'NAC.dbo.User'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccessLayer.DBManager.ExecuteScalar(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 294
+   at BusinessLayer.BLRegistration.SetCandidateDetail() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1048
+   at NASSCOM_NAC.RegistrationPreview.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registrationpreview.aspx.cs:line 228
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: sharpPDF
+Method		: .ctor
+Date		: 12:53:39 PM
+Time		: 10/8/2010
+Computer	: item-47827
+Error		: Access to the path "D:\NASSCOM\NAC\NASSCOM_NAC\web\Stylesheet\verdanab.ttf" is denied.
+Stack Trace	: at sharpPDF.Fonts.TTF.ttfFontReader..ctor(String fontReference)
+   at sharpPDF.Fonts.pdfFontFactory.getFontReader(String fontReference, documentFontType fontType)
+   at sharpPDF.Fonts.pdfFontFactory.getFontObject(String fontReference, Int32 fontNumber, documentFontType fontType)
+   at sharpPDF.pdfDocument.addTrueTypeFont(String fileName, String fontName)
+   at BusinessLayer.BLGeneratePDF.GeneratePDF(String strRegistrationId) in D:\NASSCOM\NAC\BUSINESSLAYER\BLGeneratePDF.cs:line 144
+   at NASSCOM_NAC.Web.Admitcard.CreatePDF(String strPDFName, String strUserId) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 153
+   at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Admitcard.aspx.cs:line 92
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 3:23:22 PM
+Time		: 10/8/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^

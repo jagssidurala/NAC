@@ -1,0 +1,141 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:14:25 AM
+Time		: 3/31/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:10:01 PM
+Time		: 3/31/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\HiredCandidate.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetType
+Date		: 12:10:59 PM
+Time		: 3/31/2011
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.NACdb.CompanyHire'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExitMultipleCandidates
+Date		: 12:12:32 PM
+Time		: 3/31/2011
+Computer	: item-47827
+Error		: Procedure or function 'UpdateMultipleCandidatesHiringStatus' expects parameter '@CompanyId', which was not supplied.
+Stack Trace	: at BusinessLayer.BLHireExitCandidate.ExitMultipleCandidates() in d:\nasscom\nac\businesslayer\blhireexitcandidate.cs:line 164
+   at NASSCOM_NAC.NACdb.HiredCandidates.btnExit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 108
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: get_Item
+Date		: 12:13:46 PM
+Time		: 3/31/2011
+Computer	: item-47827
+Error		: Cannot find table 1.
+Stack Trace	: at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NASSCOM_NAC.NACdb.HiredCandidates.btnExit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 110
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: get_Item
+Date		: 12:16:02 PM
+Time		: 3/31/2011
+Computer	: item-47827
+Error		: Cannot find table 1.
+Stack Trace	: at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NASSCOM_NAC.NACdb.HiredCandidates.btnExit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 110
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 4:13:43 PM
+Time		: 3/31/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 4:59:57 PM
+Time		: 3/31/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 5:00:27 PM
+Time		: 3/31/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 5:00:57 PM
+Time		: 3/31/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

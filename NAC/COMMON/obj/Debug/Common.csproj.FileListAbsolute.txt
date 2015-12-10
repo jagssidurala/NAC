@@ -1,0 +1,49 @@
+D:\NASSCOM\NAC_2010\COMMON\bin\Debug\Common.dll
+D:\NASSCOM\NAC_2010\COMMON\bin\Debug\Common.pdb
+D:\NASSCOM\NAC_2010\COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\NASSCOM\NAC_2010\COMMON\obj\Debug\Common.dll
+D:\NASSCOM\NAC_2010\COMMON\obj\Debug\Common.pdb
+D:\dev\NAC2010\COMMON\bin\Debug\Common.dll
+D:\dev\NAC2010\COMMON\bin\Debug\Common.pdb
+D:\dev\NAC2010\COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\NAC2010\COMMON\obj\Debug\Common.dll
+D:\dev\NAC2010\COMMON\obj\Debug\Common.pdb
+D:\NASSCOM\NAC2010\COMMON\bin\Debug\Common.dll
+D:\NASSCOM\NAC2010\COMMON\bin\Debug\Common.pdb
+D:\NASSCOM\NAC2010\COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\NASSCOM\NAC2010\COMMON\obj\Debug\Common.dll
+D:\NASSCOM\NAC2010\COMMON\obj\Debug\Common.pdb
+D:\Devendra\COMMON\bin\Debug\Common.dll
+D:\Devendra\COMMON\bin\Debug\Common.pdb
+D:\Devendra\COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\Devendra\COMMON\obj\Debug\Common.dll
+D:\Devendra\COMMON\obj\Debug\Common.pdb
+D:\VSS\CODES\NAC ADMIN\COMMON\bin\Debug\Common.dll
+D:\VSS\CODES\NAC ADMIN\COMMON\bin\Debug\Common.pdb
+D:\VSS\CODES\NAC ADMIN\COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC ADMIN\COMMON\obj\Debug\Common.dll
+D:\VSS\CODES\NAC ADMIN\COMMON\obj\Debug\Common.pdb
+D:\VSS\CODES\NAC Admin Code\COMMON\bin\Debug\Common.dll
+D:\VSS\CODES\NAC Admin Code\COMMON\bin\Debug\Common.pdb
+D:\VSS\CODES\NAC Admin Code\COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC Admin Code\COMMON\obj\Debug\Common.dll
+D:\VSS\CODES\NAC Admin Code\COMMON\obj\Debug\Common.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\COMMON\bin\Debug\Common.dll
+D:\SVN NASSCOM\NAC- 31 Aug\COMMON\bin\Debug\Common.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN NASSCOM\NAC- 31 Aug\COMMON\obj\Debug\Common.dll
+D:\SVN NASSCOM\NAC- 31 Aug\COMMON\obj\Debug\Common.pdb
+C:\Nasscom\NAC\COMMON\bin\Debug\Common.dll
+C:\Nasscom\NAC\COMMON\bin\Debug\Common.pdb
+C:\Nasscom\NAC\COMMON\obj\Debug\Common.dll
+C:\Nasscom\NAC\COMMON\obj\Debug\Common.pdb
+F:\Nasscom\NAC\COMMON\bin\Debug\Common.dll
+F:\Nasscom\NAC\COMMON\bin\Debug\Common.pdb
+F:\Nasscom\NAC\COMMON\obj\Debug\Common.csprojResolveAssemblyReference.cache
+F:\Nasscom\NAC\COMMON\obj\Debug\Common.dll
+F:\Nasscom\NAC\COMMON\obj\Debug\Common.pdb
+D:\Live\Nasscom\NAC\COMMON\bin\Debug\Common.dll
+D:\Live\Nasscom\NAC\COMMON\bin\Debug\Common.pdb
+D:\Live\Nasscom\NAC\COMMON\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Live\Nasscom\NAC\COMMON\obj\Debug\Common.dll
+D:\Live\Nasscom\NAC\COMMON\obj\Debug\Common.pdb

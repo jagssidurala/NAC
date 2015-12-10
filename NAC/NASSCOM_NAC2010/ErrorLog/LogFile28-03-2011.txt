@@ -1,0 +1,150 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 8:44:19 AM
+Time		: 3/28/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 9:34:17 AM
+Time		: 3/28/2011
+Computer	: item-47827
+Error		: String or binary data would be truncated.
+Cannot insert the value NULL into column 'CandidateId', table 'NAC.dbo.User'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccessLayer.DBManager.ExecuteScalar(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 304
+   at BusinessLayer.BLRegistration.SetCandidateDetail() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1048
+   at NASSCOM_NAC.RegistrationPreview.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registrationpreview.aspx.cs:line 228
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExecuteReader
+Date		: 9:40:38 AM
+Time		: 3/28/2011
+Computer	: item-47827
+Error		: String or binary data would be truncated.
+Cannot insert the value NULL into column 'CandidateId', table 'NAC.dbo.User'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+Stack Trace	: at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccessLayer.DBManager.ExecuteScalar(CommandType commandType, String commandText) in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 304
+   at BusinessLayer.BLRegistration.SetCandidateDetail() in d:\nasscom\nac\businesslayer\blregistration.cs:line 1048
+   at NASSCOM_NAC.RegistrationPreview.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registrationpreview.aspx.cs:line 228
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 2:51:22 PM
+Time		: 3/28/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\Login.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetPropertyValue
+Date		: 5:01:59 PM
+Time		: 3/28/2011
+Computer	: item-47827
+Error		: DataBinder.Eval: 'System.Data.DataRowView' does not contain a property with the name CompanyId.
+Stack Trace	: at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at ASP.HiredCandidates_aspx.__DataBind__control17(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\HiredCandidates.aspx:line 90
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at NASSCOM_NAC.NACdb.HiredCandidates.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 45
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetPropertyValue
+Date		: 5:02:56 PM
+Time		: 3/28/2011
+Computer	: item-47827
+Error		: DataBinder.Eval: 'System.Data.DataRowView' does not contain a property with the name CompanyId.
+Stack Trace	: at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at ASP.HiredCandidates_aspx.__DataBind__control17(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\HiredCandidates.aspx:line 90
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at NASSCOM_NAC.NACdb.HiredCandidates.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 45
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetType
+Date		: 5:04:17 PM
+Time		: 3/28/2011
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.NACdb.CompanyHire'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetPropertyValue
+Date		: 5:04:41 PM
+Time		: 3/28/2011
+Computer	: item-47827
+Error		: DataBinder.Eval: 'System.Data.DataRowView' does not contain a property with the name CompanyId.
+Stack Trace	: at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at ASP.HiredCandidates_aspx.__DataBind__control17(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\HiredCandidates.aspx:line 90
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at NASSCOM_NAC.NACdb.HiredCandidates.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 45
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

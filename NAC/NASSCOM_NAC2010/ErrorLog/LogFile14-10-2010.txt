@@ -1,0 +1,91 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:25:10 AM
+Time		: 10/14/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:03:22 AM
+Time		: 10/14/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 12:12:26 PM
+Time		: 10/14/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.RegistrationPreview.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registrationpreview.aspx.cs:line 124
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Drawing
+Method		: Save
+Date		: 12:19:49 PM
+Time		: 10/14/2010
+Computer	: item-47827
+Error		: A generic error occurred in GDI+.
+Stack Trace	: at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at BusinessLayer.ImageCompress.save(String path, Int32 quality) in d:\nasscom\nac\businesslayer\imagecompress.cs:line 173
+   at BusinessLayer.ImageCompress.Save(String fileName, String path) in d:\nasscom\nac\businesslayer\imagecompress.cs:line 88
+   at NASSCOM_NAC.Web.Registration.CompressImage(String Path) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 1621
+   at NASSCOM_NAC.Web.Registration.UploadPhotograph(String strRegistrationId) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 926
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 788
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Drawing
+Method		: Save
+Date		: 12:29:35 PM
+Time		: 10/14/2010
+Computer	: item-47827
+Error		: A generic error occurred in GDI+.
+Stack Trace	: at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at BusinessLayer.ImageCompress.save(String path, Int32 quality) in d:\nasscom\nac\businesslayer\imagecompress.cs:line 173
+   at BusinessLayer.ImageCompress.Save(String fileName, String path) in d:\nasscom\nac\businesslayer\imagecompress.cs:line 88
+   at NASSCOM_NAC.Web.Registration.CompressImage(String Path) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 1622
+   at NASSCOM_NAC.Web.Registration.UploadPhotograph(String strRegistrationId) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 927
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 788
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Drawing
+Method		: Save
+Date		: 12:30:25 PM
+Time		: 10/14/2010
+Computer	: item-47827
+Error		: A generic error occurred in GDI+.
+Stack Trace	: at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at BusinessLayer.ImageCompress.save(String path, Int32 quality) in d:\nasscom\nac\businesslayer\imagecompress.cs:line 173
+   at BusinessLayer.ImageCompress.Save(String fileName, String path) in d:\nasscom\nac\businesslayer\imagecompress.cs:line 88
+   at NASSCOM_NAC.Web.Registration.CompressImage(String Path) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 1622
+   at NASSCOM_NAC.Web.Registration.UploadPhotograph(String strRegistrationId) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 927
+   at NASSCOM_NAC.Web.Registration.Save_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\registration.aspx.cs:line 788
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

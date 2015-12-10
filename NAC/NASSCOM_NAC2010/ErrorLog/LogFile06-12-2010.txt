@@ -1,0 +1,332 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:29:18 AM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 10:49:51 AM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 244
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 10:50:47 AM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 172
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 10:50:52 AM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 172
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: DetectSpecialServerTagError
+Date		: 1:52:23 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: The server tag is not well formed.
+Stack Trace	: at System.Web.UI.TemplateParser.DetectSpecialServerTagError(String text, Int32 textPos)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: DetectSpecialServerTagError
+Date		: 1:53:51 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: The server tag is not well formed.
+Stack Trace	: at System.Web.UI.TemplateParser.DetectSpecialServerTagError(String text, Int32 textPos)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 1:59:13 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\Welcome.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: get_Item
+Date		: 4:19:39 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Column 'RegistrationID' does not belong to table Table.
+Stack Trace	: at System.Data.DataRow.get_Item(String columnName)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 182
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: get_Item
+Date		: 4:19:42 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Column 'RegistrationID' does not belong to table Table.
+Stack Trace	: at System.Data.DataRow.get_Item(String columnName)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 182
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: get_Item
+Date		: 4:19:49 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Column 'RegistrationID' does not belong to table Table.
+Stack Trace	: at System.Data.DataRow.get_Item(String columnName)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 182
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 4:42:06 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1490
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 938
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 824
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 411
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 4:44:31 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1490
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 938
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 824
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 411
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 4:45:05 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1490
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 938
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 824
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 411
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExportAllCandidateListByCompany
+Date		: 4:54:30 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.ExportAllCandidateListByCompany() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1574
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesexporttoexcelbycompany.aspx.cs:line 31
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExportAllCandidateListByCompany
+Date		: 4:54:33 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.ExportAllCandidateListByCompany() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1574
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesexporttoexcelbycompany.aspx.cs:line 31
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 4:55:18 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Error converting data type nvarchar to int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1490
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 938
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 824
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 411
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 4:55:34 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Error converting data type nvarchar to int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1490
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 938
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 824
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesearchpage.aspx.cs:line 411
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 5:03:42 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 6:36:57 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExportAllCandidateListByCompany
+Date		: 7:37:59 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.ExportAllCandidateListByCompany() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1574
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidatesExportToExcelByCompany.aspx.cs:line 31
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExportAllCandidateListByCompany
+Date		: 7:38:10 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.ExportAllCandidateListByCompany() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1574
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidatesExportToExcelByCompany.aspx.cs:line 31
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExportAllCandidateListByCompany
+Date		: 7:38:16 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.ExportAllCandidateListByCompany() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1574
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidatesExportToExcelByCompany.aspx.cs:line 31
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExportAllCandidateListByCompany
+Date		: 7:42:38 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.ExportAllCandidateListByCompany() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1574
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidatesExportToExcelByCompany.aspx.cs:line 31
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExportAllCandidateListByCompany
+Date		: 7:42:44 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.ExportAllCandidateListByCompany() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1574
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidatesExportToExcelByCompany.aspx.cs:line 31
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExportAllCandidateListByCompany
+Date		: 7:45:22 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.ExportAllCandidateListByCompany() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1574
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidatesExportToExcelByCompany.aspx.cs:line 31
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: ExportAllCandidateListByCompany
+Date		: 7:46:57 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.ExportAllCandidateListByCompany() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1574
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidatesExportToExcelByCompany.aspx.cs:line 31
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: SearchCandidate
+Date		: 7:59:00 PM
+Time		: 12/6/2010
+Computer	: item-47827
+Error		: Error converting data type nvarchar to int.
+Stack Trace	: at BusinessLayer.BLCandidateSearchByCompany.SearchCandidate() in d:\nasscom\nac\businesslayer\blcandidatesearchbycompany.cs:line 1490
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.GetCandidateList(BLCandidateSearchByCompany objBLCandidateSearchByCompany) in D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidateSearchPage.aspx.cs:line 938
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.SetSearchParameter(String SortExp, Int32 intCurrentPage) in D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidateSearchPage.aspx.cs:line 824
+   at NASSCOM_NAC.NACdb.CandidateSearchPage.btnSearch_Click(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\CandidateSearchPage.aspx.cs:line 411
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

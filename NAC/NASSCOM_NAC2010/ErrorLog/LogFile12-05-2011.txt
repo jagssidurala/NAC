@@ -1,0 +1,43 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:04:53 AM
+Time		: 5/12/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: DataBaseAccessLayer
+Method		: Close
+Date		: 10:38:09 AM
+Time		: 5/12/2011
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at DataAccessLayer.DBManager.Close() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 119
+   at BusinessLayer.BLTest.SetTestDetail() in d:\nasscom\nac\businesslayer\bltest.cs:line 290
+   at NASSCOM_NAC.Web.CreateTest.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\createtest.aspx.cs:line 496
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnFormRender
+Date		: 5:31:54 PM
+Time		: 5/12/2011
+Computer	: item-47827
+Error		: A page can have only one server-side Form tag.
+Stack Trace	: at System.Web.UI.Page.OnFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

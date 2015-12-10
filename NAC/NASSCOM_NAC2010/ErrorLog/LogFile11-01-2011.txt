@@ -1,0 +1,35 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 6:03:00 PM
+Time		: 1/11/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\Web\Default.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 6:07:59 PM
+Time		: 1/11/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 6:10:51 PM
+Time		: 1/11/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^

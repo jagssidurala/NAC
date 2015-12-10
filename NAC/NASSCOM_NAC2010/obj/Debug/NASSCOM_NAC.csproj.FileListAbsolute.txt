@@ -1,0 +1,1277 @@
+D:\Devendra\NASSCOM_NAC2010\bin\NASSCOM_NAC.dll
+D:\Devendra\NASSCOM_NAC2010\bin\NASSCOM_NAC.pdb
+D:\Devendra\NASSCOM_NAC2010\bin\BusinessLayer.dll
+D:\Devendra\NASSCOM_NAC2010\bin\Common.dll
+D:\Devendra\NASSCOM_NAC2010\bin\DataBaseAccessLayer.dll
+D:\Devendra\NASSCOM_NAC2010\bin\ExceptionHandling.dll
+D:\Devendra\NASSCOM_NAC2010\bin\BusinessLayer.pdb
+D:\Devendra\NASSCOM_NAC2010\bin\Common.pdb
+D:\Devendra\NASSCOM_NAC2010\bin\DataBaseAccessLayer.pdb
+D:\Devendra\NASSCOM_NAC2010\bin\ExceptionHandling.pdb
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\ResolveAssemblyReference.cache
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.ResolveComReference.cache
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC._default.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Global.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.HomePageV2.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.landingPage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminEditCompanyDetail.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminHome.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Approve.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ApproveDenyRequest.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidateSearchPage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ChangePassword.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHire.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHomePage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyProfile.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.EncryptDecrypt.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ForgotPassword.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.HiredCandidates.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Home.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.LoginPage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Registration.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.RejectReason.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.SendEmail.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ThankYou.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ViewAllMembers.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AttendanceWebService1.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AuthenticationWebService.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.NACCandidateDetails.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.ScoreUploadV2.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.AboutNAC.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidateSearch.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidatesExportToExcel.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Admitcard.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AlreadyRegistered.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Andhra_Pradesh.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.APInstruction.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Arunachal_Pradesh.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Assam.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Bihar.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\WEB.CandidateInterfaceInfo.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateList.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateListSearch.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateListToExcel.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateProfile.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CenterDetailsTemp.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Certificate.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.ChandigarhDefault.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_footer.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_header.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobFairCard.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobfairCardDateDetails.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CreateTest.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CentreManage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Delhi.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Download.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.EditRegistration.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Edit_Registration.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ErrorPage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ExportCLToExcelByETS.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Faq.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ForgotPassword.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateAdmitCard.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateID.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateJobAdmitCard.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GeneratePinNo.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GrantPermission.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GujratDefault.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Haryana.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Hero_Mindmine.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.IndiaMap.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard_MT.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairMessage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Karnataka.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Kerala.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Login.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Logout.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Madhya_Pradesh.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Maharashtra.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCentre.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCity.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Manipur.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Meghalaya.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Message.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageRajasthan.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageState.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Mizoram.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleAdmitCard.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleCertificate.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard_MT.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleRegistration.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleScoreCardV2.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleTestScore.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.MultipleTestScorePercentage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MySQLPOC.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NAC_Application_Form.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACBenefits.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACRollout.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Nagaland.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NagalandMessage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Orissa.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.PinLogin.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Punjab.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Rajasthan.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RajasthanMessage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registration.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPinListToExcel.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPreview.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RegistrationSuccess.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registrationtest.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RequestForScoreUpload.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RetailEvent.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SampleRegistration.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SaveAdmitCard.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardPDFV2.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardRequest.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.PendingListForApproval.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Score_Upload_Request.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SearchCandidateByETS.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SendFeedbackMail.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sikkim.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SkillCompetency.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sona.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TamilNadu.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestMessage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.testNew.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestPage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestRegistrationStatus.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScore.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScoreMessage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentage.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentageV2.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TheApproach.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJListtoexcel.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJVisitCount.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Tripura.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScore.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScoreCard.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Uttar_Pradesh.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Validate.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VelTech.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VisitorCount.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Welcome.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.West_Bangal.resources
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\GenerateResource.read.1.tlog
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\GenerateResource.write.1.tlog
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.dll
+D:\Devendra\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\bin\NASSCOM_NAC.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\bin\NASSCOM_NAC.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\bin\BusinessLayer.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\bin\Common.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\bin\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\bin\ExceptionHandling.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\bin\BusinessLayer.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\bin\Common.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\bin\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\bin\ExceptionHandling.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.ResolveComReference.cache
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC._default.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Global.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.HomePageV2.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.landingPage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminEditCompanyDetail.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminHome.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Approve.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ApproveDenyRequest.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidateSearchPage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ChangePassword.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHire.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHomePage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyProfile.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.EncryptDecrypt.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ForgotPassword.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.HiredCandidates.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Home.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.LoginPage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Registration.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.RejectReason.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.SendEmail.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ThankYou.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ViewAllMembers.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AttendanceWebService1.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AuthenticationWebService.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.NACCandidateDetails.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.ScoreUploadV2.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.AboutNAC.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidateSearch.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidatesExportToExcel.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Admitcard.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AlreadyRegistered.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Andhra_Pradesh.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.APInstruction.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Arunachal_Pradesh.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Assam.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Bihar.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\WEB.CandidateInterfaceInfo.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateList.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateListSearch.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateListToExcel.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateProfile.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CenterDetailsTemp.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Certificate.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.ChandigarhDefault.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_footer.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_header.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobFairCard.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobfairCardDateDetails.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CreateTest.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CentreManage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Delhi.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Download.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.EditRegistration.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Edit_Registration.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ErrorPage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ExportCLToExcelByETS.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Faq.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ForgotPassword.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateAdmitCard.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateID.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateJobAdmitCard.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GeneratePinNo.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GrantPermission.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GujratDefault.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Haryana.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Hero_Mindmine.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.IndiaMap.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard_MT.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairMessage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Karnataka.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Kerala.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Login.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Logout.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Madhya_Pradesh.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Maharashtra.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCentre.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCity.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Manipur.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Meghalaya.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Message.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageRajasthan.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageState.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Mizoram.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleAdmitCard.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleCertificate.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard_MT.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleRegistration.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleScoreCardV2.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleTestScore.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.MultipleTestScorePercentage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MySQLPOC.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NAC_Application_Form.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACBenefits.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACRollout.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Nagaland.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NagalandMessage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Orissa.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.PinLogin.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Punjab.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Rajasthan.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RajasthanMessage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registration.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPinListToExcel.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPreview.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RegistrationSuccess.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registrationtest.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RequestForScoreUpload.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RetailEvent.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SampleRegistration.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SaveAdmitCard.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardPDFV2.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardRequest.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.PendingListForApproval.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Score_Upload_Request.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SearchCandidateByETS.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SendFeedbackMail.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sikkim.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SkillCompetency.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sona.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TamilNadu.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestMessage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.testNew.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestPage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestRegistrationStatus.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScore.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScoreMessage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentage.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentageV2.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TheApproach.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJListtoexcel.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJVisitCount.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Tripura.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScore.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScoreCard.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Uttar_Pradesh.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Validate.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VelTech.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VisitorCount.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Welcome.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.West_Bangal.resources
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\GenerateResource.read.1.tlog
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\GenerateResource.write.1.tlog
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.pdb
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\bin\NASSCOM_NAC.dll
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\bin\NASSCOM_NAC.pdb
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\bin\BusinessLayer.dll
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\bin\Common.dll
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\bin\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\bin\ExceptionHandling.dll
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\bin\BusinessLayer.pdb
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\bin\Common.pdb
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\bin\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\bin\ExceptionHandling.pdb
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.ResolveComReference.cache
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC._default.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Global.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.HomePageV2.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.landingPage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminEditCompanyDetail.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminHome.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Approve.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ApproveDenyRequest.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidateSearchPage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ChangePassword.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHire.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHomePage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyProfile.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.EncryptDecrypt.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ForgotPassword.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.HiredCandidates.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Home.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.LoginPage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Registration.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.RejectReason.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.SendEmail.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ThankYou.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ViewAllMembers.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AttendanceWebService1.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AuthenticationWebService.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.NACCandidateDetails.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.ScoreUploadV2.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.AboutNAC.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidateSearch.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidatesExportToExcel.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Admitcard.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AlreadyRegistered.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Andhra_Pradesh.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.APInstruction.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Arunachal_Pradesh.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Assam.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Bihar.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\WEB.CandidateInterfaceInfo.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateList.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateListSearch.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateListToExcel.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateProfile.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CenterDetailsTemp.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Certificate.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.ChandigarhDefault.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_footer.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_header.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobFairCard.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobfairCardDateDetails.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CreateTest.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CentreManage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Delhi.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Download.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.EditRegistration.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Edit_Registration.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ErrorPage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ExportCLToExcelByETS.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Faq.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ForgotPassword.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateAdmitCard.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateID.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateJobAdmitCard.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GeneratePinNo.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GrantPermission.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GujratDefault.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Haryana.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Hero_Mindmine.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.IndiaMap.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard_MT.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairMessage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Karnataka.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Kerala.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Login.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Logout.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Madhya_Pradesh.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Maharashtra.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCentre.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCity.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Manipur.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Meghalaya.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Message.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageRajasthan.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageState.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Mizoram.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleAdmitCard.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleCertificate.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard_MT.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleRegistration.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleScoreCardV2.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleTestScore.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.MultipleTestScorePercentage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MySQLPOC.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NAC_Application_Form.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACBenefits.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACRollout.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Nagaland.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NagalandMessage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Orissa.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.PinLogin.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Punjab.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Rajasthan.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RajasthanMessage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registration.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPinListToExcel.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPreview.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RegistrationSuccess.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registrationtest.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RequestForScoreUpload.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RetailEvent.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SampleRegistration.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SaveAdmitCard.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardPDFV2.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardRequest.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.PendingListForApproval.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Score_Upload_Request.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SearchCandidateByETS.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SendFeedbackMail.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sikkim.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SkillCompetency.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sona.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TamilNadu.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestMessage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.testNew.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestPage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestRegistrationStatus.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScore.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScoreMessage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentage.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentageV2.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TheApproach.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJListtoexcel.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJVisitCount.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Tripura.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScore.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScoreCard.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Uttar_Pradesh.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Validate.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VelTech.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VisitorCount.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Welcome.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.West_Bangal.resources
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\GenerateResource.read.1.tlog
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\GenerateResource.write.1.tlog
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.dll
+D:\VSS\CODES\NAC ADMIN\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.pdb
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\bin\NASSCOM_NAC.dll
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\bin\NASSCOM_NAC.pdb
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\bin\BusinessLayer.dll
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\bin\Common.dll
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\bin\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\bin\ExceptionHandling.dll
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\bin\BusinessLayer.pdb
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\bin\Common.pdb
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\bin\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\bin\ExceptionHandling.pdb
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.ResolveComReference.cache
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC._default.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Global.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.HomePageV2.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.landingPage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminEditCompanyDetail.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminHome.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Approve.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ApproveDenyRequest.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidateSearchPage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ChangePassword.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHire.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHomePage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyProfile.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.EncryptDecrypt.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ForgotPassword.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.HiredCandidates.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Home.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.LoginPage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Registration.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.RejectReason.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.SendEmail.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ThankYou.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ViewAllMembers.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AttendanceWebService1.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AuthenticationWebService.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.NACCandidateDetails.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.ScoreUploadV2.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.AboutNAC.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidateSearch.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidatesExportToExcel.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Admitcard.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AlreadyRegistered.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Andhra_Pradesh.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.APInstruction.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Arunachal_Pradesh.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Assam.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Bihar.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\WEB.CandidateInterfaceInfo.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateList.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateListSearch.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateListToExcel.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateProfile.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CenterDetailsTemp.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Certificate.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.ChandigarhDefault.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_footer.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_header.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobFairCard.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobfairCardDateDetails.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CreateTest.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CentreManage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Delhi.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Download.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.EditRegistration.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Edit_Registration.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ErrorPage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ExportCLToExcelByETS.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Faq.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ForgotPassword.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateAdmitCard.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateID.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateJobAdmitCard.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GeneratePinNo.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GrantPermission.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GujratDefault.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Haryana.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Hero_Mindmine.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.IndiaMap.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard_MT.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairMessage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Karnataka.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Kerala.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Login.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Logout.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Madhya_Pradesh.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Maharashtra.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCentre.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCity.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Manipur.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Meghalaya.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Message.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageRajasthan.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageState.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Mizoram.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleAdmitCard.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleCertificate.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard_MT.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleRegistration.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleScoreCardV2.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleTestScore.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.MultipleTestScorePercentage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MySQLPOC.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NAC_Application_Form.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACBenefits.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACRollout.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Nagaland.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NagalandMessage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Orissa.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.PinLogin.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Punjab.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Rajasthan.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RajasthanMessage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registration.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPinListToExcel.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPreview.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RegistrationSuccess.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registrationtest.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RequestForScoreUpload.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RetailEvent.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SampleRegistration.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SaveAdmitCard.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardPDFV2.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardRequest.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.PendingListForApproval.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Score_Upload_Request.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SearchCandidateByETS.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SendFeedbackMail.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sikkim.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SkillCompetency.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sona.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TamilNadu.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestMessage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.testNew.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestPage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestRegistrationStatus.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScore.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScoreMessage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentage.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentageV2.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TheApproach.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJListtoexcel.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJVisitCount.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Tripura.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScore.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScoreCard.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Uttar_Pradesh.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Validate.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VelTech.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VisitorCount.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Welcome.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.West_Bangal.resources
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\GenerateResource.read.1.tlog
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\GenerateResource.write.1.tlog
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.dll
+D:\VSS\CODES\NAC Admin Code\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\bin\NASSCOM_NAC.dll
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\bin\NASSCOM_NAC.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\bin\BusinessLayer.dll
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\bin\Common.dll
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\bin\DataBaseAccessLayer.dll
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\bin\ExceptionHandling.dll
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\bin\BusinessLayer.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\bin\Common.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\bin\DataBaseAccessLayer.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\bin\ExceptionHandling.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.ResolveComReference.cache
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC._default.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Global.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.HomePageV2.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.landingPage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminEditCompanyDetail.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminHome.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Approve.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ApproveDenyRequest.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidateSearchPage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ChangePassword.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHire.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHomePage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyProfile.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.EncryptDecrypt.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ForgotPassword.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.HiredCandidates.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Home.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.LoginPage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Registration.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.RejectReason.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.SendEmail.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ThankYou.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ViewAllMembers.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AttendanceWebService1.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AuthenticationWebService.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.NACCandidateDetails.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.ScoreUploadV2.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.AboutNAC.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidateSearch.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidatesExportToExcel.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Admitcard.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AlreadyRegistered.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Andhra_Pradesh.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.APInstruction.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Arunachal_Pradesh.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Assam.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Bihar.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\WEB.CandidateInterfaceInfo.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateList.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateListSearch.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateListToExcel.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateProfile.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CenterDetailsTemp.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Certificate.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.ChandigarhDefault.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_footer.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_header.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobFairCard.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobfairCardDateDetails.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CreateTest.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CentreManage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Delhi.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Download.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.EditRegistration.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Edit_Registration.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ErrorPage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ExportCLToExcelByETS.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Faq.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ForgotPassword.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateAdmitCard.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateID.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateJobAdmitCard.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GeneratePinNo.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GrantPermission.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GujratDefault.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Haryana.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Hero_Mindmine.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.IndiaMap.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard_MT.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairMessage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Karnataka.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Kerala.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Login.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Logout.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Madhya_Pradesh.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Maharashtra.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCentre.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCity.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Manipur.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Meghalaya.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Message.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageRajasthan.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageState.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Mizoram.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleAdmitCard.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleCertificate.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard_MT.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleRegistration.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleScoreCardV2.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleTestScore.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.MultipleTestScorePercentage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MySQLPOC.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NAC_Application_Form.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACBenefits.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACRollout.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Nagaland.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NagalandMessage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Orissa.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.PinLogin.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Punjab.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Rajasthan.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RajasthanMessage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registration.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPinListToExcel.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPreview.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RegistrationSuccess.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registrationtest.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RequestForScoreUpload.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RetailEvent.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SampleRegistration.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SaveAdmitCard.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardPDFV2.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardRequest.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.PendingListForApproval.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Score_Upload_Request.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SearchCandidateByETS.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SendFeedbackMail.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sikkim.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SkillCompetency.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sona.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TamilNadu.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestMessage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.testNew.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestPage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestRegistrationStatus.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScore.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScoreMessage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentage.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentageV2.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TheApproach.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJListtoexcel.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJVisitCount.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Tripura.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScore.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScoreCard.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Uttar_Pradesh.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Validate.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VelTech.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VisitorCount.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Welcome.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.West_Bangal.resources
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\GenerateResource.read.1.tlog
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\GenerateResource.write.1.tlog
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.dll
+D:\SVN NASSCOM\NAC- 31 Aug\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.pdb
+C:\Nasscom\NAC\NASSCOM_NAC2010\bin\NASSCOM_NAC.dll
+C:\Nasscom\NAC\NASSCOM_NAC2010\bin\NASSCOM_NAC.pdb
+C:\Nasscom\NAC\NASSCOM_NAC2010\bin\BusinessLayer.dll
+C:\Nasscom\NAC\NASSCOM_NAC2010\bin\Common.dll
+C:\Nasscom\NAC\NASSCOM_NAC2010\bin\DataBaseAccessLayer.dll
+C:\Nasscom\NAC\NASSCOM_NAC2010\bin\ExceptionHandling.dll
+C:\Nasscom\NAC\NASSCOM_NAC2010\bin\BusinessLayer.pdb
+C:\Nasscom\NAC\NASSCOM_NAC2010\bin\Common.pdb
+C:\Nasscom\NAC\NASSCOM_NAC2010\bin\DataBaseAccessLayer.pdb
+C:\Nasscom\NAC\NASSCOM_NAC2010\bin\ExceptionHandling.pdb
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csprojResolveAssemblyReference.cache
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.ResolveComReference.cache
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC._default.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Global.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.HomePageV2.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.landingPage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminEditCompanyDetail.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminHome.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Approve.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ApproveDenyRequest.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidateSearchPage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ChangePassword.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHire.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHomePage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyProfile.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.EncryptDecrypt.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ForgotPassword.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.HiredCandidates.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Home.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.LoginPage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Registration.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.RejectReason.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.SendEmail.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ThankYou.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ViewAllMembers.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AttendanceWebService1.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AuthenticationWebService.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.NACCandidateDetails.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.ScoreUploadV2.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.AboutNAC.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidateSearch.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidatesExportToExcel.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Admitcard.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AlreadyRegistered.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Andhra_Pradesh.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.APInstruction.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Arunachal_Pradesh.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Assam.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Bihar.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\WEB.CandidateInterfaceInfo.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateList.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateListSearch.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateListToExcel.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateProfile.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CenterDetailsTemp.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Certificate.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.ChandigarhDefault.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_footer.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_header.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobFairCard.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobfairCardDateDetails.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CreateTest.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CentreManage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Delhi.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Download.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.EditRegistration.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Edit_Registration.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ErrorPage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ExportCLToExcelByETS.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Faq.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ForgotPassword.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateAdmitCard.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateID.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateJobAdmitCard.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GeneratePinNo.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GrantPermission.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GujratDefault.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Haryana.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Hero_Mindmine.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.IndiaMap.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard_MT.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairMessage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Karnataka.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Kerala.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Login.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Logout.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Madhya_Pradesh.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Maharashtra.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCentre.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCity.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Manipur.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Meghalaya.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Message.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageRajasthan.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageState.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Mizoram.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleAdmitCard.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleCertificate.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard_MT.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleRegistration.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleScoreCardV2.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleTestScore.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.MultipleTestScorePercentage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MySQLPOC.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NAC_Application_Form.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACBenefits.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACRollout.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Nagaland.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NagalandMessage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Orissa.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.PinLogin.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Punjab.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Rajasthan.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RajasthanMessage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registration.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPinListToExcel.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPreview.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RegistrationSuccess.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registrationtest.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RequestForScoreUpload.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RetailEvent.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SampleRegistration.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SaveAdmitCard.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardPDFV2.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardRequest.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.PendingListForApproval.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Score_Upload_Request.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SearchCandidateByETS.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SendFeedbackMail.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sikkim.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SkillCompetency.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sona.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TamilNadu.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestMessage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.testNew.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestPage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestRegistrationStatus.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScore.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScoreMessage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentage.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentageV2.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TheApproach.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJListtoexcel.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJVisitCount.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Tripura.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScore.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScoreCard.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Uttar_Pradesh.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Validate.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VelTech.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VisitorCount.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Welcome.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.West_Bangal.resources
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.GenerateResource.Cache
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.dll
+C:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.pdb
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csprojResolveAssemblyReference.cache
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.ResolveComReference.cache
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC._default.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Global.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.HomePageV2.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.landingPage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminEditCompanyDetail.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminHome.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Approve.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ApproveDenyRequest.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidateSearchPage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ChangePassword.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHire.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHomePage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyProfile.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.EncryptDecrypt.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ForgotPassword.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.HiredCandidates.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Home.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.LoginPage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Registration.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.RejectReason.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.SendEmail.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ThankYou.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ViewAllMembers.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AttendanceWebService1.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AuthenticationWebService.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.NACCandidateDetails.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.ScoreUploadV2.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.AboutNAC.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidateSearch.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidatesExportToExcel.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Admitcard.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AlreadyRegistered.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Andhra_Pradesh.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.APInstruction.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Arunachal_Pradesh.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Assam.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Bihar.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\WEB.CandidateInterfaceInfo.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateList.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateListSearch.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateListToExcel.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateProfile.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CenterDetailsTemp.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Certificate.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.ChandigarhDefault.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_footer.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_header.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobFairCard.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobfairCardDateDetails.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CreateTest.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CentreManage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Delhi.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Download.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.EditRegistration.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Edit_Registration.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ErrorPage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ExportCLToExcelByETS.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Faq.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ForgotPassword.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateAdmitCard.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateID.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateJobAdmitCard.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GeneratePinNo.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GrantPermission.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GujratDefault.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Haryana.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Hero_Mindmine.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.IndiaMap.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard_MT.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairMessage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Karnataka.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Kerala.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Login.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Logout.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Madhya_Pradesh.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Maharashtra.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCentre.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCity.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Manipur.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Meghalaya.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Message.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageRajasthan.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageState.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Mizoram.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleAdmitCard.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleCertificate.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard_MT.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleRegistration.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleScoreCardV2.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleTestScore.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.MultipleTestScorePercentage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MySQLPOC.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NAC_Application_Form.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACBenefits.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACRollout.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Nagaland.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NagalandMessage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Orissa.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.PinLogin.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Punjab.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Rajasthan.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RajasthanMessage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registration.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPinListToExcel.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPreview.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RegistrationSuccess.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registrationtest.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RequestForScoreUpload.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RetailEvent.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SampleRegistration.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SaveAdmitCard.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardPDFV2.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardRequest.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.PendingListForApproval.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Score_Upload_Request.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SearchCandidateByETS.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SendFeedbackMail.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sikkim.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SkillCompetency.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sona.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TamilNadu.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestMessage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.testNew.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestPage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestRegistrationStatus.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScore.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScoreMessage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentage.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentageV2.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TheApproach.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJListtoexcel.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJVisitCount.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Tripura.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScore.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScoreCard.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Uttar_Pradesh.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Validate.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VelTech.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VisitorCount.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Welcome.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.West_Bangal.resources
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.GenerateResource.Cache
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.dll
+F:\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.pdb
+F:\Nasscom\NAC\NASSCOM_NAC2010\bin\NASSCOM_NAC.dll
+F:\Nasscom\NAC\NASSCOM_NAC2010\bin\NASSCOM_NAC.pdb
+F:\Nasscom\NAC\NASSCOM_NAC2010\bin\BusinessLayer.dll
+F:\Nasscom\NAC\NASSCOM_NAC2010\bin\Common.dll
+F:\Nasscom\NAC\NASSCOM_NAC2010\bin\DataBaseAccessLayer.dll
+F:\Nasscom\NAC\NASSCOM_NAC2010\bin\ExceptionHandling.dll
+F:\Nasscom\NAC\NASSCOM_NAC2010\bin\BusinessLayer.pdb
+F:\Nasscom\NAC\NASSCOM_NAC2010\bin\Common.pdb
+F:\Nasscom\NAC\NASSCOM_NAC2010\bin\DataBaseAccessLayer.pdb
+F:\Nasscom\NAC\NASSCOM_NAC2010\bin\ExceptionHandling.pdb
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\bin\NASSCOM_NAC.dll
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\bin\NASSCOM_NAC.pdb
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\bin\BusinessLayer.dll
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\bin\Common.dll
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\bin\DataBaseAccessLayer.dll
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\bin\ExceptionHandling.dll
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\bin\BusinessLayer.pdb
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\bin\Common.pdb
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\bin\DataBaseAccessLayer.pdb
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\bin\ExceptionHandling.pdb
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csprojResolveAssemblyReference.cache
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.ResolveComReference.cache
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC._default.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Global.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.HomePageV2.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.landingPage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminEditCompanyDetail.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.AdminHome.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Approve.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ApproveDenyRequest.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidateSearchPage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ChangePassword.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHire.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyHomePage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.CompanyProfile.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.EncryptDecrypt.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ForgotPassword.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.HiredCandidates.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Home.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.LoginPage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.Registration.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.RejectReason.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.SendEmail.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ThankYou.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACdb.ViewAllMembers.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AttendanceWebService1.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.AuthenticationWebService.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.NACCandidateDetails.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.WebService.ScoreUploadV2.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.AboutNAC.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidateSearch.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AdminCandidatesExportToExcel.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Admitcard.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.AlreadyRegistered.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Andhra_Pradesh.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.APInstruction.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Arunachal_Pradesh.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Assam.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Bihar.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\WEB.CandidateInterfaceInfo.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateList.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CandidateListSearch.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateListToExcel.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.CandidateProfile.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CenterDetailsTemp.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Certificate.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.ChandigarhDefault.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_footer.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.nac_header.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobFairCard.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Controls.nac_JobfairCardDateDetails.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CreateTest.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.CentreManage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Delhi.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Download.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.EditRegistration.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Edit_Registration.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ErrorPage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ExportCLToExcelByETS.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Faq.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ForgotPassword.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateAdmitCard.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateID.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GenerateJobAdmitCard.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GeneratePinNo.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GrantPermission.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.GujratDefault.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Haryana.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Hero_Mindmine.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.IndiaMap.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairCard_MT.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.JobFairMessage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Karnataka.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Kerala.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Login.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Logout.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Madhya_Pradesh.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Maharashtra.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCentre.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ManageTestCity.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Manipur.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Meghalaya.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Message.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageRajasthan.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MessageState.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Mizoram.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleAdmitCard.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleCertificate.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard_MT.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleRegistration.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleScoreCardV2.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipleTestScore.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.MultipleTestScorePercentage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MultipuleJobFairCard.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.MySQLPOC.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NAC_Application_Form.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACBenefits.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.NACRollout.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Nagaland.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.NagalandMessage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Orissa.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.PinLogin.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Punjab.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Rajasthan.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RajasthanMessage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registration.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPinListToExcel.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.RegistrationPreview.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RegistrationSuccess.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Registrationtest.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RequestForScoreUpload.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.RetailEvent.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SampleRegistration.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SaveAdmitCard.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardPDFV2.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.ScoreCardRequest.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.PendingListForApproval.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Score_Upload_Request.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SearchCandidateByETS.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.SendFeedbackMail.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sikkim.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.SkillCompetency.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Sona.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TamilNadu.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestMessage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.testNew.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestPage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestRegistrationStatus.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScore.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScoreMessage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentage.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TestScorePercentageV2.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TheApproach.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJListtoexcel.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.TJVisitCount.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Tripura.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScore.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.UploadScoreCard.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Uttar_Pradesh.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Validate.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VelTech.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.VisitorCount.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.Welcome.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.Web.West_Bangal.resources
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.csproj.GenerateResource.Cache
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.dll
+D:\Live\Nasscom\NAC\NASSCOM_NAC2010\obj\Debug\NASSCOM_NAC.pdb

@@ -1,0 +1,163 @@
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 11:57:26 AM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 12:07:01 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 12:36:32 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 12:36:35 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 1:03:40 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 1:03:42 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 1:12:53 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 1:24:15 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 2:42:33 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 2:55:07 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 3:04:30 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 3:12:19 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 3:16:46 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 175
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 3:17:56 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 177
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 3:18:02 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 177
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 3:20:07 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Welcome.Page_Load(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Welcome.aspx.cs:line 129
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 3:36:12 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 177
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 3:40:28 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 177
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 5:01:11 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 177
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 9:34:21 PM
+Time		: 12/16/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 177
+^^-------------------------------------------------------------------^^

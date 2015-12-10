@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NACScores>
+  <ScoresRequest>
+    <RegistrationId/>
+    <FirstName/>
+    <LastName/>
+    <DOB>dd/mm/yyyy</DOB>
+  </ScoresRequest>
+  <ScoresResponse ScoreFormat="old">
+	<TestDate>dd/mm/yyyy</TestDate> 
+    <TestList>
+      <EnglishSpeaking>
+        <Percentile/>   
+      </EnglishSpeaking>
+      <EnglishListening>
+        <Percentile/>   
+      </EnglishListening>
+      <EnglishWriting>
+        <Percentile/>   
+      </EnglishWriting >      
+      <AnalyticalQuantitativeReasoning>
+       <Percentile/>    
+      </AnalyticalQuantitativeReasoning>      
+    </TestList>
+  </ScoresResponse>
+</NACScores>

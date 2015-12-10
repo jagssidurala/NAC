@@ -1,0 +1,84 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:34:38 AM
+Time		: 12/2/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetScoreCardRemarksV2
+Date		: 10:48:36 AM
+Time		: 12/2/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLNACScoreCard.GetScoreCardRemarksV2(String strNACRegID) in D:\NASSCOM\NAC\BUSINESSLAYER\BLNACScoreCard.cs:line 1020
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 248
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetScoreCardRemarksV2
+Date		: 10:48:40 AM
+Time		: 12/2/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLNACScoreCard.GetScoreCardRemarksV2(String strNACRegID) in D:\NASSCOM\NAC\BUSINESSLAYER\BLNACScoreCard.cs:line 1020
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 248
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetScoreCardRemarksV2
+Date		: 11:00:22 AM
+Time		: 12/2/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLNACScoreCard.GetScoreCardRemarksV2(String strNACRegID) in D:\NASSCOM\NAC\BUSINESSLAYER\BLNACScoreCard.cs:line 1020
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 248
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetScoreCardRemarksV2
+Date		: 11:00:25 AM
+Time		: 12/2/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLNACScoreCard.GetScoreCardRemarksV2(String strNACRegID) in D:\NASSCOM\NAC\BUSINESSLAYER\BLNACScoreCard.cs:line 1020
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 248
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetScoreCardRemarksV2
+Date		: 11:00:29 AM
+Time		: 12/2/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLNACScoreCard.GetScoreCardRemarksV2(String strNACRegID) in D:\NASSCOM\NAC\BUSINESSLAYER\BLNACScoreCard.cs:line 1020
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 248
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetScoreCardRemarksV2
+Date		: 11:00:59 AM
+Time		: 12/2/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLNACScoreCard.GetScoreCardRemarksV2(String strNACRegID) in D:\NASSCOM\NAC\BUSINESSLAYER\BLNACScoreCard.cs:line 1020
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 248
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetScoreCardRemarksV2
+Date		: 11:22:25 AM
+Time		: 12/2/2010
+Computer	: item-47827
+Error		: Conversion failed when converting the varchar value 'NA' to data type int.
+Stack Trace	: at BusinessLayer.BLNACScoreCard.GetScoreCardRemarksV2(String strNACRegID) in D:\NASSCOM\NAC\BUSINESSLAYER\BLNACScoreCard.cs:line 1020
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 248
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 2:48:57 PM
+Time		: 12/2/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 172
+^^-------------------------------------------------------------------^^

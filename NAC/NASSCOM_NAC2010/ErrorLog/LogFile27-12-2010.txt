@@ -1,0 +1,30 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 5:13:31 PM
+Time		: 12/27/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: WinIOError
+Date		: 7:17:16 PM
+Time		: 12/27/2010
+Computer	: item-47827
+Error		: Could not find a part of the path "D:\NASSCOM\NAC\NASSCOM_NAC\NACdb\webservice\naccandidatedetails.asmx".
+Stack Trace	: at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at System.Web.Compilation.SourceCompiler.GetCachedEntry()
+   at System.Web.Compilation.SourceCompiler.GetTypeFromCache()
+   at System.Web.UI.SimpleWebHandlerParser.GetCompiledTypeFromCache()
+   at System.Web.UI.WebServiceParser.GetCompiledType(String inputFile, HttpContext context)
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.GetHandler(HttpContext context, String verb, String url, String filePath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^

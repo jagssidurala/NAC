@@ -1,0 +1,23 @@
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 7:07:13 PM
+Time		: 12/3/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.Admitcard.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\admitcard.aspx.cs:line 85
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetType
+Date		: 7:07:24 PM
+Time		: 12/3/2010
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.Web.ForgotPassword'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^

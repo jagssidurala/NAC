@@ -1,0 +1,124 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:22:30 AM
+Time		: 12/23/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetType
+Date		: 2:56:48 PM
+Time		: 12/23/2010
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.Web.ForgotPassword'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 3:01:54 PM
+Time		: 12/23/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.ForgotPassword.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\forgotpassword.aspx.cs:line 83
+^^-------------------------------------------------------------------^^
+Source		: Common
+Method		: SendMail
+Date		: 3:02:12 PM
+Time		: 12/23/2010
+Computer	: item-47827
+Error		: Could not access 'CDO.Message' object.
+Stack Trace	: at Common.CLEmail.SendMail(String sBody, String sFrom, String sSubject, String sSendTo, String sSMTPServerIP) in D:\NASSCOM\NAC\COMMON\CLEmail.cs:line 53
+   at NASSCOM_NAC.Web.Validate.btnSubmit_Click(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\Validate.aspx.cs:line 235
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 3:23:17 PM
+Time		: 12/23/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.ForgotPassword.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\forgotpassword.aspx.cs:line 83
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 3:32:15 PM
+Time		: 12/23/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 3:38:49 PM
+Time		: 12/23/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.ForgotPassword.btnSubmit_Click(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\ForgotPassword.aspx.cs:line 83
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 3:42:11 PM
+Time		: 12/23/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.ForgotPassword.btnSubmit_Click(Object sender, EventArgs e) in D:\NASSCOM\NAC\NASSCOM_NAC\Web\ForgotPassword.aspx.cs:line 83
+^^-------------------------------------------------------------------^^
+Source		: Common
+Method		: SendMail
+Date		: 3:42:38 PM
+Time		: 12/23/2010
+Computer	: item-47827
+Error		: Could not access 'CDO.Message' object.
+Stack Trace	: at Common.CLEmail.SendMail(String sBody, String sFrom, String sSubject, String sSendTo, String sSMTPServerIP) in D:\NASSCOM\NAC\COMMON\CLEmail.cs:line 53
+   at NASSCOM_NAC.Web.Validate.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\validate.aspx.cs:line 240
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 6:12:44 PM
+Time		: 12/23/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^

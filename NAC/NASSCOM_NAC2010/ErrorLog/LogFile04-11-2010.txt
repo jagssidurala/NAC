@@ -1,0 +1,186 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:32:16 AM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 5:38:02 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 5:38:32 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetType
+Date		: 5:40:45 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.Web.ForgotPassword'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: GetDayOfNNY
+Date		: 5:40:53 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: String was not recognized as a valid DateTime.
+Stack Trace	: at System.DateTimeParse.GetDayOfNNY(DateTimeResult result, DateTimeRawInfo raw, DateTimeFormatInfo dtfi)
+   at System.DateTimeParse.ProcessTerminaltState(Int32 dps, DateTimeResult result, DateTimeRawInfo raw, DateTimeFormatInfo dtfi)
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.DateTime.Parse(String s)
+   at System.Convert.ToDateTime(String value)
+   at ASP.Welcome_aspx.__RenderdivCandidate(HtmlTextWriter __output, Control parameterContainer) in D:\NASSCOM\NAC\NASSCOM_NAC\web\Welcome.aspx:line 65
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.Welcome_aspx.__RenderForm1(HtmlTextWriter __output, Control parameterContainer) in D:\NASSCOM\NAC\NASSCOM_NAC\web\Welcome.aspx:line 40
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 5:42:12 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 227
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 5:46:07 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 167
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetType
+Date		: 5:55:19 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: Could not load type 'NASSCOM_NAC.Web.ForgotPassword'.
+Stack Trace	: at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 5:55:26 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 228
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 5:56:31 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 312
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: GetTestScore
+Date		: 5:57:31 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: Object reference not set to an instance of an object.
+Stack Trace	: at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 170
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 5:58:00 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 312
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 5:58:08 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 312
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: AbortInternal
+Date		: 6:01:02 PM
+Time		: 11/4/2010
+Computer	: item-47827
+Error		: Thread was being aborted.
+Stack Trace	: at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 312
+^^-------------------------------------------------------------------^^

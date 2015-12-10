@@ -1,0 +1,16 @@
+body{ background-image: url(../images/default2Back.jpg); background-repeat: repeat-x;}
+
+.divMatter{ height:361px; width:645px; padding:0.3em;   }
+
+h1{  color:#232323; font-family:Myriad Pro; font-size:17px; padding:0; margin:0;  font-weight: normal;}
+h2{  color:#232323; font-family:Myriad Pro; font-size:16px; padding:0; margin:0;  font-weight: normal;}
+.textNormal{font-family:tahoma; font-size:11px; color:#505050;  text-align:justify;}
+
+.textBold{font-family:tahoma; font-size:11px; color:#505050;  text-align:left; font-weight:bold;}
+
+
+.nacbpo{ background-image: url(../images/nacbpobig.jpg); float:left;  width:304px; height:144px; margin-right: 40px;  margin-top: 10px; margin-left: 10px; background-repeat: no-repeat;
+padding-top:55px; padding-left:115px; text-align: justify; padding-right:10px; color: #ffffff; font-family:tahoma; font-weight: bold; font-size: 11px;}
+
+.nactech{ background-image: url(../images/nactechnew.jpg); float:left;  width:304px; height:145px; margin-right: 10px;  margin-top: 10px;  background-repeat: no-repeat;
+padding-top:55px; padding-left:115px; text-align: justify; padding-right:10px; color: #ffffff; font-family:tahoma; font-weight: bold; font-size: 11px;}

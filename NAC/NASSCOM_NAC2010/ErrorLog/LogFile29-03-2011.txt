@@ -1,0 +1,100 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 10:08:40 AM
+Time		: 3/29/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnDataBindColumn
+Date		: 11:29:19 AM
+Time		: 3/29/2011
+Computer	: item-47827
+Error		: A field or property with the name 'Exit' was not found on the selected datasource.
+Stack Trace	: at System.Web.UI.WebControls.ButtonColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at NASSCOM_NAC.NACdb.HiredCandidates.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 46
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 11:45:00 AM
+Time		: 3/29/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ThrowIfCompilerErrors
+Date		: 11:46:08 AM
+Time		: 3/29/2011
+Computer	: item-47827
+Error		: External component has thrown an exception.
+Stack Trace	: at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: dgHiredCandidates_ItemDataBound
+Date		: 11:52:33 AM
+Time		: 3/29/2011
+Computer	: item-47827
+Error		: Specified cast is not valid.
+Stack Trace	: at NASSCOM_NAC.NACdb.HiredCandidates.dgHiredCandidates_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 95
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at NASSCOM_NAC.NACdb.HiredCandidates.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 46
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 11:54:08 AM
+Time		: 3/29/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\nacdb\HiredCandidate.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: dgHiredCandidates_DataBinding
+Date		: 11:54:14 AM
+Time		: 3/29/2011
+Computer	: item-47827
+Error		: Specified cast is not valid.
+Stack Trace	: at NASSCOM_NAC.NACdb.HiredCandidates.dgHiredCandidates_DataBinding(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 105
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at NASSCOM_NAC.NACdb.HiredCandidates.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\hiredcandidates.aspx.cs:line 46
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

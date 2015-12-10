@@ -1,0 +1,145 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 3:12:36 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 3:24:47 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 3:31:00 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 3:32:56 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 3:59:42 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: MySql.Data
+Method		: Open
+Date		: 4:28:31 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: Exception of type System.Exception was thrown.
+Stack Trace	: at MySql.Data.MySqlClient.NativeDriver.Open()
+^^-------------------------------------------------------------------^^
+Source		: MySql.Data
+Method		: Open
+Date		: 4:29:48 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: Exception of type System.Exception was thrown.
+Stack Trace	: at MySql.Data.MySqlClient.NativeDriver.Open()
+^^-------------------------------------------------------------------^^
+Source		: MySql.Data
+Method		: Open
+Date		: 4:30:26 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: Exception of type System.Exception was thrown.
+Stack Trace	: at MySql.Data.MySqlClient.NativeDriver.Open()
+^^-------------------------------------------------------------------^^
+Source		: MySql.Data
+Method		: Open
+Date		: 4:33:00 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: Exception of type System.Exception was thrown.
+Stack Trace	: at MySql.Data.MySqlClient.NativeDriver.Open()
+^^-------------------------------------------------------------------^^
+Source		: MySql.Data
+Method		: Open
+Date		: 4:35:43 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: Exception of type System.Exception was thrown.
+Stack Trace	: at MySql.Data.MySqlClient.NativeDriver.Open()
+^^-------------------------------------------------------------------^^
+Source		: MySql.Data
+Method		: Open
+Date		: 4:36:29 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: Exception of type System.Exception was thrown.
+Stack Trace	: at MySql.Data.MySqlClient.NativeDriver.Open()
+^^-------------------------------------------------------------------^^
+Source		: MySql.Data
+Method		: Prepare
+Date		: 4:37:01 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: Parameter '?CompanyID' is not defined
+Stack Trace	: at MySql.Data.MySqlClient.StoredProcedure.Prepare(MySqlCommand cmd)
+^^-------------------------------------------------------------------^^
+Source		: MySql.Data
+Method		: Prepare
+Date		: 4:37:35 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: Parameter '?CompanyID' is not defined
+Stack Trace	: at MySql.Data.MySqlClient.StoredProcedure.Prepare(MySqlCommand cmd)
+^^-------------------------------------------------------------------^^
+Source		: MySql.Data
+Method		: Prepare
+Date		: 4:39:43 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: Parameter '?CompanyID' is not defined
+Stack Trace	: at MySql.Data.MySqlClient.StoredProcedure.Prepare(MySqlCommand cmd)
+^^-------------------------------------------------------------------^^
+Source		: MySql.Data
+Method		: Prepare
+Date		: 4:40:13 PM
+Time		: 6/17/2011
+Computer	: item-47827
+Error		: Parameter '?CompanyId' is not defined
+Stack Trace	: at MySql.Data.MySqlClient.StoredProcedure.Prepare(MySqlCommand cmd)
+^^-------------------------------------------------------------------^^

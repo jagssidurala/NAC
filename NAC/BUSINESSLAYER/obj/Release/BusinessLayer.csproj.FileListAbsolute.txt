@@ -1,0 +1,6 @@
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\obj\Release\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Release\BusinessLayer.dll
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Release\Common.dll
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Release\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Release\ExceptionHandling.dll
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\obj\Release\BusinessLayer.dll

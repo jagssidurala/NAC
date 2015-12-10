@@ -1,0 +1,123 @@
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\bin\Debug\Common.dll
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\bin\Debug\sharpPDF.dll
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\bin\Debug\Common.pdb
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+D:\NASSCOM\NAC_2010\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+D:\dev\NAC2010\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+D:\dev\NAC2010\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+D:\dev\NAC2010\BUSINESSLAYER\bin\Debug\Common.dll
+D:\dev\NAC2010\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\dev\NAC2010\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\dev\NAC2010\BUSINESSLAYER\bin\Debug\Common.pdb
+D:\dev\NAC2010\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\dev\NAC2010\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\dev\NAC2010\BUSINESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\NAC2010\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+D:\dev\NAC2010\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+D:\NASSCOM\NAC2010\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+D:\NASSCOM\NAC2010\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+D:\NASSCOM\NAC2010\BUSINESSLAYER\bin\Debug\Common.dll
+D:\NASSCOM\NAC2010\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\NASSCOM\NAC2010\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\NASSCOM\NAC2010\BUSINESSLAYER\bin\Debug\sharpPDF.dll
+D:\NASSCOM\NAC2010\BUSINESSLAYER\bin\Debug\Common.pdb
+D:\NASSCOM\NAC2010\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\NASSCOM\NAC2010\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\NASSCOM\NAC2010\BUSINESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\NASSCOM\NAC2010\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+D:\NASSCOM\NAC2010\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+D:\Devendra\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+D:\Devendra\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+D:\Devendra\BUSINESSLAYER\bin\Debug\Common.dll
+D:\Devendra\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\Devendra\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\Devendra\BUSINESSLAYER\bin\Debug\Common.pdb
+D:\Devendra\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\Devendra\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\Devendra\BUSINESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\Devendra\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+D:\Devendra\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\bin\Debug\Common.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\bin\Debug\Common.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+D:\VSS\CODES\NAC_new website + Prod\NAC_NEW WEBSITE + PROD\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\bin\Debug\Common.dll
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\bin\Debug\Common.pdb
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+D:\VSS\CODES\NAC ADMIN\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Debug\Common.dll
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Debug\Common.pdb
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+D:\VSS\CODES\NAC Admin Code\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\bin\Debug\Common.dll
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\bin\Debug\Common.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+D:\SVN NASSCOM\NAC- 31 Aug\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+C:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+C:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+C:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\Common.dll
+C:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+C:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+C:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\Common.pdb
+C:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+C:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+C:\Nasscom\NAC\BUSINESSLAYER\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Nasscom\NAC\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+C:\Nasscom\NAC\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+F:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+F:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+F:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\Common.dll
+F:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+F:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+F:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\Common.pdb
+F:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+F:\Nasscom\NAC\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+F:\Nasscom\NAC\BUSINESSLAYER\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+F:\Nasscom\NAC\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+F:\Nasscom\NAC\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+D:\Live\Nasscom\NAC\BUSINESSLAYER\bin\Debug\BusinessLayer.dll
+D:\Live\Nasscom\NAC\BUSINESSLAYER\bin\Debug\BusinessLayer.pdb
+D:\Live\Nasscom\NAC\BUSINESSLAYER\bin\Debug\Common.dll
+D:\Live\Nasscom\NAC\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.dll
+D:\Live\Nasscom\NAC\BUSINESSLAYER\bin\Debug\ExceptionHandling.dll
+D:\Live\Nasscom\NAC\BUSINESSLAYER\bin\Debug\Common.pdb
+D:\Live\Nasscom\NAC\BUSINESSLAYER\bin\Debug\DataBaseAccessLayer.pdb
+D:\Live\Nasscom\NAC\BUSINESSLAYER\bin\Debug\ExceptionHandling.pdb
+D:\Live\Nasscom\NAC\BUSINESSLAYER\obj\Debug\BusinessLayer.dll
+D:\Live\Nasscom\NAC\BUSINESSLAYER\obj\Debug\BusinessLayer.pdb
+D:\Live\Nasscom\NAC\BUSINESSLAYER\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,47 @@
+Source		: mscorlib
+Method		: Parse
+Date		: 3:49:53 PM
+Time		: 3/3/2011
+Computer	: item-47827
+Error		: String was not recognized as a valid DateTime.
+Stack Trace	: at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.DateTime.Parse(String s)
+   at System.Convert.ToDateTime(String value)
+   at NASSCOM_NAC.NACdb.CompanyProfile.Populate(BLCompanyLogin objBLCompanyLogin) in d:\nasscom\nac\nasscom_nac\nacdb\companyprofile.aspx.cs:line 113
+   at NASSCOM_NAC.NACdb.CompanyProfile.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\companyprofile.aspx.cs:line 62
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: mscorlib
+Method		: Parse
+Date		: 4:05:42 PM
+Time		: 3/3/2011
+Computer	: item-47827
+Error		: String was not recognized as a valid DateTime.
+Stack Trace	: at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.DateTime.Parse(String s)
+   at System.Convert.ToDateTime(String value)
+   at NASSCOM_NAC.NACdb.CompanyProfile.Populate(BLCompanyLogin objBLCompanyLogin) in d:\nasscom\nac\nasscom_nac\nacdb\companyprofile.aspx.cs:line 113
+   at NASSCOM_NAC.NACdb.CompanyProfile.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\companyprofile.aspx.cs:line 62
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: get_Item
+Date		: 4:37:54 PM
+Time		: 3/3/2011
+Computer	: item-47827
+Error		: There is no row at position 0.
+Stack Trace	: at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NASSCOM_NAC.NACdb.CompanyProfile.Populate(BLCompanyLogin objBLCompanyLogin) in d:\nasscom\nac\nasscom_nac\nacdb\companyprofile.aspx.cs:line 106
+   at NASSCOM_NAC.NACdb.CompanyProfile.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\companyprofile.aspx.cs:line 62
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

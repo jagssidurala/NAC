@@ -1,0 +1,388 @@
+<%@ Page language="c#" Codebehind="Nagaland.aspx.cs" AutoEventWireup="True" Inherits="NASSCOM_NAC.Web.Nagaland" %>
+<%@ Register TagPrefix="uc1" TagName="nac_footer" Src="Controls/nac_footer.ascx" %>
+<%@ Register TagPrefix="uc1" TagName="nac_header" Src="Controls/nac_header.ascx" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+	<HEAD>
+		<title>Nagaland</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<LINK href="stylesheet/nasscom.css" type="text/css" rel="stylesheet">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<script type="text/javascript">
+			function blinkIt()
+			{
+				if (!document.all) return;
+				else 
+				{
+					for(i=0;i<document.all.tags('blink').length;i++)
+					{
+						s=document.all.tags('blink')[i];
+						s.style.visibility=(s.style.visibility=='visible')?'hidden':'visible';
+					}
+				}
+			}
+		</script>
+	</HEAD>
+	<body onload="setInterval('blinkIt()',600)">
+		<FORM id="frmLogin" name="frmLogin" method="post" runat="server">
+			<div id="div1" style="RIGHT: 0px; WIDTH: 125px; POSITION: fixed; TOP: 110px; HEIGHT: 65px"
+				runat="server"><A href="PinLogin.aspx"><IMG height="65" src="Images/click-btn.gif" width="125" border="0"></A>
+			</div>
+			<div id="Div3" style="RIGHT: 0px; WIDTH: 125px; POSITION: fixed; TOP: 170px; HEIGHT: 65px"
+				runat="server"><A href="RegisteredLogin.aspx"><IMG height="65" src="Images/click-btn-2.gif" width="125" border="0"></A>
+			</div>
+			<TABLE id="Table1" height="100%" cellSpacing="0" cellPadding="0" width="756" align="center"
+				border="0">
+				<TBODY>
+					<TR class="white_bg">
+						<TD vAlign="top" align="center" width="7" background="images/tbg_left.gif"><IMG height="1" src="images/spacer.gif" width="7"></TD>
+						<TD vAlign="top" align="center">
+							<TABLE class="black_bg" id="Table2" cellSpacing="0" cellPadding="0" width="741" align="center"
+								border="0">
+								<TBODY>
+									<TR class="white_bg" vAlign="top" align="left">
+										<TD>
+											<TABLE id="tblHeader" cellSpacing="0" cellPadding="0" width="100%" border="0">
+												<TBODY>
+													<TR vAlign="top" align="left">
+														<td>
+															<table id="tblHeader1" cellSpacing="0" cellPadding="0" width="100%" border="0">
+																<tr vAlign="top" align="left">
+																	<td width="39%" background="images/header_bg.gif"><IMG height="85" src="images/logo1.gif"></td>
+																	<td align="right" background="images/header_bg.gif">&nbsp;<IMG id="imgStateLogo" height="85" src="images/Nagaland.gif" runat="server">
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</TR>
+												</TBODY>
+											</TABLE>
+										</TD>
+									</TR>
+									<TR class="blue_bg" vAlign="top" align="left">
+										<TD class="header1" vAlign="middle">
+											<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+												<tr vAlign="top">
+													<td class="header1" vAlign="middle" align="left">&nbsp;&nbsp;&nbsp;<asp:label id="lblState" runat="server"></asp:label>&nbsp;NAC</td>
+													<td class="header1" vAlign="middle" align="right"><A class="header1" href="../default.aspx">Home&nbsp;&nbsp;&nbsp;</A></td>
+												</tr>
+											</table>
+										</TD>
+									</TR>
+									<TR class="white_bg" vAlign="top" align="center">
+										<TD align="center"><BR>
+											<TABLE cellSpacing="0" cellPadding="0" width="98%" border="0">
+												<TBODY>
+													<TR>
+														<TD vAlign="top" align="left" width="70%">
+															<TABLE class="lightblue_bg" cellSpacing="1" cellPadding="3" width="100%" border="0">
+																<TBODY>
+																	<TR>
+																		<TD class="grey_bg main_black" vAlign="middle" align="left" height="30"><strong>Government 
+																				of Nagaland launches NAC</strong></TD>
+																	</TR>
+																	<TR>
+																		<TD class="white_bg main_black" vAlign="top" align="left">
+																			<p align="justify">Government of Nagaland and NASSCOM (National Association of 
+																				Software and Service Companies) jointly introduce <SPAN class="big_maroon">NASSCOM 
+																					Assessment of Competence (NAC)</SPAN> -an assessment-cum-certification 
+																				program for candidates who aspire to be a part of the ITES-BPO industry. 
+																				Department of Information Technology, Government of Nagaland, in association 
+																				with NASSCOM, is the implementing body for the NAC Test. NAC is to become a 
+																				national-level certification program and its very first administration at 
+																				Nagaland is being done which has limited number of seats. This was open to all 
+																				undergraduate and postgraduate students of any stream who wish to be employed 
+																				with the IT companies in future.
+																			</p>
+																			<p>NASSCOM, with active participation of ITES-BPO industry players, designed NAC, 
+																				which is aimed at creating a robust and continuous pipeline of talent by 
+																				transforming the "trainable" workforce into an "employable" workforce. As 
+																				working with the ITES-BPO industry involves working primarily for global 
+																				clients, that too in a global environment, the preferred language (medium of 
+																				instruction) is English.
+																			</p>
+																			<p><strong>As the first administration of NAC is being subsidized by government, the 
+																					test was made available to candidates for </strong><font color="red"><strong>FREE.</strong></font>
+																				<br>
+																				<br>
+																			</p>
+																			<TABLE cellSpacing="0" cellPadding="3" width="95%" align="center" bgColor="#800000" border="0">
+																				<TBODY>
+																					<TR vAlign="top" align="left">
+																						<TD>
+																							<marquee scrollDelay="5" behavior="scroll" loop="100"><font style="FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none"><strong>Govt. 
+																										of Nagaland announces the JOB FAIR for NAC candidates</strong></font> &nbsp;&nbsp;</marquee>
+																						</TD>
+																					</TR>
+																					<TR class="main_black" vAlign="top" align="left">
+																						<TD bgColor="#ffff99"><strong><br>
+																								<span style="FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: Verdana">The first 
+																									round of Nagaland NAC successfully took place on 12 December 2007 at Kohima, 
+																									Dimapur &amp; Mokokchung where approx. 300 candidates took the test. The <u>score 
+																										cards</u> and <u>job fair cards</u> for first round candidates are now 
+																									available on the website.</span> </strong>
+																							<hr>
+																							<div align="center" style="COLOR: #cc0000"><strong>NAGALAND NAC JOB FAIR </strong>
+																								<br>
+																								<span style="FONT-SIZE: 12px"><strong><span style="COLOR: black">Date:</span> 15-16 
+																										March-08 </strong></span>
+																								<br>
+																								<span style="FONT-SIZE: 12px"><strong><span style="COLOR: black">Venue:</span> Assam 
+																										Engineering Institute, Chandmari, Guwahati - 781003</strong></span>
+																								<br>
+																								<span style="FONT-SIZE: 11px; COLOR: black">(This job fair is only for NAC 
+																									candidates)</span><br>
+																							</div>
+																							<br>
+																							<br>
+																							<table cellpadding="0" cellspacing="0">
+																								<tr>
+																									<td style="FONT-SIZE: 11px; COLOR: #000099" valign="top" align="left"><STRONG>Note:</STRONG></td>
+																									<td style="FONT-SIZE: 11px; COLOR: #000099" align="left">
+																										<ol>
+																											<li>
+																											Each NAC candidate will get a phone call from us regarding the 'time' when he / 
+																											she should reach the job fair venue
+																											<li>
+																												One must carry the <u>NAC Score Card</u> and <u>NAC Job Fair Card</u>
+																											to the job fair venue along with 10 copies of resume and passport-size 
+																											photographs
+																											<li>
+																											NAC candidates must reach the venue only as per the time slot told to them by 
+																											our 'tele-calling team'
+																											<li>
+																												<span><strong><a href="http://www.nac.nasscom.in/Time allocation chart (Nagaland).xls" target="_blank">
+																															Click here to know your interview date / time</a></strong></span>
+																											</li>
+																										</ol>
+																									</td>
+																								</tr>
+																							</table>
+																							<br>
+																							<hr>
+																							<DIV style="FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-LEFT: 50px">
+																								<span class="small_black"><u>To print your NAC Score Card /Job Fair Card, follow the 
+																										below-mentioned process:</u></span>
+																								<div style="FONT-WEIGHT: bold; FONT-SIZE: 11px; MARGIN-LEFT: -13px">
+																									<OL>
+																										<LI>
+																										Go to 'already registered' section
+																										<LI>
+																											Fill the desired details in the given fields
+																											<BR>
+																											<SPAN style="FONT-WEIGHT: normal; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif">
+																												(same as what you filled in the online registration form)</SPAN>
+																										<LI>
+																										Click 'view/print your NAC score card'
+																										<LI>
+																											Take a printout of your NAC score card
+																										</LI>
+																									</OL>
+																								</div>
+																								<span lang="EN-US" style="FONT-SIZE:10pt;
+																							COLOR:#333399;
+																							FONT-FAMILY:'Times New Roman';
+																							mso-bidi-font-size:9.0pt;
+																							mso-fareast-font-family:'Times New Roman';
+																							mso-ansi-language:EN-US;
+																							mso-fareast-language:EN-US;
+																							mso-bidi-language:AR-SA"><strong><I>The print out of your Score Card should come in 2 pages 
+																											&amp; Job Fair Card in 1 page. To ensure the correct print settings, go to <u>'File 
+																												&gt; Page Setup'</u> on your internet explorer window and check the 
+																											following before you print the documents: </I></strong></span><span style="FONT-WEIGHT:normal;FONT-SIZE:10pt;COLOR:#333399;FONT-FAMILY:'Times New Roman';mso-bidi-font-size:9.0pt">
+																									<br>
+																									<i>- Paper size: A4
+																										<br>
+																										- Header: None
+																										<br>
+																										- Footer: None
+																										<br>
+																										- Orientation: Portrait
+																										<br>
+																										- Margins: Left 0.75, Right 0.75, Top 0.75, Bottom 0.16</i><br>
+																									<br>
+																									<span style="FONT-WEIGHT: normal;COLOR: #cc0000"><i><strong>Note:</strong> If someone 
+																											is not able to download the ‘Score Card’ or 'Job Fair Card' from the website, 
+																											it can be obtained from the job fair venue as well.</i></span> </span>
+																							</DIV>
+																						</TD>
+																					</TR>
+																				</TBODY>
+																			</TABLE>
+																			<!--<TABLE cellSpacing="0" cellPadding="3" width="95%" align="center" bgColor="#800000" border="0">
+																				<TBODY>
+																					<TR vAlign="top" align="left">
+																						<TD>
+																							<marquee scrollDelay="5" behavior="scroll" loop="100"><font style="FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none"><strong>Score 
+																										cards for Nagaland NAC are now available on this website </strong></font>
+																								&nbsp;&nbsp;</marquee>
+																						</TD>
+																					</TR>
+																					<TR class="main_black" vAlign="top" align="left">
+																						<TD bgColor="#ffff99"><br>																							
+																							&nbsp;&nbsp;&nbsp;&nbsp;<strong><u>To print your NAC score card, follow the 
+																									below-mentioned process</u>
+																								<ol>
+																									<li>
+																									Go to 'already registered' section
+																									<li>
+																										Fill the desired details in the given fields
+																										<br>
+																										<SPAN style="FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif">
+																											(same as what you filled in the online registration form)</SPAN>
+																									<li>
+																									Click 'view/print your NAC score card'
+																									<li>
+																										Take a printout of your NAC score card
+																									</li>
+																								</ol>
+																							</strong><span lang="EN-US" style="FONT-SIZE: 10pt; COLOR: #333399; FONT-FAMILY: 'Times New Roman'; mso-bidi-font-size: 9.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">
+																								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><I>Ideally the print out of your Score Card 
+																										should come in 2 pages. Hence, go to 'File &gt; Page Setup' and ensure the
+																										<br>
+																										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;following settings before you print your 
+																										Score Card:</I></strong></span> <span lang="EN-US" style="FONT-SIZE: 10pt; COLOR: #333399; FONT-FAMILY: 'Times New Roman'; mso-bidi-font-size: 9.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">
+																								<br>
+																								&nbsp;&nbsp;&nbsp;<i>- Paper size: A4
+																									<br>
+																									&nbsp;&nbsp;&nbsp;- Header: None
+																									<br>
+																									&nbsp;&nbsp;&nbsp;- Footer: None
+																									<br>
+																									&nbsp;&nbsp;&nbsp;- Orientation: Portrait
+																									<br>
+																									&nbsp;&nbsp;&nbsp;- Margins: Left 0.75, Right 0.75, Top 0.75, Bottom 0.16</i><br>
+																							</span>
+																							<br>
+																						</TD>
+																					</TR>
+																				</TBODY>
+																			</TABLE>
+																			<br>
+																			<TABLE class="grey_bg" cellSpacing="1" cellPadding="3" width="95%" align="center" border="0">
+																				<TBODY>
+																					<TR class="main_black" vAlign="top" align="left">
+																						<TD class="blue_bg" vAlign="middle" height="25"><span class="main_white_bold"><span class="mainwhitebold1">First 
+																									round of Nagaland NAC</span></span></TD>
+																					</TR>
+																					<TR class="main_black" vAlign="top" align="left">
+																						<TD class="white_bg"><strong>The first round of Nagaland NAC successfully took place on 
+																								12 December 2007 at Kohima, Dimapur &amp; Mokokchung where approx. 300 
+																								candidates took the test. </strong>
+																							<br>
+																							<br>
+																							<span class="big_maroon">Job fair for the NAC participants</span> on the basis 
+																							of their performance in the NAC, where major Indian/global ITES-BPO players 
+																							will be present [<span class="small_maroon">Dates will be informed on this website 
+																								&amp; by a press release after the results are declared</span>]<br>
+																						</TD>
+																					</TR>
+																				</TBODY>
+																			</TABLE>-->
+																			<br>
+																			<TABLE class="grey_bg" cellSpacing="1" cellPadding="3" width="95%" align="center" border="0">
+																				<TBODY>
+																					<TR class="main_black" vAlign="top" align="left">
+																						<TD class="lightblue_bg" vAlign="middle" height="25"><span class="main_blue_bold">Eligibility 
+																								criteria for NAC</span></TD>
+																					</TR>
+																					<TR class="main_black" vAlign="top" align="left">
+																						<TD class="white_bg" height="30"><br>
+																							<ul>
+																								<li>
+																								Pursuing final year UG
+																								<li>
+																								Graduate (all streams)
+																								<li>
+																									Pursuing first year PG
+																								</li>
+																							</ul>
+																						</TD>
+																					</TR>
+																				</TBODY>
+																			</TABLE>
+																			<br>
+																			<TABLE class="grey_bg" cellSpacing="1" cellPadding="3" width="95%" align="center" border="0">
+																				<TBODY>
+																					<TR class="main_black" vAlign="top" align="left">
+																						<TD class="lightblue_bg" vAlign="middle" height="25"><span class="main_blue_bold">Test 
+																								centers where NAC was administered</span></TD>
+																					</TR>
+																					<TR class="main_black" vAlign="top" align="left">
+																						<TD class="white_bg"><br>
+																							<ol>
+																								<li>
+																								KOHIMA
+																								<li>
+																								MOKOKCHUNG
+																								<li>
+																									DIMAPUR
+																								</li>
+																							</ol>
+																						</TD>
+																					</TR>
+																				</TBODY>
+																			</TABLE>
+																			<br>
+																			<TABLE class="grey_bg" cellSpacing="1" cellPadding="3" width="95%" align="center" border="0">
+																				<TBODY>
+																					<TR class="main_black" vAlign="top" align="left">
+																						<TD class="blue_bg" vAlign="middle" height="25"><span class="main_white_bold"><span class="mainwhitebold1">For 
+																									any queries, please contact the following</span></span></TD>
+																					</TR>
+																					<TR class="main_black" vAlign="top" align="left">
+																						<TD class="white_bg">
+																							<br>
+																							<ol>
+																								<li>
+																								Imsayuba Naga, Project Director (phone - 9436001704)
+																								<li>
+																								Chura Katiry, Program Officer (phone - 9436001376)
+																								<li>
+																									Director (ITTE), Directorate of ITTE (e-mail - <A href="mailto:dit-ngl@nic.in">dit-ngl@nic.in</A>)
+																								</li>
+																							</ol>
+																							<strong>&nbsp;&nbsp;&nbsp;&nbsp;Phone</strong> (Off.) - 0370-2271470<br>
+																							<br>
+																							<table cellSpacing="0" cellPadding="1" width="100%" border="0">
+																								<tr vAlign="top">
+																									<td class="lightblue_bg" vAlign="middle" height="25"><strong>&nbsp;&nbsp;&nbsp;&nbsp;Please 
+																											visit <a style="FONT-WEIGHT: bold; COLOR: #0000ff; TEXT-DECORATION: none" href="http://www.nac.nasscom.in"
+																												target="_self">www.nac.nasscom.in</a> to read about NAC in detail</strong>
+																									</td>
+																								</tr>
+																							</table>
+																						</TD>
+																					</TR>
+																				</TBODY>
+																			</TABLE>
+																			<br>
+																			<br>
+																		</TD>
+																	</TR>
+																</TBODY>
+															</TABLE>
+														</TD>
+													</TR>
+												</TBODY>
+											</TABLE>
+											<br>
+										</TD>
+									</TR>
+								</TBODY>
+							</TABLE>
+						</TD>
+						<td vAlign="top" align="center" width="7" background="images/tbg_right.gif"><IMG height="1" src="images/spacer.gif" width="7"></td>
+					</TR>
+					<TR>
+						<TD vAlign="top" align="center" width="7" background="images/tbg_left.gif"><IMG height="1" src="images/spacer.gif" width="7"></TD>
+						<TD vAlign="bottom" align="center"><uc1:nac_footer id="Nac_footer1" runat="server"></uc1:nac_footer></TD>
+						<TD vAlign="top" align="center" width="7" background="images/tbg_right.gif"></TD>
+					</TR>
+				</TBODY>
+			</TABLE>
+		</FORM>
+	</body>
+</HTML>

@@ -1,0 +1,139 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:47:20 AM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: Page_Load
+Date		: 9:56:56 AM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: Could not find stored procedure 'GetAllScoreCardForCompany'.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 11:44:25 AM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: Index was outside the bounds of the array.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 11:46:47 AM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: Index was outside the bounds of the array.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 11:48:21 AM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: Index was outside the bounds of the array.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 11:48:30 AM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: Index was outside the bounds of the array.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 12:52:26 PM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: Column 'ScoreRemarks' does not belong to table Table.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 12:52:27 PM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: Column 'ScoreRemarks' does not belong to table Table.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: NASSCOM_NAC
+Method		: Page_Load
+Date		: 1:03:12 PM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: DataBinder.Eval: 'System.Data.DataRowView' does not contain a property with the name QuantitativeRange.
+Stack Trace	: at NASSCOM_NAC.Web.MultipleScoreCardV2.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\multiplescorecardv2.aspx.cs:line 96
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnDataBindColumn
+Date		: 7:37:12 PM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: A field or property with the name 'AnalyticalScore' was not found on the selected datasource.
+Stack Trace	: at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesexporttoexcelbycompany.aspx.cs:line 48
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: OnDataBindColumn
+Date		: 7:41:17 PM
+Time		: 11/18/2010
+Computer	: item-47827
+Error		: A field or property with the name 'QuantitativeRangeScore' was not found on the selected datasource.
+Stack Trace	: at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at NASSCOM_NAC.NACdb.CandidatesExportToExcelByCompany.Page_Load(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\nacdb\candidatesexporttoexcelbycompany.aspx.cs:line 48
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain()
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,134 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 9:35:17 AM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: System.Web
+Method		: ProcessBeginTag
+Date		: 11:11:44 AM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: The ID 'lblPg2EWOverallScore' is already used by another control.
+Stack Trace	: at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetTestScoreV2
+Date		: 2:32:35 PM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: Procedure or function 'GetScoreDetailsV2' expects parameter '@RegistrationId', which was not supplied.
+Stack Trace	: at BusinessLayer.BLNACScoreCard.GetTestScoreV2(String strNACRegID) in d:\nasscom\nac\businesslayer\blnacscorecard.cs:line 995
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 146
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetTestScoreV2
+Date		: 2:33:48 PM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: Procedure or function 'GetScoreDetailsV2' expects parameter '@RegistrationId', which was not supplied.
+Stack Trace	: at BusinessLayer.BLNACScoreCard.GetTestScoreV2(String strNACRegID) in d:\nasscom\nac\businesslayer\blnacscorecard.cs:line 995
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 146
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetTestScoreV2
+Date		: 2:33:59 PM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: Procedure or function 'GetScoreDetailsV2' expects parameter '@RegistrationId', which was not supplied.
+Stack Trace	: at BusinessLayer.BLNACScoreCard.GetTestScoreV2(String strNACRegID) in d:\nasscom\nac\businesslayer\blnacscorecard.cs:line 995
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 146
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: Bind
+Date		: 2:52:40 PM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: Cannot find column [ExamId].
+Stack Trace	: at System.Data.NameNode.Bind(DataTable table, ArrayList list)
+   at System.Data.BinaryNode.Bind(DataTable table, ArrayList list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(String expression, DataTable table, Type type)
+   at System.Data.DataExpression..ctor(String expression, DataTable table)
+   at System.Data.DataFilter..ctor(String expression, DataTable table)
+   at System.Data.DataView.set_RowFilter(String value)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetScoreRangeForExam(DataTable RangeTable, Int32 ExamId) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 205
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 180
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: Bind
+Date		: 2:53:30 PM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: Cannot find column [ExamId].
+Stack Trace	: at System.Data.NameNode.Bind(DataTable table, ArrayList list)
+   at System.Data.BinaryNode.Bind(DataTable table, ArrayList list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(String expression, DataTable table, Type type)
+   at System.Data.DataExpression..ctor(String expression, DataTable table)
+   at System.Data.DataFilter..ctor(String expression, DataTable table)
+   at System.Data.DataView.set_RowFilter(String value)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetScoreRangeForExam(DataTable RangeTable, Int32 ExamId) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 205
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 180
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: ParseSortString
+Date		: 4:42:30 PM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: Cannot find column asc.
+Stack Trace	: at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.UpdateIndex(Boolean force)
+   at System.Data.DataView.SetIndex(String newSort, DataViewRowState newRowStates, DataFilter newRowFilter)
+   at System.Data.DataView..ctor(DataTable table, String RowFilter, String Sort, DataViewRowState RowState)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetScoreRangeForExam(DataTable RangeTable, Int32 ExamId) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 220
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 180
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: ParseSortString
+Date		: 4:42:50 PM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: Cannot find column asc.
+Stack Trace	: at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.UpdateIndex(Boolean force)
+   at System.Data.DataView.SetIndex(String newSort, DataViewRowState newRowStates, DataFilter newRowFilter)
+   at System.Data.DataView..ctor(DataTable table, String RowFilter, String Sort, DataViewRowState RowState)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetScoreRangeForExam(DataTable RangeTable, Int32 ExamId) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 220
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 180
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: ParseSortString
+Date		: 4:43:45 PM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: Cannot find column asc.
+Stack Trace	: at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.UpdateIndex(Boolean force)
+   at System.Data.DataView.SetIndex(String newSort, DataViewRowState newRowStates, DataFilter newRowFilter)
+   at System.Data.DataView..ctor(DataTable table, String RowFilter, String Sort, DataViewRowState RowState)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetScoreRangeForExam(DataTable RangeTable, Int32 ExamId) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 220
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 180
+^^-------------------------------------------------------------------^^
+Source		: System.Data
+Method		: ParseSortString
+Date		: 4:44:51 PM
+Time		: 10/28/2010
+Computer	: item-47827
+Error		: Cannot find column ASC.
+Stack Trace	: at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.UpdateIndex(Boolean force)
+   at System.Data.DataView.SetIndex(String newSort, DataViewRowState newRowStates, DataFilter newRowFilter)
+   at System.Data.DataView..ctor(DataTable table, String RowFilter, String Sort, DataViewRowState RowState)
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetScoreRangeForExam(DataTable RangeTable, Int32 ExamId) in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 220
+   at NASSCOM_NAC.Web.TestScorePercentageV2.GetTestScore() in d:\nasscom\nac\nasscom_nac\web\testscorepercentagev2.aspx.cs:line 180
+^^-------------------------------------------------------------------^^

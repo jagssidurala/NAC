@@ -1,0 +1,27 @@
+Source		: System.Web
+Method		: GetParserCacheItem
+Date		: 12:21:55 PM
+Time		: 5/16/2011
+Computer	: item-47827
+Error		: D:\NASSCOM\NAC\NASSCOM_NAC\get_aspx_ver.aspx
+Stack Trace	: at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+^^-------------------------------------------------------------------^^
+Source		: .Net SqlClient Data Provider
+Method		: GetConnection
+Date		: 12:53:56 PM
+Time		: 5/16/2011
+Computer	: item-47827
+Error		: Cannot open database "NAC" requested by the login. The login failed.
+Login failed for user 'emanager'.
+Stack Trace	: at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataAccessLayer.DBManager.Open() in D:\NASSCOM\NAC\DATABASEACCESSLAYER\DBManager.cs:line 112
+   at BusinessLayer.BLLogin.ValidateAdminCredential(String strUserName, String strPassword) in D:\NASSCOM\NAC\BUSINESSLAYER\BLLogin.cs:line 128
+   at NASSCOM_NAC.Web.Login.btnSubmit_Click(Object sender, EventArgs e) in d:\nasscom\nac\nasscom_nac\web\login.aspx.cs:line 62
+^^-------------------------------------------------------------------^^
